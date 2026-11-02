@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 23466,
-      "sha256": "66dadd7032816d6ea5a4f803fa5c37999f836e7f207e6ef4e3be4f37e04995e1"
+      "bytes": 13748,
+      "sha256": "1519034cadeb9602ce5316056155b5ac7eb17d34878b0595f1f2ce8e50eed511"
     },
     {
       "path": "backend/app/__init__.py",
@@ -246,6 +246,11 @@
       "path": "docs/GITHUB-PUBLISH.md",
       "bytes": 4800,
       "sha256": "65fb705f474b57c482e1ab1caf2e5dd6e8366ae664e72295d263f822dbc090f8"
+    },
+    {
+      "path": "docs/LEGACY-WORKBENCH.md",
+      "bytes": 21463,
+      "sha256": "f2b407ce9d1421db3d075faa5f9ae3c5da37b9ab01d605abc238f32e0b132809"
     },
     {
       "path": "docs/OpenAgent工作原理与开发指南.md",
