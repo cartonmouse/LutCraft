@@ -1,0 +1,587 @@
+{
+  "date": "2026-10-30",
+  "scope": "81 approved photo conversions and local runtime activation",
+  "active_luts": 131,
+  "existing_preserved": 50,
+  "converted_and_activated": 81,
+  "format": "CLF 3",
+  "backup_path": "inventory/2026-10-30/before-photo-conversion",
+  "previous_catalog_sha256": "a1870e57ba9deaaf6802a308cfb3b12198086031b90bab17dcb2db241a755cad",
+  "previous_files_sha256": {
+    "catalog.json": "a1870e57ba9deaaf6802a308cfb3b12198086031b90bab17dcb2db241a755cad",
+    "CATALOG.md": "4cda96b4c7a3249a0d43f018a7491e32c2e7e595dab1a6b11a7fdcee119705c8",
+    "luts/cinematic/iwltbap-arapaho/metadata.json": "d0911a79a36a0f2fe89274e8b207fd4f6775200385124ae24b6b9dafdad4b411",
+    "luts/cinematic/iwltbap-aspen/metadata.json": "8f8809dd073a3ffec8b267a743c74f54218aee7c2915741f3325db2f9af8bba6",
+    "luts/cinematic/iwltbap-blade-runner-2049/metadata.json": "860f9c7a4693126ad0082245d8bba4a7c48c8513848dd9b6502c56ac6637f354",
+    "luts/cinematic/iwltbap-blade-runner-2049-variant/metadata.json": "fdab1af09f87407020077f0a152d2021b1edd1a31d315560db447bd7e1289b2a",
+    "luts/cinematic/iwltbap-c-8120-std/metadata.json": "7b6f70cca36194ad81930fc647a874f03499e27779566595254bcf1c3201cf10",
+    "luts/cinematic/iwltbap-c-9730-std/metadata.json": "7c7439de169803a9d1716ce2d3cf01e3d086247cce9b02647c4e29f02caefc0e",
+    "luts/night/iwltbap-coronado/metadata.json": "27019dba68ca379de9699a5eb69220645caedc222f1f95cfd7c99666076da425",
+    "luts/film/iwltbap-f-6800-std/metadata.json": "1a396be0c6569e212fbaca4b32124ba3016f88b359114160055f553e912e93f9",
+    "luts/film/iwltbap-f-8700-std-32/metadata.json": "055e1f2f351ce6220a8ae9b7207c8777550b942fcff6486f942aa949c8f78288",
+    "luts/film/iwltbap-f-8700-std-33/metadata.json": "b63d8c3591222944f616e95897a603151fd4206db3e7cac814ca46e66f367e3c",
+    "luts/film/iwltbap-f-8700-v2-std-32/metadata.json": "6392644aea30d7fd353f176c21e3603bf627e78966d11bfb6e2465e7d96acef5",
+    "luts/film/iwltbap-f-8700-v2-std-33/metadata.json": "35194f7d021e65f016a0c889a5c9b6e9cdc29013d9ed6a70a9085c3dfd21f91c",
+    "luts/cinematic/iwltbap-h-9110-std/metadata.json": "b4b49f75f6d3fba9a04d3a19989abb944476607e60a7655bb398f511770674f9",
+    "luts/moody/iwltbap-humble/metadata.json": "2fd54cb714905d0d7edd0ac99f2129bd7765b74459d236c1c6a8686b897a6bec",
+    "luts/film/iwltbap-k25/metadata.json": "a3b7d515925946e9510be9ddc840fc2cf854fbb57c82ae4dbe5fab41d32e09bb",
+    "luts/film/iwltbap-k64/metadata.json": "2a3577f9bd16171d4c036db8651b537c0d2a68facb616ced56c0f12f8b5f60a2",
+    "luts/film/iwltbap-k99/metadata.json": "8577949a2bd76c8a2a5587a822db7ea43540fb1127bbedb5578fd5e9a4a051fc",
+    "luts/dreamy/iwltbap-renata/metadata.json": "9dd6d769fc0935be44f017f1f5b19f6b0e6521742cdedf4d3487c5538989d6dd",
+    "luts/cinematic/iwltbap-sedona/metadata.json": "0c150e0db4af8e9ee8de1eac30c7d936723f1997201a502a4f9a451f2f2d9663",
+    "luts/cinematic/iwltbap-w-8370-std/metadata.json": "538f053e04ddde4eaea1889d040cb2e95cbe92303aae77e4d262f79bc2999a83",
+    "luts/cinematic/iwltbap-x-6500-std/metadata.json": "4092c4a80ce69b5f82416eb334edaa9b34a523413aea06931621499df1c803ee",
+    "luts/cinematic/iwltbap-x-9400-std/metadata.json": "44bb4494eda805f8b4a2f9adcae58920bcf0eaf20ad37d95af81dadf67950789",
+    "luts/cinematic/on1-amber-aqua/metadata.json": "77d9e53efe37a07a7026822ae3e5e31cc08aeb3310fd54ece7c5a80da2f1b88c",
+    "luts/creative/on1-bloom/metadata.json": "6068f040f6d3dbb3ca9a1f467b90e5f1d6fd766bd6dacf13ee55804fb1d92179",
+    "luts/moody/on1-dark-moody/metadata.json": "daa4c72c47b6db91737dee04730c1ec20c2e29514883cf9030c678b70a73fc79",
+    "luts/warm/on1-golden-hour/metadata.json": "3e26d4441c41073e18602bd30b5920798c596d36a9775896122434851d50a67e",
+    "luts/warm/on1-heatwave/metadata.json": "b2e911dcd1eb9205cbd3e5af1c43640637e4521768e9de292a3bf92c395834fe",
+    "luts/warm/on1-honey-glow/metadata.json": "8e3c804b605f163e9314eafdb4095713bff3099e1914d4272d820bc35c7b0a5b",
+    "luts/nature/on1-lush-nature/metadata.json": "08eac9657e26c416530846f193c610dd692da4d1a70c43b881cd4aea6ba62d83",
+    "luts/moody/on1-moody-forest/metadata.json": "6d1150c23f6c2b4b92a6a6a9d56e029d3350cb35b98f6c44a21d4ac6cffe135b",
+    "luts/vivid/on1-super-vivid/metadata.json": "68f840ed6737014954fc15e43406be727741d8258d76d780f15b23af3f862c16",
+    "luts/creative/on1-urban-pop/metadata.json": "81d2f5acb7d154b5c674664393f7eaac092ae43c5308945d8b331800ea789e3d",
+    "luts/film/xmosaique-chrome-slide/metadata.json": "43f2a44a101837317fc0d89afe2cb40ce0b9f7452f6584306c1952b8777878bb",
+    "luts/instant/xmosaique-citrus-instant/metadata.json": "3c865e4570236c1c9bcb7d0ad2e5d2144044a8be144e32b5809600d9b59c75c8",
+    "luts/instant/xmosaique-cold-instant/metadata.json": "53e49c806b6fd35cd9deb04936e9c38905aaf10c57395e68ef9b4b0cf6473ce7",
+    "luts/film/xmosaique-cyan-cross/metadata.json": "aedd0863eb63117bf6853511c8c9db3d9220bb2478d5ba7d237259a98f21ca6a",
+    "luts/film/xmosaique-dense-print/metadata.json": "55ef1d314c0e9e3ffb029fef46f91794adea29f6acd530014c2017e9a8b2f60a",
+    "luts/film/xmosaique-dusty-slide/metadata.json": "2803cd9865ec030c9795f9331fa1cbced90bc784a6f015b394d68f10d9dd2e88",
+    "luts/instant/xmosaique-expired-amber/metadata.json": "d897622af0f6cd4f1b7669d0f1c722f23f30d0cc4dc45f056792a283d5829309",
+    "luts/film/xmosaique-faded-slide/metadata.json": "5959a8ce47f46394ec59192e5fc37fcea27dbdf30f69415429caee227cacf189",
+    "luts/black-and-white/xmosaique-infrared-mono/metadata.json": "7f95eb0b280176c9f292c182a21db588146e89ee7a983b286609f0a1d4c03766",
+    "luts/film/xmosaique-lime-cross/metadata.json": "d3d1ac3fcba88cbdecd1059ffebf95aaeeccffa75d8f92513d3d2143c9341d9b",
+    "luts/film/xmosaique-lofi-160/metadata.json": "b4d735f31cd4b7462e5b2bb9ce13176d95108eaa1d569fbfb348fbea6a412ac9",
+    "luts/film/xmosaique-lofi-400/metadata.json": "341ac00781987589c50a881601eb97a25442294b7b390809e6e9064f3a6ee5a5",
+    "luts/film/xmosaique-muted-negative/metadata.json": "8c1be44e96b9361855a91458f9c2f3c19b727d4e2c0d5605087f35767832bc96",
+    "luts/black-and-white/xmosaique-pushed-mono/metadata.json": "97e659656cee665a81d283b027a703b067bfce3a6d3624b0ac6a6c5633a81b46",
+    "luts/film/xmosaique-sepia-print/metadata.json": "1db35ef1ac1d693dd68b41fa2d45bbb7fadeb6d5d5fc64140d70ddee6d036fd1",
+    "luts/black-and-white/xmosaique-silver-mono/metadata.json": "6872b391f71ac2b3f148ce9e6655f249bdb7a9966dad570579424d4f0e4ec67c",
+    "luts/film/xmosaique-vivid-print/metadata.json": "766101ee47aa5dd467f862f401a3c848858d5208ea3057c25bccc8d396be8e92",
+    "luts/instant/xmosaique-warm-instant/metadata.json": "92620bba6ee5bc53fcc9e51c5f865827cd0bb1acf39d2f10dc32243e61ef3d9d"
+  },
+  "catalog_sha256": "deb6ec1db04d9f39536343b4f5bb75e2e592b73dbf4ec73237e30e6d06971527",
+  "conversion_report_path": "derived/2026-10-30-srgb-v1/conversion.json",
+  "conversion_report_sha256": "93136fb726ac285b3bd2d3d2642fcbca25efad7ccb83f80daa6d2c856005e70c",
+  "source_hashes_preserved": 81,
+  "photo_effect_tests": 0,
+  "analysis_jobs": 0,
+  "new_downloads": 0,
+  "published": false,
+  "items": [
+    {
+      "id": "on1-free-photo-aqua-90150778b8",
+      "path": "luts/photo-converted/on1-free-photo-aqua-90150778b8/on1-free-photo-aqua-90150778b8.clf",
+      "sha256": "d6b55dd01e2844f27bf0b1e1df19e2bb65dc8ed3fb3076d61a3be3616904bfbe",
+      "parent_mapping_id": "cube-90150778b8a2e01491f5"
+    },
+    {
+      "id": "on1-free-photo-aqua-and-orange-dark-de576e407f",
+      "path": "luts/photo-converted/on1-free-photo-aqua-and-orange-dark-de576e407f/on1-free-photo-aqua-and-orange-dark-de576e407f.clf",
+      "sha256": "345739ffe6dbedabbb22bc977fdd8230e65c06d3858bc1b8b392cb1d1bdd6c19",
+      "parent_mapping_id": "cube-de576e407f96296daef3"
+    },
+    {
+      "id": "on1-free-photo-blues-11157bb80d",
+      "path": "luts/photo-converted/on1-free-photo-blues-11157bb80d/on1-free-photo-blues-11157bb80d.clf",
+      "sha256": "d1d6bd03ad72de517cc3e2618bed8f863bfedf41f6f2eda9d38ca4c0e550c6de",
+      "parent_mapping_id": "cube-11157bb80d04c139e7e3"
+    },
+    {
+      "id": "on1-free-photo-bw1-e6c75f3ee0",
+      "path": "luts/photo-converted/on1-free-photo-bw1-e6c75f3ee0/on1-free-photo-bw1-e6c75f3ee0.clf",
+      "sha256": "465b25e9f12198455876f58da434fb3039c0d7b69a54659d200f297574470c21",
+      "parent_mapping_id": "cube-e6c75f3ee0ff9243c314"
+    },
+    {
+      "id": "on1-free-photo-bw10-8bf10f65a4",
+      "path": "luts/photo-converted/on1-free-photo-bw10-8bf10f65a4/on1-free-photo-bw10-8bf10f65a4.clf",
+      "sha256": "d08380af8f2a640ac89bd33e6ffede41cc3b05bef57607995a0c227d6fb76a14",
+      "parent_mapping_id": "cube-8bf10f65a472a54e9d37"
+    },
+    {
+      "id": "on1-free-photo-bw2-9a81bbb6d3",
+      "path": "luts/photo-converted/on1-free-photo-bw2-9a81bbb6d3/on1-free-photo-bw2-9a81bbb6d3.clf",
+      "sha256": "f149f235f100e92e34bed76c225935ff591d6c3f1b66ee94276890073d25499b",
+      "parent_mapping_id": "cube-9a81bbb6d38928143f79"
+    },
+    {
+      "id": "on1-free-photo-bw3-3a0715c42b",
+      "path": "luts/photo-converted/on1-free-photo-bw3-3a0715c42b/on1-free-photo-bw3-3a0715c42b.clf",
+      "sha256": "8df2771b5666f7dc3425a6b7008e8f6a18f32f9840a8ba1bd89288dd00aef1d0",
+      "parent_mapping_id": "cube-3a0715c42b4e6c12ca78"
+    },
+    {
+      "id": "on1-free-photo-bw4-b9a42d29f4",
+      "path": "luts/photo-converted/on1-free-photo-bw4-b9a42d29f4/on1-free-photo-bw4-b9a42d29f4.clf",
+      "sha256": "b18d487fe3bd08cfe93055da535bd50b848b1cce976629d323815c2473d4f6d1",
+      "parent_mapping_id": "cube-b9a42d29f43a3dc07bed"
+    },
+    {
+      "id": "on1-free-photo-bw5-19d961650a",
+      "path": "luts/photo-converted/on1-free-photo-bw5-19d961650a/on1-free-photo-bw5-19d961650a.clf",
+      "sha256": "6a348ab2d34f676e846138595e0b45ef6546e6ed3d807b3046dc729aa6ecd76a",
+      "parent_mapping_id": "cube-19d961650ab36c6d7795"
+    },
+    {
+      "id": "on1-free-photo-bw6-831d0f05d6",
+      "path": "luts/photo-converted/on1-free-photo-bw6-831d0f05d6/on1-free-photo-bw6-831d0f05d6.clf",
+      "sha256": "abbba5db8cf1ce29fb02dc48ac78a70450063342253b28f79cddb5e871c66314",
+      "parent_mapping_id": "cube-831d0f05d604b31d1fb4"
+    },
+    {
+      "id": "on1-free-photo-bw7-26884363a1",
+      "path": "luts/photo-converted/on1-free-photo-bw7-26884363a1/on1-free-photo-bw7-26884363a1.clf",
+      "sha256": "c17e48775621b6c01b0de44aea99b3368ef14af0662d21e0b826915a681e54d1",
+      "parent_mapping_id": "cube-26884363a1e824c350d4"
+    },
+    {
+      "id": "on1-free-photo-bw8-594db366fd",
+      "path": "luts/photo-converted/on1-free-photo-bw8-594db366fd/on1-free-photo-bw8-594db366fd.clf",
+      "sha256": "1ff55d75f29b2dfc42932d2d65e2dc37be5f35c523d8010e61560777d7fd806c",
+      "parent_mapping_id": "cube-594db366fdfc4aeb2d7b"
+    },
+    {
+      "id": "on1-free-photo-bw9-a35f2b6ba6",
+      "path": "luts/photo-converted/on1-free-photo-bw9-a35f2b6ba6/on1-free-photo-bw9-a35f2b6ba6.clf",
+      "sha256": "68239331db02b78552d25c02446945a2ee9d4ef928e29db8a9964e902c6fcd3a",
+      "parent_mapping_id": "cube-a35f2b6ba602ececab11"
+    },
+    {
+      "id": "on1-free-photo-cinematic-1-f4b4a5fc05",
+      "path": "luts/photo-converted/on1-free-photo-cinematic-1-f4b4a5fc05/on1-free-photo-cinematic-1-f4b4a5fc05.clf",
+      "sha256": "e7221eab2da29b55e88336dec1ae96c68c68bda93c5f14f43c70c3d8a6ef983f",
+      "parent_mapping_id": "cube-f4b4a5fc05d2d62fe89b"
+    },
+    {
+      "id": "on1-free-photo-cinematic-10-7d52b7b43d",
+      "path": "luts/photo-converted/on1-free-photo-cinematic-10-7d52b7b43d/on1-free-photo-cinematic-10-7d52b7b43d.clf",
+      "sha256": "12ac996fc5540b352099268d0feba8689ee3305ec1535f4d49666e4e84847d3d",
+      "parent_mapping_id": "cube-7d52b7b43d3dde1287f6"
+    },
+    {
+      "id": "on1-free-photo-cinematic-2-7573608f95",
+      "path": "luts/photo-converted/on1-free-photo-cinematic-2-7573608f95/on1-free-photo-cinematic-2-7573608f95.clf",
+      "sha256": "522c5633e0423717b510c81bd4ed89073836c4b70523659265790a7f6a54a3da",
+      "parent_mapping_id": "cube-7573608f9521316f9558"
+    },
+    {
+      "id": "on1-free-photo-cinematic-3-0e8db828e3",
+      "path": "luts/photo-converted/on1-free-photo-cinematic-3-0e8db828e3/on1-free-photo-cinematic-3-0e8db828e3.clf",
+      "sha256": "c41631e82361f0f373bf90f14ba2df5f73ad459a1b72d7238aeaf329e4535be7",
+      "parent_mapping_id": "cube-0e8db828e332c23e3bd6"
+    },
+    {
+      "id": "on1-free-photo-cinematic-4-33941569bf",
+      "path": "luts/photo-converted/on1-free-photo-cinematic-4-33941569bf/on1-free-photo-cinematic-4-33941569bf.clf",
+      "sha256": "4302b191448cd1f6ca4a7c3feb000c1f2814c06dad477edad3d8b39b4a09735e",
+      "parent_mapping_id": "cube-33941569bfb22bcbf8da"
+    },
+    {
+      "id": "on1-free-photo-cinematic-5-74b83dcc04",
+      "path": "luts/photo-converted/on1-free-photo-cinematic-5-74b83dcc04/on1-free-photo-cinematic-5-74b83dcc04.clf",
+      "sha256": "ad65fc1f94253adefd7e2d095e7b3a509ca2fd1a802940aaaa6f2761100db689",
+      "parent_mapping_id": "cube-74b83dcc04db36f0c920"
+    },
+    {
+      "id": "on1-free-photo-cinematic-6-4dc16f3406",
+      "path": "luts/photo-converted/on1-free-photo-cinematic-6-4dc16f3406/on1-free-photo-cinematic-6-4dc16f3406.clf",
+      "sha256": "3cd3bc6246047c66298051e27e78caf5b1fae889fd283686af0fd9dbbae2bebf",
+      "parent_mapping_id": "cube-4dc16f340635b6fc7761"
+    },
+    {
+      "id": "on1-free-photo-cinematic-7-33d894467b",
+      "path": "luts/photo-converted/on1-free-photo-cinematic-7-33d894467b/on1-free-photo-cinematic-7-33d894467b.clf",
+      "sha256": "5a8fe31b1129d82a76589fb56d713e06706c070772ba70984a13021900be29f4",
+      "parent_mapping_id": "cube-33d894467b9c1582393a"
+    },
+    {
+      "id": "on1-free-photo-cinematic-8-bdfd499015",
+      "path": "luts/photo-converted/on1-free-photo-cinematic-8-bdfd499015/on1-free-photo-cinematic-8-bdfd499015.clf",
+      "sha256": "ad890665fb07e1f24c9a0b9f776b8cb8b58528dbbc884eee714af3c7170aed0e",
+      "parent_mapping_id": "cube-bdfd499015f9f271e2d3"
+    },
+    {
+      "id": "on1-free-photo-cinematic-9-7612dacf47",
+      "path": "luts/photo-converted/on1-free-photo-cinematic-9-7612dacf47/on1-free-photo-cinematic-9-7612dacf47.clf",
+      "sha256": "2daa51b65ed527f47f7a75f80f6750e6bbea5462c734a4e571ce70df1d651658",
+      "parent_mapping_id": "cube-7612dacf47c134576b9e"
+    },
+    {
+      "id": "on1-free-photo-earth-tone-boost-5958a7d70e",
+      "path": "luts/photo-converted/on1-free-photo-earth-tone-boost-5958a7d70e/on1-free-photo-earth-tone-boost-5958a7d70e.clf",
+      "sha256": "070c237a069c5d2d7446a5f761fd5140ec4feced6bb3d1fb69fafa8928d0c042",
+      "parent_mapping_id": "cube-5958a7d70eb93b9dc429"
+    },
+    {
+      "id": "on1-free-photo-green-blues-aebf8e8715",
+      "path": "luts/photo-converted/on1-free-photo-green-blues-aebf8e8715/on1-free-photo-green-blues-aebf8e8715.clf",
+      "sha256": "ed083e7eb760ed92597a9b975ab0574d0f3d03535a4c008bc98b9e7877eecaf0",
+      "parent_mapping_id": "cube-aebf8e8715cab123376d"
+    },
+    {
+      "id": "on1-free-photo-green-yellow-4974c06996",
+      "path": "luts/photo-converted/on1-free-photo-green-yellow-4974c06996/on1-free-photo-green-yellow-4974c06996.clf",
+      "sha256": "925f2ec50baca449b90096aa88aff2ac67a48061813b7728a438a73864c970aa",
+      "parent_mapping_id": "cube-4974c06996791e7d4f7b"
+    },
+    {
+      "id": "on1-free-photo-landscape1-7de0040b2f",
+      "path": "luts/photo-converted/on1-free-photo-landscape1-7de0040b2f/on1-free-photo-landscape1-7de0040b2f.clf",
+      "sha256": "6d355676b15059e268d23d75b85c59dea54f4586e18b21bf0b3ff987508ce145",
+      "parent_mapping_id": "cube-7de0040b2ffcff473e8b"
+    },
+    {
+      "id": "on1-free-photo-landscape10-c60a001e0b",
+      "path": "luts/photo-converted/on1-free-photo-landscape10-c60a001e0b/on1-free-photo-landscape10-c60a001e0b.clf",
+      "sha256": "d0751abc1f852e7c0552ee5353fd291636d485f5e35fb809f04866d86c437a79",
+      "parent_mapping_id": "cube-c60a001e0b675ead43a8"
+    },
+    {
+      "id": "on1-free-photo-landscape2-5ff4c310f6",
+      "path": "luts/photo-converted/on1-free-photo-landscape2-5ff4c310f6/on1-free-photo-landscape2-5ff4c310f6.clf",
+      "sha256": "5e162ed9d87258dd0ab66f6c5561b8182506b0367d57bc090d8d0936af1e02a6",
+      "parent_mapping_id": "cube-5ff4c310f68cb3dffd01"
+    },
+    {
+      "id": "on1-free-photo-landscape3-aa44fbaf92",
+      "path": "luts/photo-converted/on1-free-photo-landscape3-aa44fbaf92/on1-free-photo-landscape3-aa44fbaf92.clf",
+      "sha256": "33125b48f7350f5b6737511f37e7b7856daddb259734c2e8d0e43e5f46d2981e",
+      "parent_mapping_id": "cube-aa44fbaf92b5bdac6b0c"
+    },
+    {
+      "id": "on1-free-photo-landscape4-c59b703eb0",
+      "path": "luts/photo-converted/on1-free-photo-landscape4-c59b703eb0/on1-free-photo-landscape4-c59b703eb0.clf",
+      "sha256": "f320c81c469a8ad21de8eabaa6f5305c02d9c3d4ca2c33f892e5a1e9f33926f9",
+      "parent_mapping_id": "cube-c59b703eb0e88186fa1b"
+    },
+    {
+      "id": "on1-free-photo-landscape5-359e621b1f",
+      "path": "luts/photo-converted/on1-free-photo-landscape5-359e621b1f/on1-free-photo-landscape5-359e621b1f.clf",
+      "sha256": "76cc3f8f24d479fd75127c45428a6a0592b86ada7591d20dd6137f53757f97e0",
+      "parent_mapping_id": "cube-359e621b1f67e45e8d24"
+    },
+    {
+      "id": "on1-free-photo-landscape6-5bd2e9d74f",
+      "path": "luts/photo-converted/on1-free-photo-landscape6-5bd2e9d74f/on1-free-photo-landscape6-5bd2e9d74f.clf",
+      "sha256": "e8df8f3b0149dbdb7ff324e5177ecdbe43ba8755009239f0be14bda10bf7d88e",
+      "parent_mapping_id": "cube-5bd2e9d74fec13729976"
+    },
+    {
+      "id": "on1-free-photo-landscape7-23cb1bb2d7",
+      "path": "luts/photo-converted/on1-free-photo-landscape7-23cb1bb2d7/on1-free-photo-landscape7-23cb1bb2d7.clf",
+      "sha256": "cfcb5be254004490289a23f237f58efcc2fb365bbd160c41676155331e253120",
+      "parent_mapping_id": "cube-23cb1bb2d78524799d81"
+    },
+    {
+      "id": "on1-free-photo-landscape8-2cfe8e19f6",
+      "path": "luts/photo-converted/on1-free-photo-landscape8-2cfe8e19f6/on1-free-photo-landscape8-2cfe8e19f6.clf",
+      "sha256": "2d81ee1eb48b97700e22262333c18d7ef51bd95b6aeb150aae31cecc651984e1",
+      "parent_mapping_id": "cube-2cfe8e19f6a305ac5859"
+    },
+    {
+      "id": "on1-free-photo-landscape9-1bd1fac2b4",
+      "path": "luts/photo-converted/on1-free-photo-landscape9-1bd1fac2b4/on1-free-photo-landscape9-1bd1fac2b4.clf",
+      "sha256": "8ac79dc5b131dc232ee7967ecd21a211e06a0e405ecd690fa19117ad5952f6af",
+      "parent_mapping_id": "cube-1bd1fac2b4b2d4182624"
+    },
+    {
+      "id": "on1-free-photo-lc1-299266c5e1",
+      "path": "luts/photo-converted/on1-free-photo-lc1-299266c5e1/on1-free-photo-lc1-299266c5e1.clf",
+      "sha256": "b659fa8378b96e90715339b671fc289b932d5023bb683c028da4d99c5f7bab70",
+      "parent_mapping_id": "cube-299266c5e1209d83e332"
+    },
+    {
+      "id": "on1-free-photo-lc10-9003295b95",
+      "path": "luts/photo-converted/on1-free-photo-lc10-9003295b95/on1-free-photo-lc10-9003295b95.clf",
+      "sha256": "994e94c2ce190966641b3cddf90a94ad50aaf1fd97386493f60b8ac8e468ead6",
+      "parent_mapping_id": "cube-9003295b9577835fc8f1"
+    },
+    {
+      "id": "on1-free-photo-lc2-656db5ff45",
+      "path": "luts/photo-converted/on1-free-photo-lc2-656db5ff45/on1-free-photo-lc2-656db5ff45.clf",
+      "sha256": "2c13c3962bd0255df0db3e97a987951f51e194dadde914e17fc9529b7438ae97",
+      "parent_mapping_id": "cube-656db5ff45fdd4cb9e29"
+    },
+    {
+      "id": "on1-free-photo-lc3-0e1d64b153",
+      "path": "luts/photo-converted/on1-free-photo-lc3-0e1d64b153/on1-free-photo-lc3-0e1d64b153.clf",
+      "sha256": "2926a0fb05ab8acf3c017191d8c5552fb9d4f9f12457622d09d84aaddac1deb2",
+      "parent_mapping_id": "cube-0e1d64b153821931cf6a"
+    },
+    {
+      "id": "on1-free-photo-lc4-f5809229a6",
+      "path": "luts/photo-converted/on1-free-photo-lc4-f5809229a6/on1-free-photo-lc4-f5809229a6.clf",
+      "sha256": "d5a3d55274580133883d737eebfb0040ba4b79a3a7f8889471df1388a5ef1999",
+      "parent_mapping_id": "cube-f5809229a6e0a731c848"
+    },
+    {
+      "id": "on1-free-photo-lc5-c014f78f76",
+      "path": "luts/photo-converted/on1-free-photo-lc5-c014f78f76/on1-free-photo-lc5-c014f78f76.clf",
+      "sha256": "7343c5d26b46826b8946fb490a070bed9c2396d86543501742bbb603ca8e92fb",
+      "parent_mapping_id": "cube-c014f78f76bb50e8744c"
+    },
+    {
+      "id": "on1-free-photo-lc6-34f24178f9",
+      "path": "luts/photo-converted/on1-free-photo-lc6-34f24178f9/on1-free-photo-lc6-34f24178f9.clf",
+      "sha256": "4667a5e760d9e2b000a8f687141d8f6d91cb0bbedc664afed6131e5e73e5a7c5",
+      "parent_mapping_id": "cube-34f24178f97a0b333455"
+    },
+    {
+      "id": "on1-free-photo-lc7-ff7d4da216",
+      "path": "luts/photo-converted/on1-free-photo-lc7-ff7d4da216/on1-free-photo-lc7-ff7d4da216.clf",
+      "sha256": "c28e3daa6dd83ca3ff9de8a066171d764713d31f3ce181cbde72dc71d42f937d",
+      "parent_mapping_id": "cube-ff7d4da216259f4954a6"
+    },
+    {
+      "id": "on1-free-photo-lc8-8bc786bb0f",
+      "path": "luts/photo-converted/on1-free-photo-lc8-8bc786bb0f/on1-free-photo-lc8-8bc786bb0f.clf",
+      "sha256": "5cb68c4ca717f11875c6be4edce84c7ef53335e331e3b1fd1cb652e21cdac1f1",
+      "parent_mapping_id": "cube-8bc786bb0f53f674eb9c"
+    },
+    {
+      "id": "on1-free-photo-lc9-af9019af60",
+      "path": "luts/photo-converted/on1-free-photo-lc9-af9019af60/on1-free-photo-lc9-af9019af60.clf",
+      "sha256": "9e6b86c0a970b500507b6e73b24764e43f534340d9126c0b4146ad045535d676",
+      "parent_mapping_id": "cube-af9019af602fd86b6b38"
+    },
+    {
+      "id": "on1-free-photo-moody1-65d7ddfca1",
+      "path": "luts/photo-converted/on1-free-photo-moody1-65d7ddfca1/on1-free-photo-moody1-65d7ddfca1.clf",
+      "sha256": "5c17acee9119f820e20e5044551f832357087cdc0368748a65faaf7284204d88",
+      "parent_mapping_id": "cube-65d7ddfca17e8562c1f8"
+    },
+    {
+      "id": "on1-free-photo-moody10-d01c4c86d5",
+      "path": "luts/photo-converted/on1-free-photo-moody10-d01c4c86d5/on1-free-photo-moody10-d01c4c86d5.clf",
+      "sha256": "ccf58fa951548b28311c028ab77cfb2de4f351843df7e1928884b95cf5b9def8",
+      "parent_mapping_id": "cube-d01c4c86d53d7c898e9e"
+    },
+    {
+      "id": "on1-free-photo-moody2-b57ddcd38e",
+      "path": "luts/photo-converted/on1-free-photo-moody2-b57ddcd38e/on1-free-photo-moody2-b57ddcd38e.clf",
+      "sha256": "91ac73ef87d83c24247725728703a9c548c674f8485b9ed914e7be86940e97ba",
+      "parent_mapping_id": "cube-b57ddcd38e0e0dc15ef9"
+    },
+    {
+      "id": "on1-free-photo-moody3-2fbee2ca0b",
+      "path": "luts/photo-converted/on1-free-photo-moody3-2fbee2ca0b/on1-free-photo-moody3-2fbee2ca0b.clf",
+      "sha256": "0169e2b5ad3600b8db4ef377e4a0703750dcc453019e805fb55636dc93c5f451",
+      "parent_mapping_id": "cube-2fbee2ca0bb636117347"
+    },
+    {
+      "id": "on1-free-photo-moody4-beb037e960",
+      "path": "luts/photo-converted/on1-free-photo-moody4-beb037e960/on1-free-photo-moody4-beb037e960.clf",
+      "sha256": "3dd3b8c62278e1a12e84dd60d851e71ad4d2f68966f8697d33e1ad7318720e00",
+      "parent_mapping_id": "cube-beb037e960e151e20fbc"
+    },
+    {
+      "id": "on1-free-photo-moody5-df3a691652",
+      "path": "luts/photo-converted/on1-free-photo-moody5-df3a691652/on1-free-photo-moody5-df3a691652.clf",
+      "sha256": "544c2cdf12ebe106a611fc8b834df282b90305b2c175c65a4a10a7ce80431ccc",
+      "parent_mapping_id": "cube-df3a691652ca57999086"
+    },
+    {
+      "id": "on1-free-photo-moody6-de2993411b",
+      "path": "luts/photo-converted/on1-free-photo-moody6-de2993411b/on1-free-photo-moody6-de2993411b.clf",
+      "sha256": "ab1424a60ce6fc03d33f1575266ce86599c71a3a523e9cd2a5228a99f08703a4",
+      "parent_mapping_id": "cube-de2993411bac0d4e2092"
+    },
+    {
+      "id": "on1-free-photo-moody7-d2f33d7104",
+      "path": "luts/photo-converted/on1-free-photo-moody7-d2f33d7104/on1-free-photo-moody7-d2f33d7104.clf",
+      "sha256": "e4feb8e52ca2fbca6dbf3c28384832e10d9a3c82a2e9f2276d7be3312c153f6c",
+      "parent_mapping_id": "cube-d2f33d71047dce9e0fee"
+    },
+    {
+      "id": "on1-free-photo-moody8-82c52501a7",
+      "path": "luts/photo-converted/on1-free-photo-moody8-82c52501a7/on1-free-photo-moody8-82c52501a7.clf",
+      "sha256": "ab40eb513e3aaffe85f21b997523d79c08b0fbd82dc32d2f3969fcf0ddc5e3ab",
+      "parent_mapping_id": "cube-82c52501a714a59ce250"
+    },
+    {
+      "id": "on1-free-photo-moody9-836f8d6af2",
+      "path": "luts/photo-converted/on1-free-photo-moody9-836f8d6af2/on1-free-photo-moody9-836f8d6af2.clf",
+      "sha256": "4c70e341281f5a5b477cde1603a9eac101ba8577ef199311e5b53d9b762ecd9d",
+      "parent_mapping_id": "cube-836f8d6af2d803236523"
+    },
+    {
+      "id": "on1-free-photo-nw-1-dd8cbd28a7",
+      "path": "luts/photo-converted/on1-free-photo-nw-1-dd8cbd28a7/on1-free-photo-nw-1-dd8cbd28a7.clf",
+      "sha256": "9c66309f0972daf9238839c4ad43b0107e0f2e455a38999a28f56d1015ef52f1",
+      "parent_mapping_id": "cube-dd8cbd28a789e47b0f47"
+    },
+    {
+      "id": "on1-free-photo-nw-10-89fdb7ce80",
+      "path": "luts/photo-converted/on1-free-photo-nw-10-89fdb7ce80/on1-free-photo-nw-10-89fdb7ce80.clf",
+      "sha256": "28b07a7ecf7ba3fabf48faadcfdcb23adb6656df1238d22750ab23bd595704de",
+      "parent_mapping_id": "cube-89fdb7ce8065a98b5318"
+    },
+    {
+      "id": "on1-free-photo-nw-2-0c69621355",
+      "path": "luts/photo-converted/on1-free-photo-nw-2-0c69621355/on1-free-photo-nw-2-0c69621355.clf",
+      "sha256": "61b8b66ef06aadc9502fbcf93d791cfeea6fe5a93560494ccdedf7301f29dabc",
+      "parent_mapping_id": "cube-0c6962135556a2e8bcf3"
+    },
+    {
+      "id": "on1-free-photo-nw-3-54efbdc3bb",
+      "path": "luts/photo-converted/on1-free-photo-nw-3-54efbdc3bb/on1-free-photo-nw-3-54efbdc3bb.clf",
+      "sha256": "64ae2db48d4dde3bb96efb4c4518d980f467a061ee3c41abdbd33bd76b9ed5f4",
+      "parent_mapping_id": "cube-54efbdc3bb567a7f5bee"
+    },
+    {
+      "id": "on1-free-photo-nw-4-929661e2bf",
+      "path": "luts/photo-converted/on1-free-photo-nw-4-929661e2bf/on1-free-photo-nw-4-929661e2bf.clf",
+      "sha256": "8274ec68c2a59b8522d2bf73823e78372c17b1a6a195d439545bb95ac918f99c",
+      "parent_mapping_id": "cube-929661e2bf7aae3903c8"
+    },
+    {
+      "id": "on1-free-photo-nw-5-8f6cf960c2",
+      "path": "luts/photo-converted/on1-free-photo-nw-5-8f6cf960c2/on1-free-photo-nw-5-8f6cf960c2.clf",
+      "sha256": "6a204bbccca55d611845157486d3d897249b4266e6ff3142d0cbe6076c0cb283",
+      "parent_mapping_id": "cube-8f6cf960c207025083b7"
+    },
+    {
+      "id": "on1-free-photo-nw-6-dcf745bf95",
+      "path": "luts/photo-converted/on1-free-photo-nw-6-dcf745bf95/on1-free-photo-nw-6-dcf745bf95.clf",
+      "sha256": "b299f5313b79fca64d5a5672edf5d5fba1a1799ba850a00fb5f7084b7e6e934c",
+      "parent_mapping_id": "cube-dcf745bf95062531cc1f"
+    },
+    {
+      "id": "on1-free-photo-nw-7-c96bb71cef",
+      "path": "luts/photo-converted/on1-free-photo-nw-7-c96bb71cef/on1-free-photo-nw-7-c96bb71cef.clf",
+      "sha256": "5e83f0e6a56c456b209bc3939f07cbe2fca07800ee0654b842ba7727d40b2e27",
+      "parent_mapping_id": "cube-c96bb71cefe7b89997ba"
+    },
+    {
+      "id": "on1-free-photo-nw-8-9c19ba5ec6",
+      "path": "luts/photo-converted/on1-free-photo-nw-8-9c19ba5ec6/on1-free-photo-nw-8-9c19ba5ec6.clf",
+      "sha256": "83066dc7bdd411e7094b87b9c70dc2e76ca4d2ba6a75e03501b9b7e75b258b2a",
+      "parent_mapping_id": "cube-9c19ba5ec6f29a9353a6"
+    },
+    {
+      "id": "on1-free-photo-nw-9-60e0165f1a",
+      "path": "luts/photo-converted/on1-free-photo-nw-9-60e0165f1a/on1-free-photo-nw-9-60e0165f1a.clf",
+      "sha256": "8756ff9008e7d8015821f692a0f915a2cbe8b9515db13ce057d9800312b33614",
+      "parent_mapping_id": "cube-60e0165f1a8a5ffbef38"
+    },
+    {
+      "id": "on1-free-photo-oranges-9bfa4d2b7c",
+      "path": "luts/photo-converted/on1-free-photo-oranges-9bfa4d2b7c/on1-free-photo-oranges-9bfa4d2b7c.clf",
+      "sha256": "c337032ae287b3a2c1391a52bcbcc0df48dd9d96a47b666c441da6ac19f86da9",
+      "parent_mapping_id": "cube-9bfa4d2b7cb46e050f5a"
+    },
+    {
+      "id": "on1-free-photo-portrait1-01d43fd003",
+      "path": "luts/photo-converted/on1-free-photo-portrait1-01d43fd003/on1-free-photo-portrait1-01d43fd003.clf",
+      "sha256": "ca2efca6a4e6ecb003bda345e81259ded8056472b8157cc5b3c37aaf777d2a27",
+      "parent_mapping_id": "cube-01d43fd0038a9e9ccbd8"
+    },
+    {
+      "id": "on1-free-photo-portrait10-133740a488",
+      "path": "luts/photo-converted/on1-free-photo-portrait10-133740a488/on1-free-photo-portrait10-133740a488.clf",
+      "sha256": "ac44c11c6c55efdb4b6e2f1f9cf2508f1b5b539557332de8ef2d735177396095",
+      "parent_mapping_id": "cube-133740a488be57af6b9a"
+    },
+    {
+      "id": "on1-free-photo-portrait2-6fc8da09d4",
+      "path": "luts/photo-converted/on1-free-photo-portrait2-6fc8da09d4/on1-free-photo-portrait2-6fc8da09d4.clf",
+      "sha256": "a5d480c0cf0c7e98db7765b3a0c1d5ef296e521b130b647885bb0d96bc3edd22",
+      "parent_mapping_id": "cube-6fc8da09d4bcb17e48b1"
+    },
+    {
+      "id": "on1-free-photo-portrait3-7dcc869da5",
+      "path": "luts/photo-converted/on1-free-photo-portrait3-7dcc869da5/on1-free-photo-portrait3-7dcc869da5.clf",
+      "sha256": "57c4a099ce05d152d7b19428f36d184dc17a6de12b12015ce73a6750fca01d5f",
+      "parent_mapping_id": "cube-7dcc869da5701b7ae373"
+    },
+    {
+      "id": "on1-free-photo-portrait4-e11d1adbfc",
+      "path": "luts/photo-converted/on1-free-photo-portrait4-e11d1adbfc/on1-free-photo-portrait4-e11d1adbfc.clf",
+      "sha256": "6124ded8400ceb08dfa2164a94a3f261b7871eb706d184d725cbeeb24bf6664c",
+      "parent_mapping_id": "cube-e11d1adbfc92ea4e3b5d"
+    },
+    {
+      "id": "on1-free-photo-portrait5-83cdbb2ab8",
+      "path": "luts/photo-converted/on1-free-photo-portrait5-83cdbb2ab8/on1-free-photo-portrait5-83cdbb2ab8.clf",
+      "sha256": "3d0cc0b5ee362d38b1196e783ac61b64b66c82d3eefb730b7c6ed7a111626d4f",
+      "parent_mapping_id": "cube-83cdbb2ab8017f283fe9"
+    },
+    {
+      "id": "on1-free-photo-portrait9-1482966ab9",
+      "path": "luts/photo-converted/on1-free-photo-portrait9-1482966ab9/on1-free-photo-portrait9-1482966ab9.clf",
+      "sha256": "98e015d8a1119224dd47d4a0d03f68388de85f69b26f1a41ae4860013a5c11d2",
+      "parent_mapping_id": "cube-1482966ab924c68a66e8"
+    },
+    {
+      "id": "on1-free-photo-purple-206f9dcc0e",
+      "path": "luts/photo-converted/on1-free-photo-purple-206f9dcc0e/on1-free-photo-purple-206f9dcc0e.clf",
+      "sha256": "4fd1539bd047bc70d2ae195ddbc650cfca86e8f40e79e3b01edbba163550a240",
+      "parent_mapping_id": "cube-206f9dcc0e8a1387bb46"
+    },
+    {
+      "id": "on1-free-photo-reds-c7cd4c5309",
+      "path": "luts/photo-converted/on1-free-photo-reds-c7cd4c5309/on1-free-photo-reds-c7cd4c5309.clf",
+      "sha256": "3425fae150af41cb46b3f17754c1887f86d832005bbd97627ecfaed2ba3d8456",
+      "parent_mapping_id": "cube-c7cd4c53097e5f59e047"
+    },
+    {
+      "id": "on1-free-photo-reds-oranges-yellows-cca3006b6c",
+      "path": "luts/photo-converted/on1-free-photo-reds-oranges-yellows-cca3006b6c/on1-free-photo-reds-oranges-yellows-cca3006b6c.clf",
+      "sha256": "c002361bf47012cd2b0ce2751997ecd59df6add1502f3ea8b4f3e0e5ab220da6",
+      "parent_mapping_id": "cube-cca3006b6c48383a3a85"
+    },
+    {
+      "id": "purchased-pocket-photo-nc-b94ba102ef",
+      "path": "luts/photo-converted/purchased-pocket-photo-nc-b94ba102ef/purchased-pocket-photo-nc-b94ba102ef.clf",
+      "sha256": "fedaf5e678c23b2a63260807d86f0a52360db86abd0b217dbad0a17d47052988",
+      "parent_mapping_id": "cube-b94ba102ef76f41cf0f7"
+    },
+    {
+      "id": "purchased-pocket-photo-4dd1631d9d",
+      "path": "luts/photo-converted/purchased-pocket-photo-4dd1631d9d/purchased-pocket-photo-4dd1631d9d.clf",
+      "sha256": "a5282bfc0d136b0367e0ce8ac9b59da975b8c0e79143f8e7e6d47e3b870f459f",
+      "parent_mapping_id": "cube-4dd1631d9dfbe2ef223d"
+    },
+    {
+      "id": "purchased-pocket-photo-79319696a4",
+      "path": "luts/photo-converted/purchased-pocket-photo-79319696a4/purchased-pocket-photo-79319696a4.clf",
+      "sha256": "92b3811d03fb01c71505d554b03676a82220e9bce8a5155f8e40f4c8d4b90dae",
+      "parent_mapping_id": "cube-79319696a461885027c3"
+    },
+    {
+      "id": "purchased-pocket-photo-809-17328770fe",
+      "path": "luts/photo-converted/purchased-pocket-photo-809-17328770fe/purchased-pocket-photo-809-17328770fe.clf",
+      "sha256": "e6b0bc62ad0b1145ac7f096d4505f80758186dfdf3e7110754e651c02b94be94",
+      "parent_mapping_id": "cube-17328770fe5eccbe4ab0"
+    }
+  ],
+  "implementation_sha256": {
+    "backend/app/clf.py": "345188c59bdff25cf0361a5292ac28e8717aa440d67953f098943617b5743e97",
+    "backend/app/single_pass.py": "54ea415aa64d9b75d7ac23b9a97840bbc0502a579a9ead3f974c722678cb2cea",
+    "backend/app/luts.py": "51f62d4a507ee363982eed68b3bc46c0079ae2b00add2a4ded1687b432d292cd",
+    "backend/app/imaging.py": "71ee97992869d910ca05a671c6b2f104f8b669565c61d493bc584a8ac2954770",
+    "lut-library/tools/library.py": "4e81a7849be97617ab5da989b63455cbc18fef9dc7e85a5475c22f4e55df3eba",
+    "lut-library/tools/photo_conversion_math.py": "40fc94c3615c4ac5cdfc0c572cbdf1911fd3425a86b2ea5d54114ae4ae2419d1",
+    "lut-library/tools/convert_photo_luts.py": "d082cccf85add62a090f233f64e2d7dbdbbec6ad2529e92e620b526c89f62549",
+    "lut-library/tools/activate_photo_luts.py": "daf193166cfe223a0cbb37ce5a08e0819a35accbc73cf246afebf83e7893ee72",
+    "lut-library/tools/organize_existing.py": "10e1beecba8c6a928e302d1760100eacea483a7371eb1f1989d979ea57eff066"
+  },
+  "verification": {
+    "numerical_validation": "81/81 passed; 1,728,530–1,812,075 input samples each at four strengths",
+    "max_final_rgb_error": 0.0015820585842544338,
+    "max_final_rgb_error_8bit_steps": 0.40342493898488063,
+    "max_final_rgb_rms": 1.1075413900557228e-05,
+    "archive_files_checked": 2011,
+    "original_source_mappings_preserved": 991,
+    "original_runtime_entries_unchanged": 50,
+    "runtime_reader_and_loader_count": 131,
+    "unit_checks": {
+      "command": ".venv/bin/python -m pytest -q backend/tests/test_photo_conversion.py",
+      "passed": 11,
+      "photo_io": false
+    },
+    "new_photo_effect_tests": 0
+  }
+}

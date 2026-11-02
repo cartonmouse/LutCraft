@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "id": "xmosaique-lime-cross",
+  "name": "xMosaique Lime Cross",
+  "publisher": "xMosaique",
+  "filename": "xmosaique-lime-cross.cube",
+  "category": "film",
+  "style_zh": "Lime Cross（按来源命名，效果待验证）",
+  "tags": [
+    "胶片风格"
+  ],
+  "source_page": "https://xmosaique.com/luts/",
+  "preview_page": "https://xmosaique.com/luts/",
+  "source_archive": "collected/2026-10-30/downloads/xmosaique-all.zip",
+  "source_sha256": "b435f823f5f50a5d863a2946a3067637ca6ab0ca73b5e58f6b4b938a6f93aa4d",
+  "archive_member": "Lime Cross.cube",
+  "original_filename": "Lime Cross.cube",
+  "original_sha256": "dcae48909d91e259fe079a0392fcfbcac4695274695a5aabe7eee58f3992ca47",
+  "added_date": "2026-10-30",
+  "batch": "2026-10-30 照片适用性接入；未测试效果",
+  "license": {
+    "id": "MIT",
+    "status": "混合许可：第三方声明列出的13款为MIT衍生，其余CC BY-NC 4.0；MIT集合上游权利仍需核实。",
+    "documents": [
+      "licenses/xmosaique-THIRD-PARTY-NOTICES.txt"
+    ],
+    "redistribution_verified": false
+  },
+  "file_modified": false,
+  "style_basis": "author_filename_or_label_not_measured",
+  "input_profile": "sRGB / display-referred（来源声明；未做新增效果验证）",
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "compatibility_basis": "随库来源说明明确声明整套 18 款支持 sRGB 输入并返回同一空间。 本次仅按资料确认，未做新的照片效果测试。",
+  "aliases": [
+    "Lime Cross",
+    "kodak_elite_100_xpro"
+  ],
+  "enabled": true,
+  "effect_test_status": "not_tested",
+  "historical_preview_refs": [],
+  "photo_suitability": {
+    "category": "direct",
+    "mapping_id": "cube-fe6bb00acff50d01d9c8",
+    "classification_path": "inventory/2026-10-30/photo-suitability/catalog.json",
+    "classification_sha256": "21d7e6fb17e6a7a1cb123386e30a53dd1af5594cfb9b4f09f8b6d0fbd293c106",
+    "evidence_ids": [
+      "xmosaique-srgb"
+    ],
+    "basis": "static_metadata_only",
+    "activated_date": "2026-10-30"
+  },
+  "cautions": "照片效果尚未完成本轮验证；名称／标签不表示实测结果。"
+}

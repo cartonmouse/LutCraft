@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "rawtherapee-fuji-provia-100-generic-0c19c2f3",
+  "name": "RawTherapee Fuji Provia 100 Generic",
+  "publisher": "RawTherapee Film Simulation Collection",
+  "filename": "rawtherapee-fuji-provia-100-generic-0c19c2f3.png",
+  "format": "HaldCLUT",
+  "category": "hald-photo",
+  "style_zh": "Fuji Provia 100 Generic（作者命名；照片效果待人工查看）",
+  "tags": [
+    "HaldCLUT",
+    "彩色"
+  ],
+  "aliases": [
+    "Fuji Provia 100 Generic"
+  ],
+  "source_variants": [
+    {
+      "name": "Fuji Provia 100 Generic",
+      "path": "collected/2026-10-30/assets/haldclut/fuji-provia-100-generic-0c19c2f315714173.png",
+      "sha256": "0c19c2f31571417338b02ca0a58b1cf631d8a16a8a5be17263ee1d83eaa1a6cb"
+    }
+  ],
+  "source_page": "https://rawpedia.pixls.us/film_simulation/",
+  "source_origin": {
+    "source_id": "rawtherapee",
+    "download_id": "rawtherapee-haldclut",
+    "member": "HaldCLUT/Color/Fuji/Fuji Provia 100 Generic.png",
+    "sha256": "0c19c2f31571417338b02ca0a58b1cf631d8a16a8a5be17263ee1d83eaa1a6cb",
+    "bytes": 605115,
+    "source_page": "https://rawpedia.pixls.us/film_simulation/",
+    "license_note": "原包README声明CC BY-SA 4.0，署名Pat David、Pavlov Dmitry、Michael Ezra；使用/修改/分发时保留相应署名及许可条件。",
+    "input_note": "原包说明默认sRGB，特殊输入依文件名；含294张模拟表和1张Identity模板，保持HaldCLUT原格式。",
+    "declared_license": "CC-BY-SA-4.0"
+  },
+  "source_path": "collected/2026-10-30/assets/haldclut/fuji-provia-100-generic-0c19c2f315714173.png",
+  "source_sha256": "0c19c2f31571417338b02ca0a58b1cf631d8a16a8a5be17263ee1d83eaa1a6cb",
+  "original_sha256": "0c19c2f31571417338b02ca0a58b1cf631d8a16a8a5be17263ee1d83eaa1a6cb",
+  "file_modified": false,
+  "input_profile": "sRGB 照片；原始 Hald 网格；三线性插值",
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "enabled": true,
+  "effect_test_status": "not_tested",
+  "historical_preview_refs": [],
+  "photo_suitability": {
+    "category": "native_hald",
+    "source_id": "rawtherapee-0c19c2f315714173",
+    "evidence_ids": [
+      "rawtherapee-srgb"
+    ],
+    "basis": "sRGB source README plus numerical validation of native Hald lookup"
+  },
+  "validation": {
+    "report_path": "derived/2026-10-30-hald-native/validation.json",
+    "version": "hald-trilinear-v1",
+    "status": "passed",
+    "passed": true,
+    "sample_count": 134245,
+    "max_error": 2.333503157855854e-07,
+    "rms_error": 1.9925452918662106e-08,
+    "strength_max_errors": {
+      "0.25": 8.347708813083443e-08,
+      "0.5": 1.185378030454931e-07,
+      "0.75": 1.7408141425589996e-07,
+      "1": 2.333503157855854e-07
+    },
+    "limits": {
+      "max_error": 2e-05,
+      "rms_error": 2e-06
+    },
+    "input_sampling": "33^3 grid, 65536 random, 8192 source knots and +/-1e-7, 6144 face, 2049 gray, 3 clamping probes"
+  },
+  "license": {
+    "id": "CC-BY-SA-4.0",
+    "status": "原包README声明CC BY-SA 4.0，署名Pat David、Pavlov Dmitry、Michael Ezra；使用/修改/分发时保留相应署名及许可条件。",
+    "documents": [
+      "licenses/rawtherapee-haldclut/README.txt"
+    ],
+    "authors": [
+      "Pat David",
+      "Pavlov Dmitry",
+      "Michael Ezra"
+    ]
+  },
+  "cautions": "无降采样，保留原表位深；数值验证不等于照片观感验收；不保证与完整 RawTherapee RAW 工作流相同。",
+  "added_date": "2026-10-30",
+  "batch": "291 种原生 HaldCLUT 接入"
+}

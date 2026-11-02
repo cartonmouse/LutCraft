@@ -1,0 +1,12 @@
+[project]
+name = "lut-agent"
+version = "0.2.0"
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1", "pydantic>=2.10,<3", "pyvips[binary]>=3,<4", "python-multipart>=0.0.20", "httpx>=0.28,<1", "python-dotenv>=1,<2", "itsdangerous>=2,<3", "opencolorio>=2.4,<3", "numpy>=2,<3"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "pillow>=11,<13"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

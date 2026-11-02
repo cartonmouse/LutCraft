@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-30",
+  "basis": "local headers, bundled manuals, saved source pages, implementation; no image evaluation",
+  "items": [
+    {
+      "id": "xmosaique-srgb",
+      "path": "collected/2026-10-30/evidence/xmosaique.html",
+      "sha256": "ffaa5df26fa2ac9384f84b71ced15e84bb1aa1cc557134c9993555eb8e2e4ef1",
+      "page": null,
+      "review_note": "页面声明整套 LUT 接受 Rec.709 或 sRGB，并返回相同空间；普通照片可用，Log 需先转换。"
+    },
+    {
+      "id": "iwltbap-standard",
+      "path": "collected/2026-10-30/documents/iwltbap-free-sampler/LUTs Color Grading Pack (Free) by IWLTBAP/About - LUTs Color Grading Pack by IWLTBAP (Free).pdf",
+      "sha256": "76c3d66d2cbdce8f819f028416cfe25d33cefe5fb8e1837febcbe5bc3231002c",
+      "page": 4,
+      "review_note": "第 4 页明确 01 - Standard 子目录支持 sRGB/Rec.709；Generic LOG 与 V-Log 是另外的输入版本。"
+    },
+    {
+      "id": "iwltbap-standard-older",
+      "path": "collected/2026-10-30/documents/iwltbap-aspen/IWLTBAP - Aspen (Free LUT)/Readme - LUTs Color Grading Pack by IWLTBAP (Free).pdf",
+      "sha256": "54e60dbc8db0efae103fe42f06fdef14c5fb6a15cb3efd70cc71e826b34e6887",
+      "page": 4,
+      "review_note": "第 4 页明确 STANDARD 用于 sRGB 和 Rec.709；STD、LOG、LTR、RTL 后缀含义在同页说明。"
+    },
+    {
+      "id": "rawtherapee-srgb",
+      "path": "collected/2026-10-30/documents/rawtherapee-haldclut/HaldCLUT/README.txt",
+      "sha256": "363cffb318e25dc4f880e070915aceddfe842e1fdb0a68216bef04719185c69c",
+      "page": null,
+      "review_note": "README 声明除非文件名另行说明，全部 HaldCLUT 使用 sRGB；Identity_12.tif 是制作新配置的基准图。"
+    },
+    {
+      "id": "phlearn-guide",
+      "path": "inventory/2026-10-30/documents/pdf/c99bc79872cc1c9111aac10dcb5cc6ca60a2654e10ee2cfa00d88f2b98451092.pdf",
+      "sha256": "c99bc79872cc1c9111aac10dcb5cc6ca60a2654e10ee2cfa00d88f2b98451092",
+      "page": null,
+      "review_note": "已阅读整份 11 页手册：支持照片/视频，Photoshop 安装步骤没有规定照片色彩配置；第 8 页 Final Cut Pro 步骤要求输入输出留为 Rec.709，未定义 gamma。"
+    },
+    {
+      "id": "purchased-input-notes",
+      "path": "purchased/2026-10-29/catalog.json",
+      "sha256": "d48d5e5e95e98e1683a829fdc1d4ec52664caf7e41e1b878d6e111ef94e0c905",
+      "page": null,
+      "review_note": "继承已购包原路径与 input_profile 资料记录；设备名、标准版、拍照目录不等于完整 sRGB 输入输出定义。"
+    },
+    {
+      "id": "export-lut-profile",
+      "url": "https://johnrellis.com/lightroom/exportlut.htm",
+      "reviewed_date": "2026-10-30",
+      "review_note": "作者手册说明 Color Profile 选项应匹配应用 LUT 的图像/视频色彩空间，故文件头 AdobeRGB1998/Rec709gamma2.4 不能作为无关导出元数据忽略。相同配置的输入输出流程属于根据工具说明作出的推断。"
+    },
+    {
+      "id": "display-spaces",
+      "url": "https://github.com/AcademySoftwareFoundation/ColorInterop/blob/main/Recommendations/02_DisplayColorSpaces/DisplayColorSpaces.md",
+      "reviewed_date": "2026-10-30",
+      "review_note": "ColorInterop 对显示空间区分 sRGB 与 Rec.709/Rec.1886 Gamma 2.4；不能只因相同原色就视其编码值完全相同。"
+    },
+    {
+      "id": "srgb-registry",
+      "url": "https://registry.color.org/rgb-registry/srgb",
+      "reviewed_date": "2026-10-30",
+      "review_note": "ICC sRGB 条目给出分段传递函数；不是纯 Gamma 2.4。"
+    }
+  ]
+}

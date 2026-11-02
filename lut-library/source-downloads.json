@@ -1,0 +1,77 @@
+{
+  "sources": [
+    {
+      "filename": "iwltbap-aspen.zip",
+      "download_url": "https://luts.iwltbap.com/free/IWLTBAP_-_Aspen_%28Free_LUT%29.zip",
+      "bytes": 80305257,
+      "sha256": "8582c5ebab78753d62c7d5d6890a6a668f198346264a1b6737623ac88faf7823"
+    },
+    {
+      "filename": "iwltbap-blade-runner-2049.zip",
+      "download_url": "https://luts.iwltbap.com/free/IWLTBAP_-_Blade_Runner_2049_%28Free_LUT%29.zip",
+      "bytes": 72704987,
+      "sha256": "ab86c82a5516ea2c1bb950b6098a085ecd46234d7b3f7b28c8151cb13c79be9a"
+    },
+    {
+      "filename": "iwltbap-coronado.zip",
+      "download_url": "https://luts.iwltbap.com/free/IWLTBAP_Coronado_%28Free_LUT%29.zip",
+      "bytes": 6966214,
+      "sha256": "acb7e2d37bacb8de9e250c0305cba0b94662129adde84aa1945fab31d886863a"
+    },
+    {
+      "filename": "iwltbap-humble.zip",
+      "download_url": "https://luts.iwltbap.com/free/IWLTBAP_-_Humble_%28Free_LUT%29.zip",
+      "bytes": 80336505,
+      "sha256": "128e81d704dd1fadd78c411c3e77a6c55157fa4f405f47e43e1859540c5f4fc5"
+    },
+    {
+      "filename": "iwltbap-kodachrome.zip",
+      "download_url": "https://luts.iwltbap.com/free/IWLTBAP_Kodachrome_-_Free_LUTs_%28Special_10K_Facebook_Fans%29.zip",
+      "bytes": 1973501,
+      "sha256": "b48724088f8f21b44d0a7370cc66edb277032243e1e909f6f3a1b9b1b6615976"
+    },
+    {
+      "filename": "iwltbap-renata.zip",
+      "download_url": "https://luts.iwltbap.com/free/IWLTBAP_-_Renata_%28Free_LUT%29.zip",
+      "bytes": 59518428,
+      "sha256": "0ed579aac4d34cb0594261fa8bff57f8dc64738c40f05dcebbabb6acf3d36d69"
+    },
+    {
+      "filename": "iwltbap-sedona.zip",
+      "download_url": "https://luts.iwltbap.com/free/IWLTBAP_-_Sedona_%28Free_LUT%29.zip",
+      "bytes": 80682889,
+      "sha256": "bdf3fe60ff250184459634302d8303f1ceb2918057acf8bee68060e5d363da73"
+    },
+    {
+      "filename": "xmosaique-THIRD-PARTY-NOTICES.txt",
+      "download_url": "https://xmosaique.com/assets/luts/THIRD-PARTY-NOTICES.txt",
+      "bytes": 1782,
+      "sha256": "200015178e383f9dcd24ee4a81fd933cfe7123af6d466ed6187a5434893535c9"
+    },
+    {
+      "filename": "xmosaique-dusty-slide.cube",
+      "download_url": "https://xmosaique.com/assets/luts/Dusty%20Slide.cube",
+      "bytes": 131413,
+      "sha256": "456d7b92a68ea2777d5b8d9f2d97930ee644158f2d94e55019b0000f50287677"
+    },
+    {
+      "filename": "xmosaique-infrared-mono.cube",
+      "download_url": "https://xmosaique.com/assets/luts/Infrared%20Mono.cube",
+      "bytes": 970460,
+      "sha256": "cbc7e63c4df39159b181df1f66733e4714ca15d9e24f14841ef6d3a0a099c888"
+    },
+    {
+      "filename": "xmosaique-silver-mono.cube",
+      "download_url": "https://xmosaique.com/assets/luts/Silver%20Mono.cube",
+      "bytes": 131520,
+      "sha256": "782e1d19dbd6f9ec5994e9d8f56ba193f1208f110b6d85a0581aa14aae7eac48"
+    },
+    {
+      "filename": "xmosaique-warm-instant.cube",
+      "download_url": "https://xmosaique.com/assets/luts/Warm%20Instant.cube",
+      "bytes": 131413,
+      "sha256": "c6e11e4c0d11fa6c5fc6dd7b5b66cfe0f079dd7a83eddcd4b54c3c81f93c58cc"
+    }
+  ],
+  "errors": []
+}

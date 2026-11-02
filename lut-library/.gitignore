@@ -1,0 +1,24 @@
+# Keep large third-party assets local; track the catalog and source records.
+_sources/
+previews/
+purchased/
+collected/
+inventory/
+derived/
+# Vendor documents bundled with downloaded packs stay with the local assets.
+licenses/**/*.pdf
+*.cube
+*.clf
+luts/**/*.png
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.dmg
+*.xmp
+*.3dl
+*.look
+*.part
+__pycache__/
+.DS_Store

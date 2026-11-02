@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "iwltbap-aspen",
+  "name": "IWLTBAP Aspen",
+  "publisher": "IWLTBAP",
+  "filename": "iwltbap-aspen.cube",
+  "category": "cinematic",
+  "style_zh": "深青高对比",
+  "tags": [
+    "冷调",
+    "青绿",
+    "高对比"
+  ],
+  "input_profile": "sRGB / display-referred（来源声明；未做新增效果验证）",
+  "source_page": "https://blog.iwltbap.com/the-10-free-cinematic-luts-by-iwltbap/",
+  "preview_page": "https://blog.iwltbap.com/the-10-free-cinematic-luts-by-iwltbap/",
+  "download_url": "https://luts.iwltbap.com/free/IWLTBAP_-_Aspen_%28Free_LUT%29.zip",
+  "source_archive": "_sources/iwltbap-aspen.zip",
+  "archive_member": "IWLTBAP - Aspen (Free LUT)/LUTs by IWLTBAP (CUBE)/IWLTBAP Aspen - Standard.cube",
+  "original_filename": "IWLTBAP Aspen - Standard.cube",
+  "source_sha256": "8582c5ebab78753d62c7d5d6890a6a668f198346264a1b6737623ac88faf7823",
+  "original_sha256": "fed47389a022e1c54f4ca3ae1f50f61a8f502f5cb79ed0898a30a3a82e74a37d",
+  "added_date": "2026-10-28",
+  "batch": "已有文件归档",
+  "license": {
+    "id": "LicenseRef-IWLTBAP-Free",
+    "status": "官方免费发布，具体条款见随包原作者说明",
+    "documents": [
+      "licenses/iwltbap-aspen/Readme - LUTs Color Grading Pack by IWLTBAP (Free).pdf"
+    ],
+    "redistribution_verified": false
+  },
+  "file_modified": false,
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "compatibility_basis": "随包手册明确指定 Standard/STD 版本用于 sRGB 与 Rec.709 普通图像；按同域创意输出理解。 本次仅按资料确认，未做新的照片效果测试。",
+  "aliases": [
+    "IWLTBAP Aspen",
+    "IWLTBAP Aspen - Standard"
+  ],
+  "enabled": true,
+  "effect_test_status": "historical_previews_available",
+  "historical_preview_refs": [
+    "previews/pink-grass-2026-10-28/README.md"
+  ],
+  "photo_suitability": {
+    "category": "direct",
+    "mapping_id": "cube-b9229d1dba1268a557e2",
+    "classification_path": "inventory/2026-10-30/photo-suitability/catalog.json",
+    "classification_sha256": "21d7e6fb17e6a7a1cb123386e30a53dd1af5594cfb9b4f09f8b6d0fbd293c106",
+    "evidence_ids": [
+      "iwltbap-standard",
+      "iwltbap-standard-older"
+    ],
+    "basis": "static_metadata_only",
+    "activated_date": "2026-10-30"
+  },
+  "cautions": "照片效果尚未完成本轮验证；名称／标签不表示实测结果。"
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#161616"><meta name="description" content="每款 LUT 搭配专属样片，发现喜欢的风格，再应用到自己的照片。">
+  <title>LutCraft — 风格图库</title>
+  <link rel="stylesheet" href="/gallery.css">
+  <link rel="stylesheet" href="/assets/navigation.css">
+  <script src="/assets/lucide.min.js" defer></script><script src="/gallery.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><a class="site-brand" href="/" aria-label="LutCraft 风格图库"><span class="site-brand-mark">L<b></b></span><span>Lut<span class="site-wordmark-light">Craft</span></span></a><nav class="site-nav" aria-label="主导航"><a href="/" aria-current="page">风格图库</a><a href="/results">我的结果</a></nav></header>
+  <main class="gallery-main">
+    <div class="gallery-heading"><div><p class="eyebrow">FIND YOUR COLOR</p><h1>找到照片的下一种感觉<span>.</span></h1></div><span id="edition" class="edition">首批风格预览</span></div>
+    <section class="gallery-tools" aria-label="浏览设置">
+      <div class="tools-row"><label class="search-field"><i data-lucide="search" aria-hidden="true"></i><input id="style-search" type="search" aria-label="搜索风格" placeholder="搜索风格、品牌或关键词" autocomplete="off"></label><div class="category-picker" role="group" aria-label="风格类别"><button data-category="all" aria-pressed="true">全部</button><button data-category="color" aria-pressed="false">彩色</button><button data-category="mono" aria-pressed="false">黑白</button></div></div>
+    </section>
+    <div class="results-meta"><p id="result-count" role="status" aria-live="polite">正在载入风格…</p></div>
+    <section id="style-grid" class="style-grid" aria-label="LUT 风格预览" aria-busy="true"></section>
+    <div class="load-more-row"><button id="load-more" class="outline-button" hidden>加载更多</button></div>
+    <div id="empty-state" class="empty-state" hidden><i data-lucide="images" aria-hidden="true"></i><h2 id="empty-title"></h2><p id="empty-description"></p><button id="retry" class="outline-button" hidden>重新加载</button><button id="clear-filters" class="outline-button" hidden>清除筛选</button></div>
+    <p id="page-status" class="page-status" role="status" aria-live="polite"></p>
+  </main>
+  <dialog id="style-dialog" aria-labelledby="detail-title">
+    <header class="detail-header"><div><p id="detail-brand" class="eyebrow"></p><h2 id="detail-title"></h2></div><div class="detail-nav"><button id="previous-style" class="icon-button" aria-label="上一个风格"><i data-lucide="chevron-left" aria-hidden="true"></i></button><button id="next-style" class="icon-button" aria-label="下一个风格"><i data-lucide="chevron-right" aria-hidden="true"></i></button><button id="close-detail" class="icon-button" aria-label="关闭风格详情"><i data-lucide="x" aria-hidden="true"></i></button></div></header>
+    <div class="detail-body">
+      <section id="detail-story" class="detail-story" aria-labelledby="story-headline" hidden>
+        <h3 id="story-headline"></h3><p id="story-description"></p><ul id="story-traits" class="story-traits" aria-label="风格特点"></ul>
+      </section>
+      <div class="detail-toolbar"><p id="detail-sample" class="sample-intro"></p><div id="detail-strength" class="strength-picker" role="group" aria-label="详情效果强度"><span>强度</span><button data-strength="50">50%</button><button data-strength="100">100%</button></div></div>
+      <p id="detail-placeholder" class="detail-placeholder" hidden></p>
+      <div id="sample-comparison" class="comparison"><figure><div class="image-stage"><img id="detail-original" alt="专属样片原图"></div><figcaption>原图</figcaption></figure><figure><div class="image-stage"><img id="detail-result" alt="LUT 效果图"></div><figcaption id="detail-result-label"></figcaption></figure></div>
+      <section id="detail-examples" class="detail-examples" aria-labelledby="examples-title" hidden>
+        <div class="examples-heading"><h3 id="examples-title">在更多场景里，发现它的感觉</h3><span>100% 强度</span></div>
+        <div id="story-examples" class="story-examples"></div>
+      </section>
+      <div class="detail-bottom"><p id="detail-tags"></p><button id="use-style" class="primary-button">用于自己的照片<i data-lucide="arrow-up-right" aria-hidden="true"></i></button></div>
+      <section id="apply-panel" class="apply-panel" aria-labelledby="apply-title" hidden>
+        <h3 id="apply-title">把这个风格用在你的照片上</h3><p class="upload-note">照片仅在本机处理。支持 JPEG / PNG，单张不超过 10 MB；输出长边最多 2560 像素。</p>
+        <form id="apply-form"><label class="file-label" for="photo-file">选择照片<input id="photo-file" type="file" accept="image/jpeg,image/png"></label><div class="apply-line"><span id="apply-choice"></span><button id="apply-submit" class="primary-button" type="submit" disabled>应用并保存</button></div></form>
+        <p id="apply-status" class="apply-status" role="status" aria-live="polite"></p>
+        <div id="applied-result" hidden><div class="comparison own-comparison"><figure><div class="image-stage"><img id="own-original" alt="你的原图"></div><figcaption>你的原图</figcaption></figure><figure><div class="image-stage"><img id="own-result" alt="你的照片应用风格后的效果"></div><figcaption id="own-result-label"></figcaption></figure></div><div class="saved-actions"><a id="download-result" class="primary-button" download>下载效果图<i data-lucide="download" aria-hidden="true"></i></a><a id="saved-result-link" class="outline-button">查看保存的结果<i data-lucide="arrow-up-right" aria-hidden="true"></i></a></div></div>
+      </section>
+    </div>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "id": "iwltbap-k99",
+  "name": "IWLTBAP K99",
+  "publisher": "IWLTBAP",
+  "filename": "iwltbap-k99.cube",
+  "category": "film",
+  "style_zh": "K99（按来源命名，效果待验证）",
+  "tags": [
+    "胶片"
+  ],
+  "source_page": "https://luts.iwltbap.com/",
+  "preview_page": "https://luts.iwltbap.com/",
+  "source_archive": "_sources/iwltbap-kodachrome.zip",
+  "source_sha256": "b48724088f8f21b44d0a7370cc66edb277032243e1e909f6f3a1b9b1b6615976",
+  "archive_member": "IWLTBAP Kodachrome - Free LUTs (Special 10K Facebook Fans)/LUTs by IWLTBAP (CUBE)/IWLTBAP K99.cube",
+  "original_filename": "IWLTBAP K99.cube",
+  "original_sha256": "2ad878a5611621f9f5748a3d58e14b8832ccf2d23d788bab3f904c56f1b804f6",
+  "added_date": "2026-10-30",
+  "batch": "2026-10-30 照片适用性接入；未测试效果",
+  "license": {
+    "id": "LicenseRef-iwltbap-free",
+    "status": "允许在作品中使用；禁止转售/分享文件；项目服务授权待确认。",
+    "documents": [
+      "licenses/iwltbap-photo-2026-10-30/Readme - LUTs Color Grading Pack by IWLTBAP (Free).pdf",
+      "licenses/iwltbap-photo-2026-10-30/About - LUTs Color Grading Pack by IWLTBAP (Free).pdf"
+    ],
+    "redistribution_verified": false
+  },
+  "file_modified": false,
+  "style_basis": "author_filename_or_label_not_measured",
+  "input_profile": "sRGB / display-referred（来源声明；未做新增效果验证）",
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "compatibility_basis": "Kodachrome 创意 LUT 的 TITLE 明确列出支持 sRGB；按同域创意输出理解，K99 仍是作者标注的实验版本。 本次仅按资料确认，未做新的照片效果测试。",
+  "aliases": [
+    "IWLTBAP K99"
+  ],
+  "enabled": true,
+  "effect_test_status": "not_tested",
+  "historical_preview_refs": [],
+  "photo_suitability": {
+    "category": "direct",
+    "mapping_id": "cube-7be5e296770e21c6d8d8",
+    "classification_path": "inventory/2026-10-30/photo-suitability/catalog.json",
+    "classification_sha256": "21d7e6fb17e6a7a1cb123386e30a53dd1af5594cfb9b4f09f8b6d0fbd293c106",
+    "evidence_ids": [],
+    "basis": "static_metadata_only",
+    "activated_date": "2026-10-30"
+  },
+  "cautions": "照片效果尚未完成本轮验证；名称／标签不表示实测结果。 作者标记此款为实验版本。"
+}

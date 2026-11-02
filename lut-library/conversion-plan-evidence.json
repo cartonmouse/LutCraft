@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-30",
+  "scope": "reference review only; no LUT downloads or execution",
+  "items": [
+    {
+      "id": "export-lut",
+      "title": "Export LUT 作者手册",
+      "url": "https://johnrellis.com/lightroom/exportlut.htm",
+      "reviewed_on": "2026-10-30",
+      "review_note": "Color Profile 对应应用图像的色彩空间；提供 Rec 709 Gamma 2.2/2.4 配置。输出同配置为结合工具工作流的推断。"
+    },
+    {
+      "id": "adobe-rgb",
+      "title": "Adobe RGB (1998) 编码规范",
+      "url": "https://www.adobe.com/digitalimag/pdfs/AdobeRGB1998.pdf",
+      "reviewed_on": "2026-10-30",
+      "review_note": "第10页给出原色、D65、0–1编码及2.19921875幂函数；作为相对编码值转换的定义依据。"
+    },
+    {
+      "id": "srgb",
+      "title": "ICC sRGB 注册条目",
+      "url": "https://registry.color.org/rgb-registry/srgb",
+      "reviewed_on": "2026-10-30",
+      "review_note": "给出 sRGB 原色、D65、分段传递函数；转换链使用其相对编码定义。"
+    },
+    {
+      "id": "bt1886",
+      "title": "ITU-R BT.1886",
+      "url": "https://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.1886-0-201103-I%21%21PDF-E.pdf",
+      "reviewed_on": "2026-10-30",
+      "review_note": "附录1的EOTF依赖黑白电平参数；黑电平为零时归一化曲线才简化为纯2.4幂函数。"
+    },
+    {
+      "id": "fylm-export",
+      "title": "fylm.ai LUT Export Options",
+      "url": "https://fylm.ai/docs/lut-export-options/",
+      "reviewed_on": "2026-10-30",
+      "review_note": "区分输入变换、Look、输出变换；包含sRGB输入与输出的照片导出路线，不能把已烘焙相机LUT当作仅Look。"
+    },
+    {
+      "id": "fylm-aces",
+      "title": "fylm.ai 的 ACES/Resolve 流程",
+      "url": "https://fylm.ai/docs/how-to-setup-aces-colour-managed-workflow-in-davinci-resolve-for-use-with-fylm-ai/",
+      "reviewed_on": "2026-10-30",
+      "review_note": "官方将SDR Rec709输出描述为BT1886、100cd/m²；不能据此确认所有历史包的版本与两端变换。"
+    },
+    {
+      "id": "acescct",
+      "title": "ACEScct 规范",
+      "url": "https://docs.acescentral.com/encodings/acescct/",
+      "reviewed_on": "2026-10-30",
+      "review_note": "定义AP1及准对数编码；编码变换不是完整显示渲染，也不能反推任意JPEG的场景曝光。"
+    },
+    {
+      "id": "davinci-wg",
+      "title": "Blackmagic DaVinci Wide Gamut / Intermediate",
+      "url": "https://documents.blackmagicdesign.com/InformationNotes/DaVinci_Resolve_17_Wide_Gamut_Intermediate.pdf?_v=1628751610000",
+      "reviewed_on": "2026-10-30",
+      "review_note": "分别定义宽色域与Intermediate曲线；LUT文件名DWG不能独立证明使用哪条曲线。"
+    },
+    {
+      "id": "red-rwg",
+      "title": "RED RWG / Log3G10 白皮书",
+      "url": "https://docs.red.com/955-0187/PDF/915-0187%20Rev-C%20%20%20RED%20OPS%2C%20White%20Paper%20on%20REDWideGamutRGB%20and%20Log3G10.pdf",
+      "reviewed_on": "2026-10-30",
+      "review_note": "区分REDWideGamutRGB色域与Log3G10曲线；RWG简称不足以确定完整编码。"
+    },
+    {
+      "id": "ocio-baker",
+      "title": "OpenColorIO Baker",
+      "url": "https://opencolorio.readthedocs.io/en/latest/api/baker.html",
+      "reviewed_on": "2026-10-30",
+      "review_note": "支持明确输入、目标空间和网格的烘焙。这里只作为后续工具依据，本轮未创建处理器或烘焙。"
+    },
+    {
+      "id": "source-headers",
+      "path": "inventory/2026-10-30/photo-suitability/catalog.json",
+      "sha256": "21d7e6fb17e6a7a1cb123386e30a53dd1af5594cfb9b4f09f8b6d0fbd293c106",
+      "review_note": "每份原始来源的文件头与输入输出标签；使用静态内容，不执行LUT。"
+    },
+    {
+      "id": "runtime-catalog",
+      "path": "catalog.json",
+      "sha256": "a1870e57ba9deaaf6802a308cfb3b12198086031b90bab17dcb2db241a755cad",
+      "review_note": "当前50种照片运行映射及文件摘要，用于确认标准版已接入。"
+    },
+    {
+      "id": "project-pipeline",
+      "path": "../backend/app/imaging.py",
+      "sha256": "71ee97992869d910ca05a671c6b2f104f8b669565c61d493bc584a8ac2954770",
+      "review_note": "编码sRGB输入；原LUT输出先做强度混合，再最终裁切到0–1。"
+    },
+    {
+      "id": "iwltbap-standard-local",
+      "path": "collected/2026-10-30/documents/iwltbap-free-sampler/LUTs Color Grading Pack (Free) by IWLTBAP/About - LUTs Color Grading Pack by IWLTBAP (Free).pdf",
+      "sha256": "76c3d66d2cbdce8f819f028416cfe25d33cefe5fb8e1837febcbe5bc3231002c",
+      "review_note": "随包手册第4页说明Standard为普通sRGB/Rec709图像，另有GenericLOG、VLog、Utility等目录。"
+    },
+    {
+      "id": "purchased-input-notes-local",
+      "path": "purchased/2026-10-29/catalog.json",
+      "sha256": "d48d5e5e95e98e1683a829fdc1d4ec52664caf7e41e1b878d6e111ef94e0c905",
+      "review_note": "沿用已购素材路径及说明记录；没有完整输入输出参数时不凭名称生成转换。"
+    },
+    {
+      "id": "local-profiles",
+      "review_note": "只读取本机系统ICC的TRC/XYZ标签和哈希；详见方案索引local_profile_inspection。Adobe RGB的TRC为2.19921875；ITU-709的参数TRC不是纯Gamma2.4。未用这些文件计算颜色。"
+    }
+  ]
+}

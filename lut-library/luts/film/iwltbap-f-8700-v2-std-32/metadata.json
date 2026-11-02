@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "iwltbap-f-8700-v2-std-32",
+  "name": "IWLTBAP F-8700-V2-STD · 32³",
+  "publisher": "IWLTBAP",
+  "filename": "iwltbap-f-8700-v2-std-32.cube",
+  "category": "film",
+  "style_zh": "胶片风格（按来源命名，效果待验证）",
+  "tags": [
+    "胶片"
+  ],
+  "source_page": "https://luts.iwltbap.com/",
+  "preview_page": "https://luts.iwltbap.com/",
+  "source_archive": "_sources/iwltbap-aspen.zip",
+  "source_sha256": "8582c5ebab78753d62c7d5d6890a6a668f198346264a1b6737623ac88faf7823",
+  "archive_member": "IWLTBAP - Aspen (Free LUT)/LUTs by IWLTBAP (CUBE)/BONUS/8700/F-8700-V2-STD.cube",
+  "original_filename": "F-8700-V2-STD.cube",
+  "original_sha256": "702459004a1819e4fafb01bc9a19079c77b9677a9f81e4d55bf3cdb5a9fe557c",
+  "added_date": "2026-10-30",
+  "batch": "2026-10-30 照片适用性接入；未测试效果",
+  "license": {
+    "id": "LicenseRef-iwltbap-free",
+    "status": "允许在作品中使用；禁止转售/分享文件；项目服务授权待确认。",
+    "documents": [
+      "licenses/iwltbap-photo-2026-10-30/Readme - LUTs Color Grading Pack by IWLTBAP (Free).pdf",
+      "licenses/iwltbap-photo-2026-10-30/About - LUTs Color Grading Pack by IWLTBAP (Free).pdf"
+    ],
+    "redistribution_verified": false
+  },
+  "file_modified": false,
+  "style_basis": "author_filename_or_label_not_measured",
+  "input_profile": "sRGB / display-referred（来源声明；未做新增效果验证）",
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "compatibility_basis": "随包手册明确指定 Standard/STD 版本用于 sRGB 与 Rec.709 普通图像；按同域创意输出理解。 本次仅按资料确认，未做新的照片效果测试。",
+  "aliases": [
+    "F-8700-V2-STD"
+  ],
+  "enabled": true,
+  "effect_test_status": "not_tested",
+  "historical_preview_refs": [],
+  "photo_suitability": {
+    "category": "direct",
+    "mapping_id": "cube-247cb0c7a4671915d86e",
+    "classification_path": "inventory/2026-10-30/photo-suitability/catalog.json",
+    "classification_sha256": "21d7e6fb17e6a7a1cb123386e30a53dd1af5594cfb9b4f09f8b6d0fbd293c106",
+    "evidence_ids": [
+      "iwltbap-standard",
+      "iwltbap-standard-older"
+    ],
+    "basis": "static_metadata_only",
+    "activated_date": "2026-10-30"
+  },
+  "cautions": "照片效果尚未完成本轮验证；名称／标签不表示实测结果。"
+}

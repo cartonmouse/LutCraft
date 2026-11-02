@@ -1,0 +1,532 @@
+{
+  "date": "2026-10-30",
+  "scope": "local photo runtime activation only",
+  "active_luts": 50,
+  "existing_preserved": 11,
+  "new_luts": 39,
+  "archived_cube_mappings": 941,
+  "archived_hald_files": 293,
+  "archived_auxiliary_files": 602,
+  "classification_path": "inventory/2026-10-30/photo-suitability/catalog.json",
+  "classification_sha256": "21d7e6fb17e6a7a1cb123386e30a53dd1af5594cfb9b4f09f8b6d0fbd293c106",
+  "catalog_sha256": "a1870e57ba9deaaf6802a308cfb3b12198086031b90bab17dcb2db241a755cad",
+  "previous_catalog_sha256": "ccadb3920ed7f75e3a5cd8410e9089d52a779e13d7fac9e47b2a2e9924a12f6f",
+  "backup_path": "inventory/2026-10-30/before-photo-activation",
+  "effect_tests": 0,
+  "lut_evaluations": 0,
+  "analysis_jobs": 0,
+  "conversions": 0,
+  "new_downloads": 0,
+  "published": false,
+  "items": [
+    {
+      "id": "on1-amber-aqua",
+      "mapping_id": "cube-b766c66718d0f4af5400",
+      "mapping_sha256": "b766c66718d0f4af5400c12484125883a231f73d7bf89c902fea89ba32118623",
+      "path": "luts/cinematic/on1-amber-aqua/on1-amber-aqua.cube",
+      "sha256": "46b5c86d96f0bc3538f82ce0d015c63ad0569a2e78b1f104041d91b6c0368919",
+      "source_id": "on1-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "on1-bloom",
+      "mapping_id": "cube-24ff5084f9c30bf38479",
+      "mapping_sha256": "24ff5084f9c30bf38479ad59ac71d23b88aa1e4a37549a4c77d44061ebd34c92",
+      "path": "luts/creative/on1-bloom/on1-bloom.cube",
+      "sha256": "7432a307c0d8a6e055b6e1c24362eec3c646a7d231dd19c4b6b6a5ea4699b351",
+      "source_id": "on1-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "iwltbap-c-8120-std",
+      "mapping_id": "cube-c77daf2d825b7204c395",
+      "mapping_sha256": "c77daf2d825b7204c3957502836a5fffddf014cdb5cc4d42d8672277b2033b58",
+      "path": "luts/cinematic/iwltbap-c-8120-std/iwltbap-c-8120-std.cube",
+      "sha256": "daabc9e48d395e00016804fce09173524596eb0c6fc0f37327c9fda0008b7520",
+      "source_id": "iwltbap-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "iwltbap-c-9730-std",
+      "mapping_id": "cube-d380b9ea810f2370b77f",
+      "mapping_sha256": "d380b9ea810f2370b77f8d14d42e8fddf8062fdc0a5ae3e9ed9025d4a9e4ca6d",
+      "path": "luts/cinematic/iwltbap-c-9730-std/iwltbap-c-9730-std.cube",
+      "sha256": "2d7f088c092b3112fa57f9d6ba7f65197022fc815346c3e3cbddcdd476b7de1d",
+      "source_id": "iwltbap-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-chrome-slide",
+      "mapping_id": "cube-6952da1d08f82856a598",
+      "mapping_sha256": "6952da1d08f82856a598ba7ff4192352b6d942c64fb2476bcb9d65681571392f",
+      "path": "luts/film/xmosaique-chrome-slide/xmosaique-chrome-slide.cube",
+      "sha256": "d9c9490f6360bf56e3550af8a258ee89159ad38f530204819ffe63eda741e3ce",
+      "source_id": "xmosaique",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-cyan-cross",
+      "mapping_id": "cube-69474fc20b1c1c344f3e",
+      "mapping_sha256": "69474fc20b1c1c344f3e1d5b22916b8d364b62fd665915155242751e1e756c0d",
+      "path": "luts/film/xmosaique-cyan-cross/xmosaique-cyan-cross.cube",
+      "sha256": "caaa0eee4d6da67f77ce1ebc119143a26eea1cfde7cc259ec3caabf91e6a6658",
+      "source_id": "xmosaique",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "on1-dark-moody",
+      "mapping_id": "cube-7e12e8a7addced512d69",
+      "mapping_sha256": "7e12e8a7addced512d69170ed29d209b17706eab80eec7f7ddaecbc386729a6c",
+      "path": "luts/moody/on1-dark-moody/on1-dark-moody.cube",
+      "sha256": "25cbb8dc50f0a8a5b4d7045892dbc5e0614ae4d71c7783c9b1514d89e7f5a6bb",
+      "source_id": "on1-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-dense-print",
+      "mapping_id": "cube-1c08aba2abc559c202df",
+      "mapping_sha256": "1c08aba2abc559c202df25b2767818a44f7dab3e2e07ca3f84cdbcc6a8fb638b",
+      "path": "luts/film/xmosaique-dense-print/xmosaique-dense-print.cube",
+      "sha256": "eb7defe9e34f36527eeec350e4a26e768d1e76e959dadebbfe55408f8f680988",
+      "source_id": "xmosaique",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-dusty-slide",
+      "mapping_id": "cube-22f84243f24c45d12946",
+      "mapping_sha256": "22f84243f24c45d12946ce41342ea0d1d132209fa57e912d041ef8dfe364ef69",
+      "path": "luts/film/xmosaique-dusty-slide/xmosaique-dusty-slide.cube",
+      "sha256": "456d7b92a68ea2777d5b8d9f2d97930ee644158f2d94e55019b0000f50287677",
+      "source_id": "xmosaique",
+      "new": false,
+      "effect_test_status": "historical_previews_available"
+    },
+    {
+      "id": "iwltbap-f-6800-std",
+      "mapping_id": "cube-1bebb24ec5c82651c69d",
+      "mapping_sha256": "1bebb24ec5c82651c69dad4972f85e9eec416681c486af16060d013f634990e0",
+      "path": "luts/film/iwltbap-f-6800-std/iwltbap-f-6800-std.cube",
+      "sha256": "0f09462fbb0c2a00637b40a1da82014e89e644d879cba2e26506a173b3393384",
+      "source_id": "iwltbap-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "iwltbap-f-8700-std-33",
+      "mapping_id": "cube-5507f9dad1d2d6f45d45",
+      "mapping_sha256": "5507f9dad1d2d6f45d4527e1e696bf9194339cd5fb0f0e2a01bf38a33c204883",
+      "path": "luts/film/iwltbap-f-8700-std-33/iwltbap-f-8700-std-33.cube",
+      "sha256": "b9366ecd99b6e9942edc038f5cc4b96f4b2b74fe68c60319d326c47e68ae7008",
+      "source_id": "iwltbap-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "iwltbap-f-8700-std-32",
+      "mapping_id": "cube-96fab488a7763d440eec",
+      "mapping_sha256": "96fab488a7763d440eecef7605d61e6214537dbf727809bb4994dae16ad81096",
+      "path": "luts/film/iwltbap-f-8700-std-32/iwltbap-f-8700-std-32.cube",
+      "sha256": "d080843df3aecd9c6092c5e2a31665a22cc9911c6c4944a7589b6fb693341afe",
+      "source_id": "iwltbap-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "iwltbap-f-8700-v2-std-32",
+      "mapping_id": "cube-247cb0c7a4671915d86e",
+      "mapping_sha256": "247cb0c7a4671915d86eff3feb29077e4ea33e7ff455292ccfb4d07f0b4c5bf7",
+      "path": "luts/film/iwltbap-f-8700-v2-std-32/iwltbap-f-8700-v2-std-32.cube",
+      "sha256": "702459004a1819e4fafb01bc9a19079c77b9677a9f81e4d55bf3cdb5a9fe557c",
+      "source_id": "iwltbap-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "iwltbap-f-8700-v2-std-33",
+      "mapping_id": "cube-f3ead56f8c9679ad4a5e",
+      "mapping_sha256": "f3ead56f8c9679ad4a5ef8da75bb63e002aa3ab171502e44dd6d12a0cd479b4d",
+      "path": "luts/film/iwltbap-f-8700-v2-std-33/iwltbap-f-8700-v2-std-33.cube",
+      "sha256": "b3f08e66cac36e773430cc561d2beed728866cca4220ae58265d16bfdd900532",
+      "source_id": "iwltbap-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-faded-slide",
+      "mapping_id": "cube-0e532fe148befd14ae1b",
+      "mapping_sha256": "0e532fe148befd14ae1bffdd0e93025bbd19fafcbf7cad1344b2190ac70a28fd",
+      "path": "luts/film/xmosaique-faded-slide/xmosaique-faded-slide.cube",
+      "sha256": "e13d3033cb41aae14ff5e5d3bd22f8cfac0dd0f2df5330d2519c537b530769fc",
+      "source_id": "xmosaique",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-sepia-print",
+      "mapping_id": "cube-591120a507db6c7e45c1",
+      "mapping_sha256": "591120a507db6c7e45c1a271fcb5f0f424a6240e0bd2fb3aa035e0a252e4519c",
+      "path": "luts/film/xmosaique-sepia-print/xmosaique-sepia-print.cube",
+      "sha256": "681fa246cb14cdb0d784ead995daaa28639086787cf1adc42f5dcaf24c122830",
+      "source_id": "xmosaique",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "on1-golden-hour",
+      "mapping_id": "cube-d54a53ca64a067290324",
+      "mapping_sha256": "d54a53ca64a067290324f40fb0e214a2165f61b6666ea5706bce8132a713e1d1",
+      "path": "luts/warm/on1-golden-hour/on1-golden-hour.cube",
+      "sha256": "f282f50ba9b5cbac40e39a6744a40d1c52e6716202722d6aea5e6229b8be4403",
+      "source_id": "on1-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "iwltbap-h-9110-std",
+      "mapping_id": "cube-e52f0a78b9c81d1b8876",
+      "mapping_sha256": "e52f0a78b9c81d1b887663e17f42b095f9e66ccd76ac851b0d49070f9d625eff",
+      "path": "luts/cinematic/iwltbap-h-9110-std/iwltbap-h-9110-std.cube",
+      "sha256": "4fa26eacf89f3c4665541779eba075f7cefaf454fdbcd8d46273480fb8d1199a",
+      "source_id": "iwltbap-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "on1-heatwave",
+      "mapping_id": "cube-634656e9c474438c2a79",
+      "mapping_sha256": "634656e9c474438c2a796c1e080b81a764126feec9ed669cfa8b735ac97cd301",
+      "path": "luts/warm/on1-heatwave/on1-heatwave.cube",
+      "sha256": "3406afaea5ba2d856af7f69491ccab8957a9a5005366d99793132bc9727f6b57",
+      "source_id": "on1-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "on1-honey-glow",
+      "mapping_id": "cube-2731c7c8b58024805036",
+      "mapping_sha256": "2731c7c8b58024805036b3549e5515907dfd1483db44561100d637a6396cc647",
+      "path": "luts/warm/on1-honey-glow/on1-honey-glow.cube",
+      "sha256": "0d1f6987d1aa965841bf87e972ba9448b2da14608bce127ceb6cad6352a74394",
+      "source_id": "on1-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-infrared-mono",
+      "mapping_id": "cube-d173b961de3054e29143",
+      "mapping_sha256": "d173b961de3054e29143aa6f14a05b3a2d632371a09c1409ba274b81112d5751",
+      "path": "luts/black-and-white/xmosaique-infrared-mono/xmosaique-infrared-mono.cube",
+      "sha256": "cbc7e63c4df39159b181df1f66733e4714ca15d9e24f14841ef6d3a0a099c888",
+      "source_id": "xmosaique",
+      "new": false,
+      "effect_test_status": "historical_previews_available"
+    },
+    {
+      "id": "iwltbap-arapaho",
+      "mapping_id": "cube-fef4466a84f874976d95",
+      "mapping_sha256": "fef4466a84f874976d951a3caf9f83be8409db89e60ceaacce7b5dde0b0851df",
+      "path": "luts/cinematic/iwltbap-arapaho/iwltbap-arapaho.cube",
+      "sha256": "d3983b6db2ca1d23a494eea5c19f7677dce1849d362da48e5de2e9592b76e53e",
+      "source_id": "iwltbap-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "iwltbap-aspen",
+      "mapping_id": "cube-b9229d1dba1268a557e2",
+      "mapping_sha256": "b9229d1dba1268a557e27e42e33ed047f380519eef038d5c8fea6a156bdf7df3",
+      "path": "luts/cinematic/iwltbap-aspen/iwltbap-aspen.cube",
+      "sha256": "fed47389a022e1c54f4ca3ae1f50f61a8f502f5cb79ed0898a30a3a82e74a37d",
+      "source_id": "iwltbap-free",
+      "new": false,
+      "effect_test_status": "historical_previews_available"
+    },
+    {
+      "id": "iwltbap-blade-runner-2049",
+      "mapping_id": "cube-466afedfe82339fe2b74",
+      "mapping_sha256": "466afedfe82339fe2b74076589c4dbac8728cd23fad6bb7efbdac8eb45c836c4",
+      "path": "luts/cinematic/iwltbap-blade-runner-2049/iwltbap-blade-runner-2049.cube",
+      "sha256": "8a01c3901c1e91e65523b26c7f3e06648e0a256eae7074e6adde53288948ddfe",
+      "source_id": "iwltbap-free",
+      "new": false,
+      "effect_test_status": "historical_previews_available"
+    },
+    {
+      "id": "iwltbap-blade-runner-2049-variant",
+      "mapping_id": "cube-9c9237ff66fc7ed52390",
+      "mapping_sha256": "9c9237ff66fc7ed5239064e42eb015f01fcfa935d13760fcb8999eca5fb5551f",
+      "path": "luts/cinematic/iwltbap-blade-runner-2049-variant/iwltbap-blade-runner-2049-variant.cube",
+      "sha256": "92e1f6e97788deb2d92e07f4267d073fc16fbc5efe5117f3bacb2dc1cafd4352",
+      "source_id": "iwltbap-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "iwltbap-coronado",
+      "mapping_id": "cube-883bacc84b757c3361ad",
+      "mapping_sha256": "883bacc84b757c3361ad54848deed2119488b0769b73e97bba59b074f94bc194",
+      "path": "luts/night/iwltbap-coronado/iwltbap-coronado.cube",
+      "sha256": "7641f66f17912de0f1c85f0ea61f42c8db5ea6ccd7fd85cd03aaf6b8e62b8d96",
+      "source_id": "iwltbap-free",
+      "new": false,
+      "effect_test_status": "historical_previews_available"
+    },
+    {
+      "id": "iwltbap-humble",
+      "mapping_id": "cube-0d51dd4789ef2c3c7beb",
+      "mapping_sha256": "0d51dd4789ef2c3c7beb57c3f2c6881fb4dcaabd71a1e0bbb6d5f59514773153",
+      "path": "luts/moody/iwltbap-humble/iwltbap-humble.cube",
+      "sha256": "da442c89f46c78327f9305dac64a846e7dc1ab44e3e121f2d43e106da68f76df",
+      "source_id": "iwltbap-free",
+      "new": false,
+      "effect_test_status": "historical_previews_available"
+    },
+    {
+      "id": "iwltbap-k25",
+      "mapping_id": "cube-846c54454789fadf6df7",
+      "mapping_sha256": "846c54454789fadf6df7c154560a4115a3279c3e24d5356f3a4d49683a0e37b2",
+      "path": "luts/film/iwltbap-k25/iwltbap-k25.cube",
+      "sha256": "4065c4c9cdbe1df5e37f43538710ae340e877879ccf31875f91e0702d2bc03c4",
+      "source_id": "iwltbap-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "iwltbap-k64",
+      "mapping_id": "cube-8d7c3ca4ad0a0474d544",
+      "mapping_sha256": "8d7c3ca4ad0a0474d5444195cc4268801005d1db1c019db1cac58db73d6db082",
+      "path": "luts/film/iwltbap-k64/iwltbap-k64.cube",
+      "sha256": "da2e5731e0bff919d56fe188b78dcde963034dd1f9ba76d23a1f0cbefc49c852",
+      "source_id": "iwltbap-free",
+      "new": false,
+      "effect_test_status": "historical_previews_available"
+    },
+    {
+      "id": "iwltbap-k99",
+      "mapping_id": "cube-7be5e296770e21c6d8d8",
+      "mapping_sha256": "7be5e296770e21c6d8d8e0a2a312cdf38da4383e154fad3790a41dbb41775af4",
+      "path": "luts/film/iwltbap-k99/iwltbap-k99.cube",
+      "sha256": "2ad878a5611621f9f5748a3d58e14b8832ccf2d23d788bab3f904c56f1b804f6",
+      "source_id": "iwltbap-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "iwltbap-renata",
+      "mapping_id": "cube-b0a894eaabbdcac60347",
+      "mapping_sha256": "b0a894eaabbdcac60347dce0a4cfef878608d4eb1d71f67e0b9e59f1a8d10b88",
+      "path": "luts/dreamy/iwltbap-renata/iwltbap-renata.cube",
+      "sha256": "cb7944d81ea7405efc40b98d501fcd68ff65c69f36660e5bbd56dc1816c3e757",
+      "source_id": "iwltbap-free",
+      "new": false,
+      "effect_test_status": "historical_previews_available"
+    },
+    {
+      "id": "iwltbap-sedona",
+      "mapping_id": "cube-de7ee165db4768774c0f",
+      "mapping_sha256": "de7ee165db4768774c0fdb69cb8472f0d96158894ba9d299637b0c1c4ac13b96",
+      "path": "luts/cinematic/iwltbap-sedona/iwltbap-sedona.cube",
+      "sha256": "0437a8a221ed42aac66af545434af57ab687ff00528dc0e951c714b44499e00b",
+      "source_id": "iwltbap-free",
+      "new": false,
+      "effect_test_status": "historical_previews_available"
+    },
+    {
+      "id": "xmosaique-lime-cross",
+      "mapping_id": "cube-fe6bb00acff50d01d9c8",
+      "mapping_sha256": "fe6bb00acff50d01d9c894bc113397a11a6392b0efac5a29ecf94cedfdf654aa",
+      "path": "luts/film/xmosaique-lime-cross/xmosaique-lime-cross.cube",
+      "sha256": "dcae48909d91e259fe079a0392fcfbcac4695274695a5aabe7eee58f3992ca47",
+      "source_id": "xmosaique",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-muted-negative",
+      "mapping_id": "cube-fbb9f0fde728408f63ad",
+      "mapping_sha256": "fbb9f0fde728408f63adeff82279775adbc5b25cd86f18cc3813a4c7d7617feb",
+      "path": "luts/film/xmosaique-muted-negative/xmosaique-muted-negative.cube",
+      "sha256": "b476ca2bd0ae8bd85bf5b34b071c1c65d9c87131e84f6ed9fb1466a23a374e86",
+      "source_id": "xmosaique",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-lofi-160",
+      "mapping_id": "cube-0739865fc08f47905d00",
+      "mapping_sha256": "0739865fc08f47905d00b85fc1174b041d5df041c4ea766ca95f8507ba335a5a",
+      "path": "luts/film/xmosaique-lofi-160/xmosaique-lofi-160.cube",
+      "sha256": "f6ef02fb85744f6f0410256077cb86c462adc5b2dd884b8e9a72d1c3d852c1c5",
+      "source_id": "xmosaique",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-lofi-400",
+      "mapping_id": "cube-9b576e1b75e44523cdcc",
+      "mapping_sha256": "9b576e1b75e44523cdcc2fe40558c4788d7a4cffda6036771f46e6b44ecb288a",
+      "path": "luts/film/xmosaique-lofi-400/xmosaique-lofi-400.cube",
+      "sha256": "7f2c6a379c88789480429f01e65759651d1b7da8a9f6c198d8899bb4dce51a47",
+      "source_id": "xmosaique",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "on1-lush-nature",
+      "mapping_id": "cube-22f0fa3abea777e9ebb6",
+      "mapping_sha256": "22f0fa3abea777e9ebb607d5cd7cd2295c2947d4b8be8c275facbdaf2d84aaf7",
+      "path": "luts/nature/on1-lush-nature/on1-lush-nature.cube",
+      "sha256": "ea80edf8c77485d0898fd83914aff55c3bca2c46af4a56b03e26c07018231cdc",
+      "source_id": "on1-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "on1-moody-forest",
+      "mapping_id": "cube-c78bee239f1ac9b1c316",
+      "mapping_sha256": "c78bee239f1ac9b1c3163c83fc13eb83ef80d93fbad6172c7658a070d1fcd3d6",
+      "path": "luts/moody/on1-moody-forest/on1-moody-forest.cube",
+      "sha256": "060eb63efdd75a645ef558bdb9b8c73adc4cffadcdaa943a5f524879c40390a9",
+      "source_id": "on1-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-cold-instant",
+      "mapping_id": "cube-cda88c765873c324c366",
+      "mapping_sha256": "cda88c765873c324c366bdd93b3fb435b14be775c9b3cbc0cb4370dfcdca1258",
+      "path": "luts/instant/xmosaique-cold-instant/xmosaique-cold-instant.cube",
+      "sha256": "4ca992cce8f7cc4184aa2a2cadd1e0f28bb31f6f5dc0614d8f9ef97dd744eb5a",
+      "source_id": "xmosaique",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-citrus-instant",
+      "mapping_id": "cube-e443be7cd6fc8759be2e",
+      "mapping_sha256": "e443be7cd6fc8759be2ec4b711b7a46b954350511326c0d32b27dce5a639d765",
+      "path": "luts/instant/xmosaique-citrus-instant/xmosaique-citrus-instant.cube",
+      "sha256": "54df5c56c684cba3036099703758d731779b095aeabcd6e9dd9093ff34e6c866",
+      "source_id": "xmosaique",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-expired-amber",
+      "mapping_id": "cube-a331dc6c1fd2e7999ddb",
+      "mapping_sha256": "a331dc6c1fd2e7999ddbf8fddf843bb622e94726d4b4ccec08f04e91901a4c48",
+      "path": "luts/instant/xmosaique-expired-amber/xmosaique-expired-amber.cube",
+      "sha256": "47f8379b5a447cc4c4002c797e1f6c80671023d00b662c50911bb1759eb8ad3e",
+      "source_id": "xmosaique",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-pushed-mono",
+      "mapping_id": "cube-e9275b2e608d98d4f60a",
+      "mapping_sha256": "e9275b2e608d98d4f60a2db2117678efa2954f037968d2315c6218812e52a423",
+      "path": "luts/black-and-white/xmosaique-pushed-mono/xmosaique-pushed-mono.cube",
+      "sha256": "9a2a8b4ad09ee40651e18825bc005f58d811a3d28441bb3b7036cd51620ec63f",
+      "source_id": "xmosaique",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-silver-mono",
+      "mapping_id": "cube-89f9c89063a8258d9e25",
+      "mapping_sha256": "89f9c89063a8258d9e25638f4f164aedac0fe7077a957aa7ed14aa9cc7e2fc2d",
+      "path": "luts/black-and-white/xmosaique-silver-mono/xmosaique-silver-mono.cube",
+      "sha256": "782e1d19dbd6f9ec5994e9d8f56ba193f1208f110b6d85a0581aa14aae7eac48",
+      "source_id": "xmosaique",
+      "new": false,
+      "effect_test_status": "historical_previews_available"
+    },
+    {
+      "id": "on1-super-vivid",
+      "mapping_id": "cube-be561593a0399607d847",
+      "mapping_sha256": "be561593a0399607d847cbd736bc35afca1836ad5607990296df742e5cdec5f5",
+      "path": "luts/vivid/on1-super-vivid/on1-super-vivid.cube",
+      "sha256": "21ae87c13fbbf4af7cfc9315ff3ce0ef5080828591b394f7ad2f9ec5b057669b",
+      "source_id": "on1-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "on1-urban-pop",
+      "mapping_id": "cube-11622dcda44c0d54003e",
+      "mapping_sha256": "11622dcda44c0d54003ef76f2defcc797dced5f92fbd1f5d01efeccff9ce3e00",
+      "path": "luts/creative/on1-urban-pop/on1-urban-pop.cube",
+      "sha256": "b970a92abae946f1a6b940ed54a959429c2beffc88b16babf4d5d4329c528ef5",
+      "source_id": "on1-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-vivid-print",
+      "mapping_id": "cube-059b28d5f1818872af8c",
+      "mapping_sha256": "059b28d5f1818872af8c5337af8c85d4e535185435af4967a3dd788a359010d1",
+      "path": "luts/film/xmosaique-vivid-print/xmosaique-vivid-print.cube",
+      "sha256": "9e84f70b279b19f36beb5ab496b79303b8189aaa479ba8315959ccde67bcfb45",
+      "source_id": "xmosaique",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "iwltbap-w-8370-std",
+      "mapping_id": "cube-926194953273ef602af5",
+      "mapping_sha256": "926194953273ef602af56dbdbcd3b71ce75b6af37e7ee9cba08e3b19721a580c",
+      "path": "luts/cinematic/iwltbap-w-8370-std/iwltbap-w-8370-std.cube",
+      "sha256": "d74ee09de15758eade4f11c01c13425110ff15d02ab1dd7e643f093c0fd25d90",
+      "source_id": "iwltbap-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "xmosaique-warm-instant",
+      "mapping_id": "cube-d4dae4034077d79aa2b1",
+      "mapping_sha256": "d4dae4034077d79aa2b1103a12f0636fa7faf970f937569c40c15bcbda540458",
+      "path": "luts/instant/xmosaique-warm-instant/xmosaique-warm-instant.cube",
+      "sha256": "c6e11e4c0d11fa6c5fc6dd7b5b66cfe0f079dd7a83eddcd4b54c3c81f93c58cc",
+      "source_id": "xmosaique",
+      "new": false,
+      "effect_test_status": "historical_previews_available"
+    },
+    {
+      "id": "iwltbap-x-6500-std",
+      "mapping_id": "cube-bdf4e909fe95ebe2443e",
+      "mapping_sha256": "bdf4e909fe95ebe2443e144ee5fd9ec682f4136df9cdeedb6b993c422e19f3d5",
+      "path": "luts/cinematic/iwltbap-x-6500-std/iwltbap-x-6500-std.cube",
+      "sha256": "c27bc2c499b7ff36313162034d2d8ccf48aeca85e7301d9d5979c6af232c08c2",
+      "source_id": "iwltbap-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    },
+    {
+      "id": "iwltbap-x-9400-std",
+      "mapping_id": "cube-9e4d6c010a91a6d7ec35",
+      "mapping_sha256": "9e4d6c010a91a6d7ec35950fffd01c48371d5029a73f0dbd3ca2f705d0ff82a4",
+      "path": "luts/cinematic/iwltbap-x-9400-std/iwltbap-x-9400-std.cube",
+      "sha256": "29e4dd739f0b9e20d0ad5ba93231802cee2facddcc39d1cf46a55829b02a5222",
+      "source_id": "iwltbap-free",
+      "new": true,
+      "effect_test_status": "not_tested"
+    }
+  ],
+  "verification": {
+    "passed": true,
+    "production_catalog_visible": 50,
+    "archive_snapshot_files_verified": 2011,
+    "original_runtime_ids_paths_and_bytes_preserved": 11,
+    "new_files_not_tested": 39,
+    "repeat_activation_changes_files": false,
+    "render_and_analysis_call_guards": "passed"
+  }
+}

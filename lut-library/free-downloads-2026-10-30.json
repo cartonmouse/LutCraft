@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "output": "collected/2026-10-30",
+  "scope": "Download/archive/structural inspection only. No effect tests or runtime activation.",
+  "sources": [
+    {
+      "id": "joseph-carey",
+      "name": "Joseph Carey — Rec.709 77 款",
+      "page": "https://josephcarey.com/luts/",
+      "license_note": "作者允许个人/客户作品，禁止出售或再分享 LUT 文件；服务内置授权未确认。",
+      "input_note": "仅收 Rec.709 创意包；照片输入匹配待验证。"
+    },
+    {
+      "id": "xmosaique",
+      "name": "xMosaique — 18 款",
+      "page": "https://xmosaique.com/luts/",
+      "license_note": "混合许可：第三方声明列出的13款为MIT衍生，其余CC BY-NC 4.0；MIT集合上游权利仍需核实。",
+      "input_note": "发布者标注 Rec.709 / sRGB。"
+    },
+    {
+      "id": "rawtherapee",
+      "name": "RawTherapee HaldCLUT",
+      "page": "https://rawpedia.pixls.us/film_simulation/",
+      "license_note": "原包README声明CC BY-SA 4.0，署名Pat David、Pavlov Dmitry、Michael Ezra；使用/修改/分发时保留相应署名及许可条件。",
+      "input_note": "原包说明默认sRGB，特殊输入依文件名；含294张模拟表和1张Identity模板，保持HaldCLUT原格式。",
+      "format": "haldclut",
+      "declared_license": "CC-BY-SA-4.0"
+    },
+    {
+      "id": "film-luts",
+      "name": "YahiaAngelo / Film-Luts",
+      "page": "https://github.com/YahiaAngelo/Film-Luts",
+      "license_note": "仓库声明MIT（另有说明除外），维护者同时声明不拥有所有LUT；上游授权待核实。",
+      "input_note": "社区汇总，输入空间依文件说明，未验证。",
+      "declared_license": "MIT (upstream rights unverified)"
+    },
+    {
+      "id": "iwltbap-free",
+      "name": "IWLTBAP 官方免费包",
+      "page": "https://luts.iwltbap.com/",
+      "license_note": "允许在作品中使用；禁止转售/分享文件；项目服务授权待确认。",
+      "input_note": "含标准版本及原包附赠Log等变体；输入依文件说明。"
+    },
+    {
+      "id": "tdcat",
+      "name": "TDCat 免费 LUT 合集",
+      "page": "https://tdcat.com/downloads/free-lut-packs",
+      "license_note": "作者公开提供免费ZIP；未找到明确服务内置/分发许可。",
+      "input_note": "创意LUT，输入空间待核实。"
+    },
+    {
+      "id": "editclips",
+      "name": "EditClips 创意 LUT",
+      "page": "https://editclips.online/tools/free-luts-for-video",
+      "license_note": "作者声明自行按颜色数学生成，可免费用于商业作品且无需署名；未找到独立的文件再分发/服务内置条款。",
+      "input_note": "本次选择创意款，略过明确标注Log转Rec.709的技术转换。"
+    },
+    {
+      "id": "videoeditingluts",
+      "name": "VideoEditingLUTs 单款公开下载",
+      "page": "https://videoeditingluts.com/",
+      "license_note": "官网FAQ声明免费、免版税、可用于商业作品且无需署名；单独下载无需邮箱。项目服务内置/再分发范围待核实。",
+      "input_note": "创意LUT，源站建议先转换到Rec.709，照片输入待验证。"
+    },
+    {
+      "id": "rocketstock",
+      "name": "RocketStock / Shutterstock 35 款",
+      "page": "https://www.shutterstock.com/blog/free-luts-for-log-footage",
+      "license_note": "作者公开免费包，明确禁止转售或再分发素材；服务内置授权未确认。",
+      "input_note": "35款包包括标准sRGB/Rec.709创意款；逐款输入待确认。未收单独13款Log包。"
+    },
+    {
+      "id": "filtergrade-free",
+      "name": "FilterGrade 五个官方免费包",
+      "page": "https://filtergrade.com/free-luts-download/",
+      "license_note": "作者文章提供公开免费下载，保留原包说明；服务内置/再分发授权待确认。",
+      "input_note": "电影、暖色、胶片、Super8和彩色包；输入依原作者说明，照片适配待验证。"
+    }
+  ],
+  "downloads": [
+    {
+      "id": "joseph-carey-rec709",
+      "source_id": "joseph-carey",
+      "url": "https://josephcarey.com/assets/luts/joseph-carey-luts-rec709.zip",
+      "extension": ".zip"
+    },
+    {
+      "id": "xmosaique-all",
+      "source_id": "xmosaique",
+      "url": "https://xmosaique.com/assets/luts/xmosaique-luts.zip",
+      "extension": ".zip"
+    },
+    {
+      "id": "rawtherapee-haldclut",
+      "source_id": "rawtherapee",
+      "url": "https://rawtherapee.com/shared/HaldCLUT.zip",
+      "extension": ".zip"
+    },
+    {
+      "id": "film-luts-af957b631a30",
+      "source_id": "film-luts",
+      "url": "https://codeload.github.com/YahiaAngelo/Film-Luts/zip/af957b631a304e6be94778b96cb3395de3438e9f",
+      "extension": ".zip"
+    },
+    {
+      "id": "iwltbap-free-sampler",
+      "source_id": "iwltbap-free",
+      "url": "https://luts.iwltbap.com/free/LUTs_Color_Grading_Pack_(Free)_by_IWLTBAP.zip",
+      "extension": ".zip"
+    },
+    {
+      "id": "tdcat-all",
+      "source_id": "tdcat",
+      "url": "https://bit.ly/lut-all",
+      "extension": ".zip"
+    },
+    {
+      "id": "editclips-bleach-bypass",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/bleach-bypass.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-cinema-print",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/cinema-print.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-cinematic-dark",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/cinematic-dark.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-clean-neutral",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/clean-neutral.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-cool-blue",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/cool-blue.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-cool-negative",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/cool-negative.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-cross-process",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/cross-process.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-cyber-neon",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/cyber-neon.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-day-for-night",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/day-for-night.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-film-cool",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/film-cool.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-film-warm",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/film-warm.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-golden-hour",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/golden-hour.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-matte-soft",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/matte-soft.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-mono-contrast",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/mono-contrast.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-mono-film",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/mono-film.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-mono-neutral",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/mono-neutral.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-mono-red-filter",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/mono-red-filter.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-moody-forest",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/moody-forest.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-pastel-dream",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/pastel-dream.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-punchy",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/punchy.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-retro-70s",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/retro-70s.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-sepia-tone",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/sepia-tone.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-slide-film",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/slide-film.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-sunset-punch",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/sunset-punch.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-super-8",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/super-8.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-teal-orange-punch",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/teal-orange-punch.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-teal-orange",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/teal-orange.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-tungsten-night",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/tungsten-night.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-vintage-fade",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/vintage-fade.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "editclips-warm-negative",
+      "source_id": "editclips",
+      "url": "https://cdn.editclips.online/showcase/luts/warm-negative.cube",
+      "extension": ".cube"
+    },
+    {
+      "id": "vel-vel-cinematic-teal",
+      "source_id": "videoeditingluts",
+      "url": "https://videoeditingluts.com/luts/VEL_Cinematic_Teal.cube",
+      "extension": ".cube",
+      "source_page": "https://videoeditingluts.com/free-cinematic-lut"
+    },
+    {
+      "id": "vel-vel-film-fade",
+      "source_id": "videoeditingluts",
+      "url": "https://videoeditingluts.com/luts/VEL_Film_Fade.cube",
+      "extension": ".cube",
+      "source_page": "https://videoeditingluts.com/free-faded-film-lut"
+    },
+    {
+      "id": "vel-vel-moody-blue",
+      "source_id": "videoeditingluts",
+      "url": "https://videoeditingluts.com/luts/VEL_Moody_Blue.cube",
+      "extension": ".cube",
+      "source_page": "https://videoeditingluts.com/free-blue-lut"
+    },
+    {
+      "id": "vel-vel-mono-contrast",
+      "source_id": "videoeditingluts",
+      "url": "https://videoeditingluts.com/luts/VEL_Mono_Contrast.cube",
+      "extension": ".cube",
+      "source_page": "https://videoeditingluts.com/free-black-and-white-lut"
+    },
+    {
+      "id": "vel-vel-golden-cinematic",
+      "source_id": "videoeditingluts",
+      "url": "https://videoeditingluts.com/luts/VEL_Golden_Cinematic.cube",
+      "extension": ".cube",
+      "source_page": "https://videoeditingluts.com/free-golden-hour-lut"
+    },
+    {
+      "id": "vel-yt-moody-dark",
+      "source_id": "videoeditingluts",
+      "url": "https://videoeditingluts.com/luts/YT_Moody_Dark.cube",
+      "extension": ".cube",
+      "source_page": "https://videoeditingluts.com/free-moody-dark-lut"
+    },
+    {
+      "id": "vel-vel-warm-pastel",
+      "source_id": "videoeditingluts",
+      "url": "https://videoeditingluts.com/luts/VEL_Warm_Pastel.cube",
+      "extension": ".cube",
+      "source_page": "https://videoeditingluts.com/free-pastel-lut"
+    },
+    {
+      "id": "vel-vel-sunset-glow",
+      "source_id": "videoeditingluts",
+      "url": "https://videoeditingluts.com/luts/VEL_Sunset_Glow.cube",
+      "extension": ".cube",
+      "source_page": "https://videoeditingluts.com/free-sunset-lut"
+    },
+    {
+      "id": "vel-vel-classic-teal-orange",
+      "source_id": "videoeditingluts",
+      "url": "https://videoeditingluts.com/luts/VEL_Classic_Teal_Orange.cube",
+      "extension": ".cube",
+      "source_page": "https://videoeditingluts.com/free-teal-and-orange-lut"
+    },
+    {
+      "id": "vel-vel-vivid-teal",
+      "source_id": "videoeditingluts",
+      "url": "https://videoeditingluts.com/luts/VEL_Vivid_Teal.cube",
+      "extension": ".cube",
+      "source_page": "https://videoeditingluts.com/free-teal-lut"
+    },
+    {
+      "id": "vel-vel-vintage-chrome",
+      "source_id": "videoeditingluts",
+      "url": "https://videoeditingluts.com/luts/VEL_Vintage_Chrome.cube",
+      "extension": ".cube",
+      "source_page": "https://videoeditingluts.com/free-vintage-film-lut"
+    },
+    {
+      "id": "vel-vel-warm-film",
+      "source_id": "videoeditingluts",
+      "url": "https://videoeditingluts.com/luts/VEL_Warm_Film.cube",
+      "extension": ".cube",
+      "source_page": "https://videoeditingluts.com/free-warm-lut"
+    },
+    {
+      "id": "rocketstock-35",
+      "source_id": "rocketstock",
+      "url": "https://pbblogassets.s3.amazonaws.com/uploads/freebies/RS-35-Free-LUTs.zip",
+      "extension": ".zip"
+    },
+    {
+      "id": "filtergrade-cinematic",
+      "source_id": "filtergrade-free",
+      "source_page": "https://filtergrade.com/free-cinematic-luts-video-editing/",
+      "url": "https://cdn.filtergrade.com/wp-content/uploads/2017/08/FG-Free-Cine-LUTs-Pack-v2.zip",
+      "extension": ".zip"
+    },
+    {
+      "id": "filtergrade-super8",
+      "source_id": "filtergrade-free",
+      "source_page": "https://filtergrade.com/free-luts-for-super-8-footage/",
+      "url": "https://cdn.filtergrade.com/wp-content/uploads/2021/09/Free-LUTs-for-Super-8-Footage-1.zip",
+      "extension": ".zip"
+    },
+    {
+      "id": "filtergrade-warm",
+      "source_id": "filtergrade-free",
+      "source_page": "https://filtergrade.com/free-warm-tone-video-luts/",
+      "url": "https://cdn.filtergrade.com/wp-content/uploads/2020/10/FREE-Warm-Tone-LUTs.zip",
+      "extension": ".zip"
+    },
+    {
+      "id": "filtergrade-film",
+      "source_id": "filtergrade-free",
+      "source_page": "https://filtergrade.com/free-film-tone-luts/",
+      "url": "https://cdn.filtergrade.com/wp-content/uploads/2020/07/FREE-Film-Tone-LUTs-from-FilterGrade.zip",
+      "extension": ".zip"
+    },
+    {
+      "id": "filtergrade-colorful",
+      "source_id": "filtergrade-free",
+      "source_page": "https://filtergrade.com/free-colorful-luts-pack-vlogging/",
+      "url": "https://cdn.filtergrade.com/wp-content/uploads/2019/05/FreeColorfulLUTsPack.zip",
+      "extension": ".zip"
+    }
+  ],
+  "existing_archives": [
+    {
+      "id": "iwltbap-aspen",
+      "source_id": "iwltbap-free",
+      "existing_path": "_sources/iwltbap-aspen.zip",
+      "sha256": "8582c5ebab78753d62c7d5d6890a6a668f198346264a1b6737623ac88faf7823",
+      "bytes": 80305257,
+      "url": "https://luts.iwltbap.com/free/IWLTBAP_-_Aspen_%28Free_LUT%29.zip"
+    },
+    {
+      "id": "iwltbap-blade-runner-2049",
+      "source_id": "iwltbap-free",
+      "existing_path": "_sources/iwltbap-blade-runner-2049.zip",
+      "sha256": "ab86c82a5516ea2c1bb950b6098a085ecd46234d7b3f7b28c8151cb13c79be9a",
+      "bytes": 72704987,
+      "url": "https://luts.iwltbap.com/free/IWLTBAP_-_Blade_Runner_2049_%28Free_LUT%29.zip"
+    },
+    {
+      "id": "iwltbap-coronado",
+      "source_id": "iwltbap-free",
+      "existing_path": "_sources/iwltbap-coronado.zip",
+      "sha256": "acb7e2d37bacb8de9e250c0305cba0b94662129adde84aa1945fab31d886863a",
+      "bytes": 6966214,
+      "url": "https://luts.iwltbap.com/free/IWLTBAP_Coronado_%28Free_LUT%29.zip"
+    },
+    {
+      "id": "iwltbap-humble",
+      "source_id": "iwltbap-free",
+      "existing_path": "_sources/iwltbap-humble.zip",
+      "sha256": "128e81d704dd1fadd78c411c3e77a6c55157fa4f405f47e43e1859540c5f4fc5",
+      "bytes": 80336505,
+      "url": "https://luts.iwltbap.com/free/IWLTBAP_-_Humble_%28Free_LUT%29.zip"
+    },
+    {
+      "id": "iwltbap-kodachrome",
+      "source_id": "iwltbap-free",
+      "existing_path": "_sources/iwltbap-kodachrome.zip",
+      "sha256": "b48724088f8f21b44d0a7370cc66edb277032243e1e909f6f3a1b9b1b6615976",
+      "bytes": 1973501,
+      "url": "https://luts.iwltbap.com/free/IWLTBAP_Kodachrome_-_Free_LUTs_%28Special_10K_Facebook_Fans%29.zip"
+    },
+    {
+      "id": "iwltbap-renata",
+      "source_id": "iwltbap-free",
+      "existing_path": "_sources/iwltbap-renata.zip",
+      "sha256": "0ed579aac4d34cb0594261fa8bff57f8dc64738c40f05dcebbabb6acf3d36d69",
+      "bytes": 59518428,
+      "url": "https://luts.iwltbap.com/free/IWLTBAP_-_Renata_%28Free_LUT%29.zip"
+    },
+    {
+      "id": "iwltbap-sedona",
+      "source_id": "iwltbap-free",
+      "existing_path": "_sources/iwltbap-sedona.zip",
+      "sha256": "bdf3fe60ff250184459634302d8303f1ceb2918057acf8bee68060e5d363da73",
+      "bytes": 80682889,
+      "url": "https://luts.iwltbap.com/free/IWLTBAP_-_Sedona_%28Free_LUT%29.zip"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "rawtherapee-ilford-hp5-1-82a323f5",
+  "name": "RawTherapee Ilford HP5 1 -",
+  "publisher": "RawTherapee Film Simulation Collection",
+  "filename": "rawtherapee-ilford-hp5-1-82a323f5.png",
+  "format": "HaldCLUT",
+  "category": "hald-photo",
+  "style_zh": "Ilford HP5 1 -（作者命名；照片效果待人工查看）",
+  "tags": [
+    "HaldCLUT",
+    "黑白"
+  ],
+  "aliases": [
+    "Ilford HP5 1 -"
+  ],
+  "source_variants": [
+    {
+      "name": "Ilford HP5 1 -",
+      "path": "collected/2026-10-30/assets/haldclut/ilford-hp5-1-82a323f5daa7423a.png",
+      "sha256": "82a323f5daa7423a9276f8a17e86532d2784e28f74dede81a3230989c43082ff"
+    }
+  ],
+  "source_page": "https://rawpedia.pixls.us/film_simulation/",
+  "source_origin": {
+    "source_id": "rawtherapee",
+    "download_id": "rawtherapee-haldclut",
+    "member": "HaldCLUT/Black-and-White/Ilford/Ilford HP5 1 -.png",
+    "sha256": "82a323f5daa7423a9276f8a17e86532d2784e28f74dede81a3230989c43082ff",
+    "bytes": 597082,
+    "source_page": "https://rawpedia.pixls.us/film_simulation/",
+    "license_note": "原包README声明CC BY-SA 4.0，署名Pat David、Pavlov Dmitry、Michael Ezra；使用/修改/分发时保留相应署名及许可条件。",
+    "input_note": "原包说明默认sRGB，特殊输入依文件名；含294张模拟表和1张Identity模板，保持HaldCLUT原格式。",
+    "declared_license": "CC-BY-SA-4.0"
+  },
+  "source_path": "collected/2026-10-30/assets/haldclut/ilford-hp5-1-82a323f5daa7423a.png",
+  "source_sha256": "82a323f5daa7423a9276f8a17e86532d2784e28f74dede81a3230989c43082ff",
+  "original_sha256": "82a323f5daa7423a9276f8a17e86532d2784e28f74dede81a3230989c43082ff",
+  "file_modified": false,
+  "input_profile": "sRGB 照片；原始 Hald 网格；三线性插值",
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "enabled": true,
+  "effect_test_status": "not_tested",
+  "historical_preview_refs": [],
+  "photo_suitability": {
+    "category": "native_hald",
+    "source_id": "rawtherapee-82a323f5daa7423a",
+    "evidence_ids": [
+      "rawtherapee-srgb"
+    ],
+    "basis": "sRGB source README plus numerical validation of native Hald lookup"
+  },
+  "validation": {
+    "report_path": "derived/2026-10-30-hald-native/validation.json",
+    "version": "hald-trilinear-v1",
+    "status": "passed",
+    "passed": true,
+    "sample_count": 134245,
+    "max_error": 1.4636943745927056e-07,
+    "rms_error": 2.635175225161823e-08,
+    "strength_max_errors": {
+      "0.25": 9.389060995346199e-08,
+      "0.5": 9.694156577477742e-08,
+      "0.75": 1.4743041043541183e-07,
+      "1": 1.4636943745927056e-07
+    },
+    "limits": {
+      "max_error": 2e-05,
+      "rms_error": 2e-06
+    },
+    "input_sampling": "33^3 grid, 65536 random, 8192 source knots and +/-1e-7, 6144 face, 2049 gray, 3 clamping probes"
+  },
+  "license": {
+    "id": "CC-BY-SA-4.0",
+    "status": "原包README声明CC BY-SA 4.0，署名Pat David、Pavlov Dmitry、Michael Ezra；使用/修改/分发时保留相应署名及许可条件。",
+    "documents": [
+      "licenses/rawtherapee-haldclut/README.txt"
+    ],
+    "authors": [
+      "Pat David",
+      "Pavlov Dmitry",
+      "Michael Ezra"
+    ]
+  },
+  "cautions": "无降采样，保留原表位深；数值验证不等于照片观感验收；不保证与完整 RawTherapee RAW 工作流相同。",
+  "added_date": "2026-10-30",
+  "batch": "291 种原生 HaldCLUT 接入"
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "scope": "static photo suitability; no effect testing",
+  "summary": {
+    "cube_mappings": 991,
+    "cube_categories": {
+      "uncertain": 569,
+      "direct": 50,
+      "conversion_required": 372
+    },
+    "source_cube_occurrences": 1393,
+    "hald_files": 293,
+    "hald_looks": 292,
+    "hald_identity_templates": 1,
+    "cube_mappings_with_format_blockers": 71,
+    "uncertain_with_known_format_blockers": 69,
+    "conflicting_declarations": 2,
+    "utility_cube_mappings": 80,
+    "auxiliary_files_pending_review": 602,
+    "auxiliary_format_counts": {
+      "xmp": 169,
+      "onpreset": 10,
+      "3dl": 306,
+      "csp": 10,
+      "icc": 107
+    },
+    "runtime_mappings_unchanged": 11,
+    "new_effect_tests": 0,
+    "conversions_performed": 0,
+    "new_lut_downloads": 0,
+    "activation_changes": 0
+  },
+  "per_source": [
+    {
+      "id": "purchased-pocket",
+      "name": "Pocket Action LUT预设",
+      "mapping_count": 28,
+      "direct": 0,
+      "conversion_required": 4,
+      "uncertain": 24
+    },
+    {
+      "id": "purchased-ling",
+      "name": "林馆长 iPhone 专用 LUT 合集2",
+      "mapping_count": 12,
+      "direct": 0,
+      "conversion_required": 0,
+      "uncertain": 12
+    },
+    {
+      "id": "purchased-kodak",
+      "name": "柯达 5219",
+      "mapping_count": 32,
+      "direct": 0,
+      "conversion_required": 14,
+      "uncertain": 18
+    },
+    {
+      "id": "on1-free",
+      "name": "ON1 Free LUTs",
+      "mapping_count": 97,
+      "direct": 10,
+      "conversion_required": 77,
+      "uncertain": 10
+    },
+    {
+      "id": "lutify-free",
+      "name": "Lutify.me 免费 LUT 包",
+      "mapping_count": 145,
+      "direct": 0,
+      "conversion_required": 140,
+      "uncertain": 5
+    },
+    {
+      "id": "joseph-carey",
+      "name": "Joseph Carey — Rec.709 77 款",
+      "mapping_count": 77,
+      "direct": 0,
+      "conversion_required": 0,
+      "uncertain": 77
+    },
+    {
+      "id": "xmosaique",
+      "name": "xMosaique — 18 款",
+      "mapping_count": 18,
+      "direct": 18,
+      "conversion_required": 0,
+      "uncertain": 0
+    },
+    {
+      "id": "film-luts",
+      "name": "YahiaAngelo / Film-Luts",
+      "mapping_count": 287,
+      "direct": 11,
+      "conversion_required": 0,
+      "uncertain": 276
+    },
+    {
+      "id": "iwltbap-free",
+      "name": "IWLTBAP 官方免费包",
+      "mapping_count": 155,
+      "direct": 22,
+      "conversion_required": 129,
+      "uncertain": 4
+    },
+    {
+      "id": "tdcat",
+      "name": "TDCat 免费 LUT 合集",
+      "mapping_count": 29,
+      "direct": 0,
+      "conversion_required": 0,
+      "uncertain": 29
+    },
+    {
+      "id": "editclips",
+      "name": "EditClips 创意 LUT",
+      "mapping_count": 30,
+      "direct": 0,
+      "conversion_required": 8,
+      "uncertain": 22
+    },
+    {
+      "id": "videoeditingluts",
+      "name": "VideoEditingLUTs 单款公开下载",
+      "mapping_count": 12,
+      "direct": 0,
+      "conversion_required": 0,
+      "uncertain": 12
+    },
+    {
+      "id": "rocketstock",
+      "name": "RocketStock / Shutterstock 35 款",
+      "mapping_count": 35,
+      "direct": 0,
+      "conversion_required": 0,
+      "uncertain": 35
+    },
+    {
+      "id": "filtergrade-free",
+      "name": "FilterGrade 五个官方免费包",
+      "mapping_count": 31,
+      "direct": 0,
+      "conversion_required": 0,
+      "uncertain": 31
+    },
+    {
+      "id": "film-crux-free",
+      "name": "FILM CRUX — Grecian Ideal 免费 LUT",
+      "mapping_count": 9,
+      "direct": 0,
+      "conversion_required": 0,
+      "uncertain": 9
+    },
+    {
+      "id": "phlearn-free",
+      "name": "PHLEARN 免费 LUT Sample Pack",
+      "mapping_count": 5,
+      "direct": 0,
+      "conversion_required": 0,
+      "uncertain": 5
+    }
+  ],
+  "input_baseline_sha256": {
+    "lut-library/inventory/2026-10-30/catalog.json": "cbdd9147d5a5d326c59535e740110482ac460147cb809f74d4faf440c42c9ed3",
+    "lut-library/inventory/2026-10-30/auxiliary.json": "c8ba13fdf0b384a954236ad3ab5bcd65c7b60eb997ca7cdb0b0a009381c9f1a3",
+    "lut-library/catalog.json": "ccadb3920ed7f75e3a5cd8410e9089d52a779e13d7fac9e47b2a2e9924a12f6f",
+    "backend/app/luts.py": "51f62d4a507ee363982eed68b3bc46c0079ae2b00add2a4ded1687b432d292cd",
+    "backend/app/imaging.py": "71ee97992869d910ca05a671c6b2f104f8b669565c61d493bc584a8ac2954770"
+  },
+  "evidence_index": "photo-suitability-evidence.json",
+  "catalog_path": "inventory/2026-10-30/photo-suitability/catalog.json",
+  "catalog_sha256": "21d7e6fb17e6a7a1cb123386e30a53dd1af5594cfb9b4f09f8b6d0fbd293c106",
+  "script_sha256": "39c9ba4659d019cb4c1fa9dd03af79a8668b42ba4c7be85d181844b0e84cff90",
+  "evidence_sha256": "08a581335c540b55d5372231ac3da759ee97477b8ffa75596d29660f7257bc2b"
+}

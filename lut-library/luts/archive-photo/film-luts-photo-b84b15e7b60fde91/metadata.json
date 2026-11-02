@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "film-luts-photo-b84b15e7b60fde91",
+  "name": "G’MIC Film-Luts rollei_retro_80s",
+  "publisher": "G’MIC Film-Luts",
+  "filename": "film-luts-photo-b84b15e7b60fde91.cube",
+  "category": "archive-photo",
+  "style_zh": "rollei_retro_80s（来源命名；照片效果待查看）",
+  "tags": [
+    "黑白"
+  ],
+  "aliases": [
+    "rollei_retro_80s"
+  ],
+  "source_page": "https://github.com/YahiaAngelo/Film-Luts",
+  "source_origin": {
+    "source_id": "film-luts",
+    "download_id": "film-luts-af957b631a30",
+    "member": "Film-Luts-af957b631a304e6be94778b96cb3395de3438e9f/luts/bw/rollei_retro_80s.cube",
+    "sha256": "ac9c0d8852c296cfebc3c80a08f190ad7ff991cfce6233c59f6753f89d62fc3d",
+    "bytes": 131594,
+    "source_page": "https://github.com/YahiaAngelo/Film-Luts",
+    "license_note": "仓库声明MIT（另有说明除外），维护者同时声明不拥有所有LUT；上游授权待核实。",
+    "input_note": "社区汇总，输入空间依文件说明，未验证。",
+    "declared_license": "MIT (upstream rights unverified)"
+  },
+  "license": {
+    "id": "LicenseRef-film-luts",
+    "status": "仓库声明MIT（另有说明除外），维护者同时声明不拥有所有LUT；上游授权待核实。",
+    "documents": [],
+    "redistribution_verified": false
+  },
+  "input_profile": "sRGB 照片；按作者应用的 sRGB 实现接入",
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "enabled": true,
+  "derived": false,
+  "file_modified": false,
+  "original_sha256": "ac9c0d8852c296cfebc3c80a08f190ad7ff991cfce6233c59f6753f89d62fc3d",
+  "parent": {
+    "mapping_id": "cube-b84b15e7b60fde91301a",
+    "path": "collected/2026-10-30/assets/cube/film-luts/rollei-retro-80s-b84b15e7b60fde91.cube",
+    "sha256": "ac9c0d8852c296cfebc3c80a08f190ad7ff991cfce6233c59f6753f89d62fc3d",
+    "mapping_sha256": "b84b15e7b60fde91301ae471e82154d0b1fc5da6428f6743c0444a454042d236"
+  },
+  "photo_suitability": {
+    "category": "film_srgb",
+    "basis": "依据同一作者 Film-Simulator 的下载入口及着色器实现，LUT 在 sRGB 编码值上应用；这是基于作者实现的兼容性推断。本项目沿用四面体插值，不宣称复现其完整应用。",
+    "parent_mapping_id": "cube-b84b15e7b60fde91301a"
+  },
+  "compatibility_basis": "依据同一作者 Film-Simulator 的下载入口及着色器实现，LUT 在 sRGB 编码值上应用；这是基于作者实现的兼容性推断。本项目沿用四面体插值，不宣称复现其完整应用。",
+  "effect_test_status": "not_tested",
+  "historical_preview_refs": [],
+  "intake": {
+    "version": "archive-photo-intake-v1",
+    "report_path": "inventory/2026-10-30/archive-intake/validation.json",
+    "numerical_status": "passed",
+    "route": "film_srgb"
+  },
+  "added_date": "2026-10-30",
+  "batch": "归档 LUT 照片接入；样片待配置"
+}

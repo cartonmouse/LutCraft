@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "rawtherapee-agfa-apx-100-731a81b0",
+  "name": "RawTherapee Agfa APX 100",
+  "publisher": "RawTherapee Film Simulation Collection",
+  "filename": "rawtherapee-agfa-apx-100-731a81b0.png",
+  "format": "HaldCLUT",
+  "category": "hald-photo",
+  "style_zh": "Agfa APX 100（作者命名；照片效果待人工查看）",
+  "tags": [
+    "HaldCLUT",
+    "黑白"
+  ],
+  "aliases": [
+    "Agfa APX 100"
+  ],
+  "source_variants": [
+    {
+      "name": "Agfa APX 100",
+      "path": "collected/2026-10-30/assets/haldclut/agfa-apx-100-731a81b020c589ef.png",
+      "sha256": "731a81b020c589ef790564c241dc1523808f30f1035ce6940326d0ceac4561ba"
+    }
+  ],
+  "source_page": "https://rawpedia.pixls.us/film_simulation/",
+  "source_origin": {
+    "source_id": "rawtherapee",
+    "download_id": "rawtherapee-haldclut",
+    "member": "HaldCLUT/Black-and-White/Agfa/Agfa APX 100.png",
+    "sha256": "731a81b020c589ef790564c241dc1523808f30f1035ce6940326d0ceac4561ba",
+    "bytes": 213575,
+    "source_page": "https://rawpedia.pixls.us/film_simulation/",
+    "license_note": "原包README声明CC BY-SA 4.0，署名Pat David、Pavlov Dmitry、Michael Ezra；使用/修改/分发时保留相应署名及许可条件。",
+    "input_note": "原包说明默认sRGB，特殊输入依文件名；含294张模拟表和1张Identity模板，保持HaldCLUT原格式。",
+    "declared_license": "CC-BY-SA-4.0"
+  },
+  "source_path": "collected/2026-10-30/assets/haldclut/agfa-apx-100-731a81b020c589ef.png",
+  "source_sha256": "731a81b020c589ef790564c241dc1523808f30f1035ce6940326d0ceac4561ba",
+  "original_sha256": "731a81b020c589ef790564c241dc1523808f30f1035ce6940326d0ceac4561ba",
+  "file_modified": false,
+  "input_profile": "sRGB 照片；原始 Hald 网格；三线性插值",
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "enabled": true,
+  "effect_test_status": "not_tested",
+  "historical_preview_refs": [],
+  "photo_suitability": {
+    "category": "native_hald",
+    "source_id": "rawtherapee-731a81b020c589ef",
+    "evidence_ids": [
+      "rawtherapee-srgb"
+    ],
+    "basis": "sRGB source README plus numerical validation of native Hald lookup"
+  },
+  "validation": {
+    "report_path": "derived/2026-10-30-hald-native/validation.json",
+    "version": "hald-trilinear-v1",
+    "status": "passed",
+    "passed": true,
+    "sample_count": 134245,
+    "max_error": 1.273026652981457e-07,
+    "rms_error": 2.3554661442538312e-08,
+    "strength_max_errors": {
+      "0.25": 8.783039273652093e-08,
+      "0.5": 9.032049652635266e-08,
+      "0.75": 1.324222870247027e-07,
+      "1": 1.273026652981457e-07
+    },
+    "limits": {
+      "max_error": 2e-05,
+      "rms_error": 2e-06
+    },
+    "input_sampling": "33^3 grid, 65536 random, 8192 source knots and +/-1e-7, 6144 face, 2049 gray, 3 clamping probes"
+  },
+  "license": {
+    "id": "CC-BY-SA-4.0",
+    "status": "原包README声明CC BY-SA 4.0，署名Pat David、Pavlov Dmitry、Michael Ezra；使用/修改/分发时保留相应署名及许可条件。",
+    "documents": [
+      "licenses/rawtherapee-haldclut/README.txt"
+    ],
+    "authors": [
+      "Pat David",
+      "Pavlov Dmitry",
+      "Michael Ezra"
+    ]
+  },
+  "cautions": "无降采样，保留原表位深；数值验证不等于照片观感验收；不保证与完整 RawTherapee RAW 工作流相同。",
+  "added_date": "2026-10-30",
+  "batch": "291 种原生 HaldCLUT 接入"
+}

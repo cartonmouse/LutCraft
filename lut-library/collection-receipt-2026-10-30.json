@@ -1,0 +1,1030 @@
+{
+  "date": "2026-10-30",
+  "summary": {
+    "source_cube_files": 1050,
+    "unique_cube_mappings": 663,
+    "matches_existing_mappings": 11,
+    "new_cube_mappings": 652,
+    "video_archive_mappings": 110,
+    "engine_format_supported_mappings": 602,
+    "source_haldclut_files": 295,
+    "unique_haldclut_files": 293,
+    "hald_identity_templates": 1,
+    "unparsed_cube_files": 0,
+    "document_files": 25,
+    "other_archive_members": 1430
+  },
+  "per_source": {
+    "joseph-carey": {
+      "cube_files": 77,
+      "unique_cube_mappings": 77,
+      "matches_existing": 0,
+      "haldclut_files": 0
+    },
+    "xmosaique": {
+      "cube_files": 18,
+      "unique_cube_mappings": 18,
+      "matches_existing": 4,
+      "haldclut_files": 0
+    },
+    "rawtherapee": {
+      "cube_files": 0,
+      "unique_cube_mappings": 0,
+      "matches_existing": 0,
+      "haldclut_files": 295
+    },
+    "film-luts": {
+      "cube_files": 296,
+      "unique_cube_mappings": 287,
+      "matches_existing": 3,
+      "haldclut_files": 0
+    },
+    "iwltbap-free": {
+      "cube_files": 522,
+      "unique_cube_mappings": 155,
+      "matches_existing": 7,
+      "haldclut_files": 0
+    },
+    "tdcat": {
+      "cube_files": 29,
+      "unique_cube_mappings": 29,
+      "matches_existing": 0,
+      "haldclut_files": 0
+    },
+    "editclips": {
+      "cube_files": 30,
+      "unique_cube_mappings": 30,
+      "matches_existing": 0,
+      "haldclut_files": 0
+    },
+    "videoeditingluts": {
+      "cube_files": 12,
+      "unique_cube_mappings": 12,
+      "matches_existing": 0,
+      "haldclut_files": 0
+    },
+    "rocketstock": {
+      "cube_files": 35,
+      "unique_cube_mappings": 35,
+      "matches_existing": 0,
+      "haldclut_files": 0
+    },
+    "filtergrade-free": {
+      "cube_files": 31,
+      "unique_cube_mappings": 31,
+      "matches_existing": 0,
+      "haldclut_files": 0
+    }
+  },
+  "downloads": {
+    "date": "2026-10-30",
+    "items": [
+      {
+        "id": "editclips-bleach-bypass",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/bleach-bypass.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-bleach-bypass.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/bleach-bypass.cube",
+        "bytes": 970430,
+        "sha256": "585737a014733b0d01c8db10699ae9977c7679e8ac89b54d777299537090d50f",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-cinema-print",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/cinema-print.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-cinema-print.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/cinema-print.cube",
+        "bytes": 970493,
+        "sha256": "4f113c957f39b49ddcd04cc30c3e269c070b1b1185931ed102d761f1e7af1e90",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-cinematic-dark",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/cinematic-dark.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-cinematic-dark.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/cinematic-dark.cube",
+        "bytes": 970431,
+        "sha256": "87c90517625b53239969c219b3f0d3b64c0cf77dfb32201ec9b033165aca3f97",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-clean-neutral",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/clean-neutral.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-clean-neutral.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/clean-neutral.cube",
+        "bytes": 970494,
+        "sha256": "bd2fb1f7173981f11b32c5882ba6a00b8f159b81fd9816e78fc0f0940d944ca1",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-cool-blue",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/cool-blue.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-cool-blue.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/cool-blue.cube",
+        "bytes": 970426,
+        "sha256": "93ffa8ab30515c7c84cf93481e3aab09fdde487cd474e5ef6ad5c01a3d6c69eb",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-cool-negative",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/cool-negative.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-cool-negative.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/cool-negative.cube",
+        "bytes": 970494,
+        "sha256": "2359ec36441b5c9b7badb3ed917928dcca24b006e85c04b6c15e9c2bc41c8d0c",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-cross-process",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/cross-process.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-cross-process.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/cross-process.cube",
+        "bytes": 970430,
+        "sha256": "cacdb7c0127eb01bbd6fd8ab529213816fa9d96ef3824710dd9eb746f4db6fc8",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-cyber-neon",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/cyber-neon.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-cyber-neon.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/cyber-neon.cube",
+        "bytes": 970427,
+        "sha256": "8bce6d000482a3ce321a0d6d4e4e461e2e09c4ad0a9c374058d2aa923c08f59d",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-day-for-night",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/day-for-night.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-day-for-night.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/day-for-night.cube",
+        "bytes": 970430,
+        "sha256": "c44d015f89d79aa6f0bf61c46fb71df681088b57ad88b1727dba4aeece1c4ac0",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-film-cool",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/film-cool.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-film-cool.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/film-cool.cube",
+        "bytes": 970426,
+        "sha256": "7c7040829de0ab84712451acec8672b13df1d921e15c8432dca88d56d6f86e03",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-film-warm",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/film-warm.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-film-warm.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/film-warm.cube",
+        "bytes": 970426,
+        "sha256": "5916938a8f91a9f588b31f59e1cb083c90920837ca42962daaa24a3fb89b5168",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-golden-hour",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/golden-hour.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-golden-hour.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/golden-hour.cube",
+        "bytes": 970428,
+        "sha256": "5cea8f711cde780d2ea892961041823b253b7a4a73b0b473d9c9b4529a4bb7f9",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-matte-soft",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/matte-soft.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-matte-soft.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/matte-soft.cube",
+        "bytes": 970427,
+        "sha256": "578912e86730b8436a6190cfe26da7286a257deddf26e1853ccc66ef1847f7ee",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-mono-contrast",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/mono-contrast.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-mono-contrast.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/mono-contrast.cube",
+        "bytes": 970434,
+        "sha256": "ebffe2b89474b6251595231bf13e70f2f891d25cf3fd3fd7d966fc32b90ef867",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-mono-film",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/mono-film.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-mono-film.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/mono-film.cube",
+        "bytes": 970489,
+        "sha256": "7547b349228690fcb9794f1706eb8e182471ce111d82c8f7038054908471c8c2",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-mono-neutral",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/mono-neutral.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-mono-neutral.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/mono-neutral.cube",
+        "bytes": 970430,
+        "sha256": "94e472634d9a02311e6f9642dcc76007096d2bc3c3fbdb64255924f9b020a408",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-mono-red-filter",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/mono-red-filter.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-mono-red-filter.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/mono-red-filter.cube",
+        "bytes": 970431,
+        "sha256": "6cc77cbf5eacc123bab2bfddbb95d358f50ae3a5eee84bd44455cc78bf87d3a1",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-moody-forest",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/moody-forest.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-moody-forest.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/moody-forest.cube",
+        "bytes": 970429,
+        "sha256": "a92cd9f7c4499339643fc2f642d71ba903f6ee89b31be4c3e4b4e881937057fd",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-pastel-dream",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/pastel-dream.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-pastel-dream.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/pastel-dream.cube",
+        "bytes": 970429,
+        "sha256": "c71a800ed12b4b073cd37d58a885160fc4e689cd109b0d6723fb40388194557c",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-punchy",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/punchy.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-punchy.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/punchy.cube",
+        "bytes": 970423,
+        "sha256": "33ffc15de04811fb43867c312f991726109144a9fe481f879d07d6260609bcee",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-retro-70s",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/retro-70s.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-retro-70s.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/retro-70s.cube",
+        "bytes": 970426,
+        "sha256": "a85aaeee46019769854823cedba7751112479e034bbadf41bbcbf6203f384671",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-sepia-tone",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/sepia-tone.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-sepia-tone.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/sepia-tone.cube",
+        "bytes": 970422,
+        "sha256": "92621c4e462ed813a836b7105ef6c23f0940b9c57ba4933cad4e017fe278b6ea",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-slide-film",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/slide-film.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-slide-film.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/slide-film.cube",
+        "bytes": 970491,
+        "sha256": "10e06c40278e69aef793cc62e55011cc3abb89db4d9bc4cb4e469018cb87a817",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-sunset-punch",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/sunset-punch.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-sunset-punch.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/sunset-punch.cube",
+        "bytes": 970429,
+        "sha256": "6bfc4a4ed4c3593a65ef98ec76f60e257b9dfaa233b9b139eb01a67ab44de250",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-super-8",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/super-8.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-super-8.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/super-8.cube",
+        "bytes": 970488,
+        "sha256": "4ce36f6d873c90da541bacd1365cce6c4004b0eb003d3c973055fea8afb4420a",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-teal-orange",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/teal-orange.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-teal-orange.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/teal-orange.cube",
+        "bytes": 970430,
+        "sha256": "efd1232761681f955b97ef7089fece968e6caee5741b439c937a8b78a3147685",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-teal-orange-punch",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/teal-orange-punch.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-teal-orange-punch.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/teal-orange-punch.cube",
+        "bytes": 970436,
+        "sha256": "c76dd25e46f3e615d7251a75b4c7abc79b74b6e80e789484aba3b3d8378acd56",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-tungsten-night",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/tungsten-night.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-tungsten-night.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/tungsten-night.cube",
+        "bytes": 970495,
+        "sha256": "642fe435153df48c62e2a9708cafb0060ca3142dd250acb2b6432972666aa56c",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-vintage-fade",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/vintage-fade.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-vintage-fade.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/vintage-fade.cube",
+        "bytes": 970429,
+        "sha256": "694e8636aaafb1f6ff2fc73a7c75bac82622eec6bd2fd7d4357ac5cfa5e3a34b",
+        "status": "downloaded"
+      },
+      {
+        "id": "editclips-warm-negative",
+        "source_id": "editclips",
+        "url": "https://cdn.editclips.online/showcase/luts/warm-negative.cube",
+        "extension": ".cube",
+        "path": "downloads/editclips-warm-negative.cube",
+        "resolved_url": "https://cdn.editclips.online/showcase/luts/warm-negative.cube",
+        "bytes": 970494,
+        "sha256": "73ae29b9aadaf4143d1542ad36de7671a35200db69d2ff8363169ce56ddfa78e",
+        "status": "downloaded"
+      },
+      {
+        "id": "film-luts-af957b631a30",
+        "source_id": "film-luts",
+        "url": "https://codeload.github.com/YahiaAngelo/Film-Luts/zip/af957b631a304e6be94778b96cb3395de3438e9f",
+        "extension": ".zip",
+        "path": "downloads/film-luts-af957b631a30.zip",
+        "resolved_url": "https://codeload.github.com/YahiaAngelo/Film-Luts/zip/af957b631a304e6be94778b96cb3395de3438e9f",
+        "bytes": 25998412,
+        "sha256": "ab9aff5e68329602b59d6f76491f046c8c5fb92811ea512acbdf7d4337764e3e",
+        "status": "downloaded"
+      },
+      {
+        "id": "filtergrade-cinematic",
+        "source_id": "filtergrade-free",
+        "source_page": "https://filtergrade.com/free-cinematic-luts-video-editing/",
+        "url": "https://cdn.filtergrade.com/wp-content/uploads/2017/08/FG-Free-Cine-LUTs-Pack-v2.zip",
+        "extension": ".zip",
+        "path": "downloads/filtergrade-cinematic.zip",
+        "resolved_url": "https://cdn.filtergrade.com/wp-content/uploads/2017/08/FG-Free-Cine-LUTs-Pack-v2.zip",
+        "bytes": 1300376,
+        "sha256": "f0dae77660b9789355980eb7fae7e38193177c9445d4000b0b0577c27b93206b",
+        "status": "downloaded"
+      },
+      {
+        "id": "filtergrade-colorful",
+        "source_id": "filtergrade-free",
+        "source_page": "https://filtergrade.com/free-colorful-luts-pack-vlogging/",
+        "url": "https://cdn.filtergrade.com/wp-content/uploads/2019/05/FreeColorfulLUTsPack.zip",
+        "extension": ".zip",
+        "path": "downloads/filtergrade-colorful.zip",
+        "resolved_url": "https://cdn.filtergrade.com/wp-content/uploads/2019/05/FreeColorfulLUTsPack.zip",
+        "bytes": 4269881,
+        "sha256": "d80b3fd730234717a9eed1dce74cedf2b3edb56a108129f506e752a65a193717",
+        "status": "downloaded"
+      },
+      {
+        "id": "filtergrade-film",
+        "source_id": "filtergrade-free",
+        "source_page": "https://filtergrade.com/free-film-tone-luts/",
+        "url": "https://cdn.filtergrade.com/wp-content/uploads/2020/07/FREE-Film-Tone-LUTs-from-FilterGrade.zip",
+        "extension": ".zip",
+        "path": "downloads/filtergrade-film.zip",
+        "resolved_url": "https://cdn.filtergrade.com/wp-content/uploads/2020/07/FREE-Film-Tone-LUTs-from-FilterGrade.zip",
+        "bytes": 171301,
+        "sha256": "c3ce7b87ae8b0fd5d1f9fa5a364bd2bda16eeb977919f0d7fdc273ca6c706e38",
+        "status": "downloaded"
+      },
+      {
+        "id": "filtergrade-super8",
+        "source_id": "filtergrade-free",
+        "source_page": "https://filtergrade.com/free-luts-for-super-8-footage/",
+        "url": "https://cdn.filtergrade.com/wp-content/uploads/2021/09/Free-LUTs-for-Super-8-Footage-1.zip",
+        "extension": ".zip",
+        "path": "downloads/filtergrade-super8.zip",
+        "resolved_url": "https://cdn.filtergrade.com/wp-content/uploads/2021/09/Free-LUTs-for-Super-8-Footage-1.zip",
+        "bytes": 137304,
+        "sha256": "d0cb0d65e6f0fd8a41c8f4e2318821e454e63da7370b02112a37e2b08ae3d5f8",
+        "status": "downloaded"
+      },
+      {
+        "id": "filtergrade-warm",
+        "source_id": "filtergrade-free",
+        "source_page": "https://filtergrade.com/free-warm-tone-video-luts/",
+        "url": "https://cdn.filtergrade.com/wp-content/uploads/2020/10/FREE-Warm-Tone-LUTs.zip",
+        "extension": ".zip",
+        "path": "downloads/filtergrade-warm.zip",
+        "resolved_url": "https://cdn.filtergrade.com/wp-content/uploads/2020/10/FREE-Warm-Tone-LUTs.zip",
+        "bytes": 119139,
+        "sha256": "75f65ab71e1919e264d499f94e4bfbbce0f1b33695e9c639a55e8b317ebad2d4",
+        "status": "downloaded"
+      },
+      {
+        "id": "iwltbap-free-sampler",
+        "source_id": "iwltbap-free",
+        "url": "https://luts.iwltbap.com/free/LUTs_Color_Grading_Pack_(Free)_by_IWLTBAP.zip",
+        "extension": ".zip",
+        "path": "downloads/iwltbap-free-sampler.zip",
+        "resolved_url": "https://luts.iwltbap.com/free/LUTs_Color_Grading_Pack_(Free)_by_IWLTBAP.zip",
+        "bytes": 61151496,
+        "sha256": "eb4c6db74bf3fa0f269e9ff5d9186eed4f53e0e56b8f9412eb9bc6fbf58c6951",
+        "status": "downloaded"
+      },
+      {
+        "id": "joseph-carey-rec709",
+        "source_id": "joseph-carey",
+        "url": "https://josephcarey.com/assets/luts/joseph-carey-luts-rec709.zip",
+        "extension": ".zip",
+        "path": "downloads/joseph-carey-rec709.zip",
+        "resolved_url": "https://josephcarey.com/assets/luts/joseph-carey-luts-rec709.zip",
+        "bytes": 19342912,
+        "sha256": "a6e828a295693589d110f33bd9630372f45942b2fc2859f8145ea2422ee564f5",
+        "status": "downloaded"
+      },
+      {
+        "id": "rawtherapee-haldclut",
+        "source_id": "rawtherapee",
+        "url": "https://rawtherapee.com/shared/HaldCLUT.zip",
+        "extension": ".zip",
+        "path": "downloads/rawtherapee-haldclut.zip",
+        "resolved_url": "https://rawtherapee.com/shared/HaldCLUT.zip",
+        "bytes": 421602289,
+        "sha256": "0ffca81f30c72d7bbb85adab0ed98bbdeb0e1034cd6f5986f9f993bb66999dc2",
+        "status": "downloaded"
+      },
+      {
+        "id": "rocketstock-35",
+        "source_id": "rocketstock",
+        "url": "https://pbblogassets.s3.amazonaws.com/uploads/freebies/RS-35-Free-LUTs.zip",
+        "extension": ".zip",
+        "path": "downloads/rocketstock-35.zip",
+        "resolved_url": "https://pbblogassets.s3.amazonaws.com/uploads/freebies/RS-35-Free-LUTs.zip",
+        "bytes": 10508703,
+        "sha256": "1f7b1aadc1aecff5857176a7bb8dcc3664867893152e25fa3df4cfafe24b8cc7",
+        "status": "downloaded"
+      },
+      {
+        "id": "tdcat-all",
+        "source_id": "tdcat",
+        "url": "https://bit.ly/lut-all",
+        "extension": ".zip",
+        "path": "downloads/tdcat-all.zip",
+        "resolved_url": "https://lightkino.com/luts/TDCat_LUT_Pack_All_Packs.zip",
+        "bytes": 74264333,
+        "sha256": "cc48371590e98bda3fed37224093d748947d6297ac8630ab7f9230bc66768771",
+        "status": "downloaded"
+      },
+      {
+        "id": "vel-vel-cinematic-teal",
+        "source_id": "videoeditingluts",
+        "url": "https://videoeditingluts.com/luts/VEL_Cinematic_Teal.cube",
+        "extension": ".cube",
+        "source_page": "https://videoeditingluts.com/free-cinematic-lut",
+        "path": "downloads/vel-vel-cinematic-teal.cube",
+        "resolved_url": "https://videoeditingluts.com/luts/VEL_Cinematic_Teal.cube",
+        "bytes": 110689,
+        "sha256": "abc8fc1c9d1179d7baeef17d07e30d68360ac801e9f146456ebf59dd5b1f71fc",
+        "status": "downloaded"
+      },
+      {
+        "id": "vel-vel-classic-teal-orange",
+        "source_id": "videoeditingluts",
+        "url": "https://videoeditingluts.com/luts/VEL_Classic_Teal_Orange.cube",
+        "extension": ".cube",
+        "source_page": "https://videoeditingluts.com/free-teal-and-orange-lut",
+        "path": "downloads/vel-vel-classic-teal-orange.cube",
+        "resolved_url": "https://videoeditingluts.com/luts/VEL_Classic_Teal_Orange.cube",
+        "bytes": 111652,
+        "sha256": "68f8df1d7c5b207c878a21e44055398796ca27bc1b98276a5489d265e4cc9e98",
+        "status": "downloaded"
+      },
+      {
+        "id": "vel-vel-film-fade",
+        "source_id": "videoeditingluts",
+        "url": "https://videoeditingluts.com/luts/VEL_Film_Fade.cube",
+        "extension": ".cube",
+        "source_page": "https://videoeditingluts.com/free-faded-film-lut",
+        "path": "downloads/vel-vel-film-fade.cube",
+        "resolved_url": "https://videoeditingluts.com/luts/VEL_Film_Fade.cube",
+        "bytes": 939628,
+        "sha256": "418441a2af11045eab43dc9e5ef4c4b5e9a4c33c680ea5f4f585e6d65d8b7471",
+        "status": "downloaded"
+      },
+      {
+        "id": "vel-vel-golden-cinematic",
+        "source_id": "videoeditingluts",
+        "url": "https://videoeditingluts.com/luts/VEL_Golden_Cinematic.cube",
+        "extension": ".cube",
+        "source_page": "https://videoeditingluts.com/free-golden-hour-lut",
+        "path": "downloads/vel-vel-golden-cinematic.cube",
+        "resolved_url": "https://videoeditingluts.com/luts/VEL_Golden_Cinematic.cube",
+        "bytes": 110726,
+        "sha256": "dd5e97fe86910a9009d2550a69e172f304b7bf5776279e33a84ea436a272c73e",
+        "status": "downloaded"
+      },
+      {
+        "id": "vel-vel-mono-contrast",
+        "source_id": "videoeditingluts",
+        "url": "https://videoeditingluts.com/luts/VEL_Mono_Contrast.cube",
+        "extension": ".cube",
+        "source_page": "https://videoeditingluts.com/free-black-and-white-lut",
+        "path": "downloads/vel-vel-mono-contrast.cube",
+        "resolved_url": "https://videoeditingluts.com/luts/VEL_Mono_Contrast.cube",
+        "bytes": 959671,
+        "sha256": "291cfdff5a5163c0f8a4eda510525bf55cf19752fb1d9cfefa80188f956ccd55",
+        "status": "downloaded"
+      },
+      {
+        "id": "vel-vel-moody-blue",
+        "source_id": "videoeditingluts",
+        "url": "https://videoeditingluts.com/luts/VEL_Moody_Blue.cube",
+        "extension": ".cube",
+        "source_page": "https://videoeditingluts.com/free-blue-lut",
+        "path": "downloads/vel-vel-moody-blue.cube",
+        "resolved_url": "https://videoeditingluts.com/luts/VEL_Moody_Blue.cube",
+        "bytes": 951624,
+        "sha256": "51d1a2b156bacb7cc25c529314a96a0ef27c63b3110cb741bf11e7361f818a90",
+        "status": "downloaded"
+      },
+      {
+        "id": "vel-vel-sunset-glow",
+        "source_id": "videoeditingluts",
+        "url": "https://videoeditingluts.com/luts/VEL_Sunset_Glow.cube",
+        "extension": ".cube",
+        "source_page": "https://videoeditingluts.com/free-sunset-lut",
+        "path": "downloads/vel-vel-sunset-glow.cube",
+        "resolved_url": "https://videoeditingluts.com/luts/VEL_Sunset_Glow.cube",
+        "bytes": 111146,
+        "sha256": "6d107c18eb86fc829ad9a07a250c61fd14b81c6e36accff1663d6164760c6b1d",
+        "status": "downloaded"
+      },
+      {
+        "id": "vel-vel-vintage-chrome",
+        "source_id": "videoeditingluts",
+        "url": "https://videoeditingluts.com/luts/VEL_Vintage_Chrome.cube",
+        "extension": ".cube",
+        "source_page": "https://videoeditingluts.com/free-vintage-film-lut",
+        "path": "downloads/vel-vel-vintage-chrome.cube",
+        "resolved_url": "https://videoeditingluts.com/luts/VEL_Vintage_Chrome.cube",
+        "bytes": 955742,
+        "sha256": "59ae38b655a67128fd19d52409081d4f4354858091f47c93c0ef788fd6e81a90",
+        "status": "downloaded"
+      },
+      {
+        "id": "vel-vel-vivid-teal",
+        "source_id": "videoeditingluts",
+        "url": "https://videoeditingluts.com/luts/VEL_Vivid_Teal.cube",
+        "extension": ".cube",
+        "source_page": "https://videoeditingluts.com/free-teal-lut",
+        "path": "downloads/vel-vel-vivid-teal.cube",
+        "resolved_url": "https://videoeditingluts.com/luts/VEL_Vivid_Teal.cube",
+        "bytes": 111083,
+        "sha256": "5e4618b4e28af5903234b8a95ee3c57799e8907dd0a054bdd52b0094d5d363bb",
+        "status": "downloaded"
+      },
+      {
+        "id": "vel-vel-warm-film",
+        "source_id": "videoeditingluts",
+        "url": "https://videoeditingluts.com/luts/VEL_Warm_Film.cube",
+        "extension": ".cube",
+        "source_page": "https://videoeditingluts.com/free-warm-lut",
+        "path": "downloads/vel-vel-warm-film.cube",
+        "resolved_url": "https://videoeditingluts.com/luts/VEL_Warm_Film.cube",
+        "bytes": 945867,
+        "sha256": "4ca71fc3a3bbe7e5fa86a917596feb4fd1f7aa552be676ab52e8aca89e40b1ff",
+        "status": "downloaded"
+      },
+      {
+        "id": "vel-vel-warm-pastel",
+        "source_id": "videoeditingluts",
+        "url": "https://videoeditingluts.com/luts/VEL_Warm_Pastel.cube",
+        "extension": ".cube",
+        "source_page": "https://videoeditingluts.com/free-pastel-lut",
+        "path": "downloads/vel-vel-warm-pastel.cube",
+        "resolved_url": "https://videoeditingluts.com/luts/VEL_Warm_Pastel.cube",
+        "bytes": 902350,
+        "sha256": "9acc97e26e62981c9745dd23e04f5145cba5a291113ce2d933b58a9dd28efb61",
+        "status": "downloaded"
+      },
+      {
+        "id": "vel-yt-moody-dark",
+        "source_id": "videoeditingluts",
+        "url": "https://videoeditingluts.com/luts/YT_Moody_Dark.cube",
+        "extension": ".cube",
+        "source_page": "https://videoeditingluts.com/free-moody-dark-lut",
+        "path": "downloads/vel-yt-moody-dark.cube",
+        "resolved_url": "https://videoeditingluts.com/luts/YT_Moody_Dark.cube",
+        "bytes": 958271,
+        "sha256": "c787981cc2c982505153ff59b2844d218e0e1aec28dd489ed9b49a47e05fa448",
+        "status": "downloaded"
+      },
+      {
+        "id": "xmosaique-all",
+        "source_id": "xmosaique",
+        "url": "https://xmosaique.com/assets/luts/xmosaique-luts.zip",
+        "extension": ".zip",
+        "path": "downloads/xmosaique-all.zip",
+        "resolved_url": "https://xmosaique.com/assets/luts/xmosaique-luts.zip",
+        "bytes": 2659754,
+        "sha256": "b435f823f5f50a5d863a2946a3067637ca6ab0ca73b5e58f6b4b938a6f93aa4d",
+        "status": "downloaded"
+      }
+    ],
+    "errors": []
+  },
+  "existing_archives": [
+    {
+      "id": "iwltbap-aspen",
+      "source_id": "iwltbap-free",
+      "existing_path": "_sources/iwltbap-aspen.zip",
+      "sha256": "8582c5ebab78753d62c7d5d6890a6a668f198346264a1b6737623ac88faf7823",
+      "bytes": 80305257,
+      "url": "https://luts.iwltbap.com/free/IWLTBAP_-_Aspen_%28Free_LUT%29.zip"
+    },
+    {
+      "id": "iwltbap-blade-runner-2049",
+      "source_id": "iwltbap-free",
+      "existing_path": "_sources/iwltbap-blade-runner-2049.zip",
+      "sha256": "ab86c82a5516ea2c1bb950b6098a085ecd46234d7b3f7b28c8151cb13c79be9a",
+      "bytes": 72704987,
+      "url": "https://luts.iwltbap.com/free/IWLTBAP_-_Blade_Runner_2049_%28Free_LUT%29.zip"
+    },
+    {
+      "id": "iwltbap-coronado",
+      "source_id": "iwltbap-free",
+      "existing_path": "_sources/iwltbap-coronado.zip",
+      "sha256": "acb7e2d37bacb8de9e250c0305cba0b94662129adde84aa1945fab31d886863a",
+      "bytes": 6966214,
+      "url": "https://luts.iwltbap.com/free/IWLTBAP_Coronado_%28Free_LUT%29.zip"
+    },
+    {
+      "id": "iwltbap-humble",
+      "source_id": "iwltbap-free",
+      "existing_path": "_sources/iwltbap-humble.zip",
+      "sha256": "128e81d704dd1fadd78c411c3e77a6c55157fa4f405f47e43e1859540c5f4fc5",
+      "bytes": 80336505,
+      "url": "https://luts.iwltbap.com/free/IWLTBAP_-_Humble_%28Free_LUT%29.zip"
+    },
+    {
+      "id": "iwltbap-kodachrome",
+      "source_id": "iwltbap-free",
+      "existing_path": "_sources/iwltbap-kodachrome.zip",
+      "sha256": "b48724088f8f21b44d0a7370cc66edb277032243e1e909f6f3a1b9b1b6615976",
+      "bytes": 1973501,
+      "url": "https://luts.iwltbap.com/free/IWLTBAP_Kodachrome_-_Free_LUTs_%28Special_10K_Facebook_Fans%29.zip"
+    },
+    {
+      "id": "iwltbap-renata",
+      "source_id": "iwltbap-free",
+      "existing_path": "_sources/iwltbap-renata.zip",
+      "sha256": "0ed579aac4d34cb0594261fa8bff57f8dc64738c40f05dcebbabb6acf3d36d69",
+      "bytes": 59518428,
+      "url": "https://luts.iwltbap.com/free/IWLTBAP_-_Renata_%28Free_LUT%29.zip"
+    },
+    {
+      "id": "iwltbap-sedona",
+      "source_id": "iwltbap-free",
+      "existing_path": "_sources/iwltbap-sedona.zip",
+      "sha256": "bdf3fe60ff250184459634302d8303f1ceb2918057acf8bee68060e5d363da73",
+      "bytes": 80682889,
+      "url": "https://luts.iwltbap.com/free/IWLTBAP_-_Sedona_%28Free_LUT%29.zip"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "collected/2026-10-30/evidence/editclips.html",
+      "bytes": 394382,
+      "sha256": "403e3af5a178b78201a7df1781fd88b07efce9ed659e37ae40075a1670606009"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/film-luts.html",
+      "bytes": 232909,
+      "sha256": "e4b43980b4b76936a6714052e58acc8df26687c651568b806cc10e688589d521"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/filtergrade-link-record.json",
+      "bytes": 1728,
+      "sha256": "4c23312bbb334786b53c76d8c40f2c22f5551d280afa95210b451af732a9939a"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/iwltbap-terms.html",
+      "bytes": 5307,
+      "sha256": "afb665c3ef2a04a9b4378aeec9cae3957873dba00199f3fe1f9bccf5da785e9f"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/iwltbap.html",
+      "bytes": 41903,
+      "sha256": "09c33ebb1c1b38f616c19466b839f541295d34f9df4bb121e9b962acc74901d5"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/joseph-carey.html",
+      "bytes": 359406,
+      "sha256": "71dc4e6beb70ebb91221bba2dd817acacf0db2e134ac1504074606d1ca25e445"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/lutify-bundle.html",
+      "bytes": 189193,
+      "sha256": "71edb02a25c6a95addd9533629f957f2ac527a01a38d3168d38dc24829b97761"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/lutify-free.html",
+      "bytes": 172289,
+      "sha256": "24d50f7f5ae3ce1cdbb3e0ab2308fb57199fef22c43dab43c53ea9755b0a29ca"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/lutify-license.html",
+      "bytes": 144881,
+      "sha256": "c0a75ac3219700d65fd831ad5ca7cee71b1806a117d353812ae231e8e701b379"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/on1.html",
+      "bytes": 170772,
+      "sha256": "53a7218b1e77a183e87e9a3bd3e82dab6635fc7a54101c45307b0e0233bfed79"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/rawtherapee.html",
+      "bytes": 19083,
+      "sha256": "902d117ed96d5ddf5d2cb449b1cb963b6e26b6c1cef1234f8dcb9210e942b5a5"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/registry-bounce-faq.html",
+      "bytes": 261121,
+      "sha256": "b8dfd69884a9290e69296b0cc6ebb5fa6b13fbd9a169d280acbccc10b380607e"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/registry-bounce-free.html",
+      "bytes": 236342,
+      "sha256": "54a726c8a632ef2494bcfaad0e047a9e6ced6f51c3ee14754336f77fff18f978"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/registry-cinecolor-example.html",
+      "bytes": 310076,
+      "sha256": "38ad4df864fa57d6da39d6e1d6a02532eaf760a10f931668599b050f8e64daff"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/registry-cinecolor-free.html",
+      "bytes": 399044,
+      "sha256": "91e847ae3102a56bf77a20ae5613dee6b51b95f6942070fe5bce21b43a609b30"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/registry-cinepacks-free.html",
+      "bytes": 276574,
+      "sha256": "254b48a51fe79a4f1f93fdf5b386b1a1de0b8b34d533c17c8bd4f9f23e23ddf1"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/registry-color-grading-central.html",
+      "bytes": 59148,
+      "sha256": "2f51f6bead6f12f04d3f920cc19bec518937d93be32446ef1cf6757aa3853d57"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/registry-iwltbap-paid.html",
+      "bytes": 41903,
+      "sha256": "09c33ebb1c1b38f616c19466b839f541295d34f9df4bb121e9b962acc74901d5"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/registry-juan-melara-free.html",
+      "bytes": 195844,
+      "sha256": "60f2876d754d18f980d84b5868ebeec8dafc3b5b6fdf35971abc0b7845d54fcb"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/registry-lutify-free.html",
+      "bytes": 172289,
+      "sha256": "24d50f7f5ae3ce1cdbb3e0ab2308fb57199fef22c43dab43c53ea9755b0a29ca"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/registry-lutify-paid.html",
+      "bytes": 189193,
+      "sha256": "71edb02a25c6a95addd9533629f957f2ac527a01a38d3168d38dc24829b97761"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/registry-on1-free.html",
+      "bytes": 170772,
+      "sha256": "53a7218b1e77a183e87e9a3bd3e82dab6635fc7a54101c45307b0e0233bfed79"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/registry-resolve-directory.html",
+      "bytes": 16497,
+      "sha256": "656b4fb26947b4ad03e41eb96fda4e7a1d21c849a384381f416f021b79068246"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/registry-triune-paid.html",
+      "bytes": 278547,
+      "sha256": "53f22b0a4d7c485979a381e39e0f12c46e03035adc18069e5287e251349ce589"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/tdcat.html",
+      "bytes": 205341,
+      "sha256": "b1835277f96c38232c65cf6c0567346ab2e5c9a51aaaeb356a9233f50876e2c6"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-black-and-white-lut.html",
+      "bytes": 55088,
+      "sha256": "e57ddab715f4625a68a9892b99ee9080466cd6894e17415e46b032246e338c4e"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-blue-lut.html",
+      "bytes": 55579,
+      "sha256": "324022b6e8aa9ee31c7dd93bd115471122fb821172a59f870477757dc88083fc"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-cinematic-lut.html",
+      "bytes": 55590,
+      "sha256": "4c2e2b7d551abcc6b2bbe7c153ffb0ed7fadeb0fc6ed5ed0b51791772c2fb53f"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-faded-film-lut.html",
+      "bytes": 55573,
+      "sha256": "417940be7b457d45ac2d995d24fb40b5d896de1d9001760b4aaafccee0bac90d"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-golden-hour-lut.html",
+      "bytes": 55435,
+      "sha256": "11c1bcc069bfbb301e1a21608fddba681c66172d07efbe39ca62470b531b8e50"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-luts-capcut.html",
+      "bytes": 53555,
+      "sha256": "e126af8129955987fb06901af0dc234dad9f14dc1ccbf4abebd1a5c915e1ad5a"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-luts-davinci-resolve.html",
+      "bytes": 54505,
+      "sha256": "2e4532485bb277a29ca15675b0480f9cdc65dadd8ba4f7734e8093eda5a71b41"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-luts-final-cut-pro.html",
+      "bytes": 54819,
+      "sha256": "f8e759436fccde39d6f0b37ea33a1008c6b66e2e1e8171e7a1a8b1ac50f79bc2"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-luts-instagram-reels.html",
+      "bytes": 53904,
+      "sha256": "b0e0b9059bda4a881384fd910019e7b0506c6b4178e400ebf91064d83884b3b8"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-luts-premiere-pro.html",
+      "bytes": 54066,
+      "sha256": "2ca9437883e61d49b7c2c4a0e3b4c621e456483078c25ac2c79f13ad8fad16cb"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-luts-tiktok.html",
+      "bytes": 54163,
+      "sha256": "629287c6ff2db6fabccbc77265eb110f64c76cc9cb3929f4cf0406b3b2e5e60c"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-luts-youtube-shorts.html",
+      "bytes": 54290,
+      "sha256": "635d22da3dcb9bb0c77f23f7d6e622d6a6d3dd1c72ae34690f3d86948668c3a9"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-moody-dark-lut.html",
+      "bytes": 55512,
+      "sha256": "7d753988b3691d93a6de39ec8a79ea256ecbf0e1dd9c83db3eef6b4e721fc84d"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-pastel-lut.html",
+      "bytes": 55445,
+      "sha256": "2a734b32def74537a3e83b7ecac15198af25c9dc3a92edaee0175f4769fd1165"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-sunset-lut.html",
+      "bytes": 55537,
+      "sha256": "e43b9ed4a2ee035a57f0d194a2a0fbb9b7de6545dbdd64658dac9e3eb700ab35"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-teal-and-orange-lut.html",
+      "bytes": 56158,
+      "sha256": "cf121d815aa9e0d61fd8f9346fd562a67c9d974fe75d853a310163a69ed906d7"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-teal-lut.html",
+      "bytes": 55753,
+      "sha256": "1d97b3fc7877e372cf5dd3a62e1fee110b92df7cbfea4653883a2c86225019d3"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-vintage-film-lut.html",
+      "bytes": 55118,
+      "sha256": "452bae8fcd5cad118d4eef53c79557181bdbeeecbae6a00e9189c3efbdfe81bf"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/vel-free-warm-lut.html",
+      "bytes": 61633,
+      "sha256": "3bf5272d4b59fa5bfff4fc408af4da76febd9880184e72a388da86cce11ffa3c"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/videoeditingluts.html",
+      "bytes": 140182,
+      "sha256": "133237a9d53b301364a696ec955702f227f4103b7c3dfb597d0ad5e5d881b572"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/xmosaique-notice.txt",
+      "bytes": 1782,
+      "sha256": "200015178e383f9dcd24ee4a81fd933cfe7123af6d466ed6187a5434893535c9"
+    },
+    {
+      "path": "collected/2026-10-30/evidence/xmosaique.html",
+      "bytes": 245908,
+      "sha256": "ffaa5df26fa2ac9384f84b71ced15e84bb1aa1cc557134c9993555eb8e2e4ef1"
+    }
+  ],
+  "baseline": {
+    "lut-library/catalog.json": "ccadb3920ed7f75e3a5cd8410e9089d52a779e13d7fac9e47b2a2e9924a12f6f",
+    "lut-library/purchased/2026-10-29/catalog.json": "d48d5e5e95e98e1683a829fdc1d4ec52664caf7e41e1b878d6e111ef94e0c905"
+  },
+  "no_effect_tests": true,
+  "runtime_activation": false,
+  "verification": {
+    "result": "passed",
+    "archived_assets_verified": 956,
+    "downloads_verified": 54,
+    "zip_crc": "passed during download",
+    "asset_sha256": "passed",
+    "cube_structure": "passed",
+    "archive_traversal_rejection": "passed",
+    "nested_archive_extraction": "passed",
+    "source_registry_consistency": "passed",
+    "original_runtime_catalog_unchanged": true,
+    "original_purchased_catalog_unchanged": true,
+    "runtime_catalog_count": 11,
+    "effect_tests_performed": false
+  },
+  "index_files": [
+    {
+      "path": "free-downloads-2026-10-30.json",
+      "sha256": "7b6f953efdd1ec3a322499a3a59f72b356776570cead1fd6aaffb973533a5aae"
+    },
+    {
+      "path": "sources.json",
+      "sha256": "e321ea2a1710d8ff64b46c372a1df4095a0d8c6747ed75a076e77f4247f2c239"
+    },
+    {
+      "path": "collected/2026-10-30/catalog.json",
+      "sha256": "fffba9bef20aa12049732ccd2bc3ea83a3aa68d2cdc7cc509e697e0f62e0d314"
+    },
+    {
+      "path": "collected/2026-10-30/archive-inventory.json",
+      "sha256": "2be44770deb07ba2234134ef083ac0453701307a852e03fb9f96d7f0b9a3c718"
+    }
+  ]
+}

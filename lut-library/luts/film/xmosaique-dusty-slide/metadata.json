@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "xmosaique-dusty-slide",
+  "name": "Dusty Slide",
+  "publisher": "xMosaique",
+  "filename": "xmosaique-dusty-slide.cube",
+  "category": "film",
+  "style_zh": "褪色淡紫幻灯片",
+  "tags": [
+    "低饱和",
+    "褪色",
+    "淡紫"
+  ],
+  "input_profile": "sRGB / display-referred（来源声明；未做新增效果验证）",
+  "source_page": "https://xmosaique.com/luts/",
+  "preview_page": "https://xmosaique.com/luts/",
+  "download_url": "https://xmosaique.com/assets/luts/Dusty%20Slide.cube",
+  "source_archive": "_sources/xmosaique-dusty-slide.cube",
+  "archive_member": null,
+  "original_filename": "Dusty Slide.cube",
+  "source_sha256": "456d7b92a68ea2777d5b8d9f2d97930ee644158f2d94e55019b0000f50287677",
+  "original_sha256": "456d7b92a68ea2777d5b8d9f2d97930ee644158f2d94e55019b0000f50287677",
+  "added_date": "2026-10-28",
+  "batch": "2026-10-28 新增",
+  "license": {
+    "id": "MIT",
+    "status": "按发布方第三方声明保留 MIT 许可与版权说明",
+    "documents": [
+      "licenses/xmosaique-THIRD-PARTY-NOTICES.txt"
+    ],
+    "upstream": "https://github.com/YahiaAngelo/Film-Luts"
+  },
+  "file_modified": false,
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "compatibility_basis": "随库来源说明明确声明整套 18 款支持 sRGB 输入并返回同一空间。 本次仅按资料确认，未做新的照片效果测试。",
+  "aliases": [
+    "Dusty Slide",
+    "polaroid_polachrome"
+  ],
+  "enabled": true,
+  "effect_test_status": "historical_previews_available",
+  "historical_preview_refs": [
+    "previews/pink-grass-2026-10-28/README.md"
+  ],
+  "photo_suitability": {
+    "category": "direct",
+    "mapping_id": "cube-22f84243f24c45d12946",
+    "classification_path": "inventory/2026-10-30/photo-suitability/catalog.json",
+    "classification_sha256": "21d7e6fb17e6a7a1cb123386e30a53dd1af5594cfb9b4f09f8b6d0fbd293c106",
+    "evidence_ids": [
+      "xmosaique-srgb"
+    ],
+    "basis": "static_metadata_only",
+    "activated_date": "2026-10-30"
+  },
+  "cautions": "照片效果尚未完成本轮验证；名称／标签不表示实测结果。"
+}

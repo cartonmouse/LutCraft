@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "rawtherapee-fuji-fp-100c-cool-3-eb8b5895",
+  "name": "RawTherapee Fuji FP-100c Cool 3",
+  "publisher": "RawTherapee Film Simulation Collection",
+  "filename": "rawtherapee-fuji-fp-100c-cool-3-eb8b5895.png",
+  "format": "HaldCLUT",
+  "category": "hald-photo",
+  "style_zh": "Fuji FP-100c Cool 3（作者命名；照片效果待人工查看）",
+  "tags": [
+    "HaldCLUT",
+    "彩色"
+  ],
+  "aliases": [
+    "Fuji FP-100c Cool 3"
+  ],
+  "source_variants": [
+    {
+      "name": "Fuji FP-100c Cool 3",
+      "path": "collected/2026-10-30/assets/haldclut/fuji-fp-100c-cool-3-eb8b58956424acd8.png",
+      "sha256": "eb8b58956424acd884d7d1714b7a5c2420b925ba56bcf64822b1d4a54374f79a"
+    }
+  ],
+  "source_page": "https://rawpedia.pixls.us/film_simulation/",
+  "source_origin": {
+    "source_id": "rawtherapee",
+    "download_id": "rawtherapee-haldclut",
+    "member": "HaldCLUT/Color/Fuji/Fuji FP-100c Cool 3.png",
+    "sha256": "eb8b58956424acd884d7d1714b7a5c2420b925ba56bcf64822b1d4a54374f79a",
+    "bytes": 2099613,
+    "source_page": "https://rawpedia.pixls.us/film_simulation/",
+    "license_note": "原包README声明CC BY-SA 4.0，署名Pat David、Pavlov Dmitry、Michael Ezra；使用/修改/分发时保留相应署名及许可条件。",
+    "input_note": "原包说明默认sRGB，特殊输入依文件名；含294张模拟表和1张Identity模板，保持HaldCLUT原格式。",
+    "declared_license": "CC-BY-SA-4.0"
+  },
+  "source_path": "collected/2026-10-30/assets/haldclut/fuji-fp-100c-cool-3-eb8b58956424acd8.png",
+  "source_sha256": "eb8b58956424acd884d7d1714b7a5c2420b925ba56bcf64822b1d4a54374f79a",
+  "original_sha256": "eb8b58956424acd884d7d1714b7a5c2420b925ba56bcf64822b1d4a54374f79a",
+  "file_modified": false,
+  "input_profile": "sRGB 照片；原始 Hald 网格；三线性插值",
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "enabled": true,
+  "effect_test_status": "not_tested",
+  "historical_preview_refs": [],
+  "photo_suitability": {
+    "category": "native_hald",
+    "source_id": "rawtherapee-eb8b58956424acd8",
+    "evidence_ids": [
+      "rawtherapee-srgb"
+    ],
+    "basis": "sRGB source README plus numerical validation of native Hald lookup"
+  },
+  "validation": {
+    "report_path": "derived/2026-10-30-hald-native/validation.json",
+    "version": "hald-trilinear-v1",
+    "status": "passed",
+    "passed": true,
+    "sample_count": 134245,
+    "max_error": 4.207173696646471e-07,
+    "rms_error": 2.6453987506663037e-08,
+    "strength_max_errors": {
+      "0.25": 1.0517934241616178e-07,
+      "0.5": 2.1035868483232356e-07,
+      "0.75": 3.174006723977163e-07,
+      "1": 4.207173696646471e-07
+    },
+    "limits": {
+      "max_error": 2e-05,
+      "rms_error": 2e-06
+    },
+    "input_sampling": "33^3 grid, 65536 random, 8192 source knots and +/-1e-7, 6144 face, 2049 gray, 3 clamping probes"
+  },
+  "license": {
+    "id": "CC-BY-SA-4.0",
+    "status": "原包README声明CC BY-SA 4.0，署名Pat David、Pavlov Dmitry、Michael Ezra；使用/修改/分发时保留相应署名及许可条件。",
+    "documents": [
+      "licenses/rawtherapee-haldclut/README.txt"
+    ],
+    "authors": [
+      "Pat David",
+      "Pavlov Dmitry",
+      "Michael Ezra"
+    ]
+  },
+  "cautions": "无降采样，保留原表位深；数值验证不等于照片观感验收；不保证与完整 RawTherapee RAW 工作流相同。",
+  "added_date": "2026-10-30",
+  "batch": "291 种原生 HaldCLUT 接入"
+}

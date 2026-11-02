@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "purchased-pocket-photo-4dd1631d9d",
+  "name": "Pocket Action 星台光 · 照片版",
+  "publisher": "Pocket Action",
+  "filename": "purchased-pocket-photo-4dd1631d9d.clf",
+  "category": "photo-converted",
+  "style_zh": "星台光（作者命名；照片效果待验证）",
+  "tags": [
+    "照片转换版"
+  ],
+  "aliases": [
+    "星台光"
+  ],
+  "source_page": "PURCHASED.md",
+  "source_origin": {
+    "source_id": "purchased-pocket",
+    "source_page": null,
+    "license_note": "购买事实来自用户；原作者和服务授权待补充。",
+    "path": "Pocket Action LUT预设/滤镜文件/限定系列/星台光.cube",
+    "sha256": "313238ebab1dbb9819874d1e33f8ea9038161cae0e74ee1f86c3b5b0d61748c4",
+    "input_profile": "文件注释标注 Adobe RGB (1998)，需核实输入/输出并建立转换。 当前项目不支持 40³ 网格，原件保留。",
+    "original_group": "needs-conversion"
+  },
+  "license": {
+    "id": "LicenseRef-purchased-pocket",
+    "status": "购买事实来自用户；原作者和服务授权待补充。",
+    "documents": [],
+    "redistribution_verified": false
+  },
+  "input_profile": "sRGB 照片输入；颜色空间适配已通过数值校验，照片效果未测试",
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "enabled": true,
+  "derived": true,
+  "file_modified": true,
+  "original_sha256": "a5282bfc0d136b0367e0ce8ac9b59da975b8c0e79143f8e7e6d47e3b870f459f",
+  "artifact_sha256": "a5282bfc0d136b0367e0ce8ac9b59da975b8c0e79143f8e7e6d47e3b870f459f",
+  "checksum_field_semantics": "original_sha256 is the legacy runtime artifact-integrity field; upstream unmodified source is parent.sha256",
+  "parent": {
+    "mapping_id": "cube-4dd1631d9dfbe2ef223d",
+    "path": "purchased/2026-10-29/needs-conversion/pocket-action/pocket-action-星台光-4dd1631d/pocket-action-星台光-4dd1631d.cube",
+    "sha256": "313238ebab1dbb9819874d1e33f8ea9038161cae0e74ee1f86c3b5b0d61748c4",
+    "mapping_sha256": "4dd1631d9dfbe2ef223d84ebdafe5faf7d4f4d145af1960111907cb47a5f2aec",
+    "grid_size": 40
+  },
+  "conversion": {
+    "version": "srgb-photo-wrapper-v1",
+    "route_id": "adobe_rgb",
+    "format": "CLF 3",
+    "derived_archive_path": "derived/2026-10-30-srgb-v1/cube-4dd1631d9dfbe2ef223d/srgb.clf",
+    "recipe_path": "derived/2026-10-30-srgb-v1/recipe.json",
+    "recipe_sha256": "13d3a42a6e0dd2975ecb776932af223c1f795bdbaa3785a223def792d72d5ba7",
+    "report_path": "derived/2026-10-30-srgb-v1/conversion.json",
+    "numerical_status": "passed",
+    "sample_count": 1809180,
+    "max_error": 0.00117934016907762,
+    "limits": {
+      "max_error": 0.00392156862745098,
+      "rms_error": 0.000980392156862745
+    }
+  },
+  "photo_suitability": {
+    "category": "converted",
+    "parent_mapping_id": "cube-4dd1631d9dfbe2ef223d",
+    "basis": "documented source interpretation plus independent numerical validation"
+  },
+  "effect_test_status": "not_tested",
+  "historical_preview_refs": [],
+  "compatibility_basis": "文件头指定 AdobeRGB1998.icc；Export LUT 作者说明该配置对应应用图像的空间。按该工具同配置工作流推断输出亦为 Adobe RGB。 CLF 保存原表与完整转换链；已通过数值检查，照片效果未测试。",
+  "cautions": "本项目内使用 CLF 转换链；不是可直接导入仅支持 CUBE 软件的单张 sRGB CUBE。转换精度不等于照片效果验收。",
+  "added_date": "2026-10-30",
+  "batch": "81 种照片转换版；数值通过，照片效果未测试"
+}

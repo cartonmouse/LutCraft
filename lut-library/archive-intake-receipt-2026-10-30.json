@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-30",
+  "version": "archive-photo-intake-v1",
+  "source_records": 1284,
+  "auxiliary_records": 602,
+  "statuses": {
+    "needs_profile": 290,
+    "ready": 706,
+    "alternate_input": 207,
+    "technical": 80,
+    "duplicate": 1
+  },
+  "runtime_count": 706,
+  "new_runtime": 284,
+  "gallery_count": 996,
+  "previous_receipt_sha256": "e6082d8e850ad8b9b91686d96dbe8d45d8aea2ca2d28b604604ea774efd6deba",
+  "previous_catalog_sha256": "354a9f4231691f03a6357bb5acf538aaf0515eba47394a5e0ddb38fd9aa0aaf2",
+  "backup_path": "inventory/2026-10-30/before-archive-intake",
+  "catalog_sha256": "42f2637f2922322c5670f628fe5a0e47002d70247b5fc6b4994a967ed212799d",
+  "registry_sha256": "f57fe123f1dd9da5834baa201c2c878cc5b68725b6eaf13aff5fa61466e37d48",
+  "report_sha256": "06d2c4ce943c6ea9f014ff80201714a1011874302bd4f4ff0ec0c9da232193ca",
+  "implementation_sha256": {
+    "backend/app/clf.py": "345188c59bdff25cf0361a5292ac28e8717aa440d67953f098943617b5743e97",
+    "backend/app/hald.py": "2c9c552b31bdd14f02eebe5691608590af8f5dcfa7f384ece4d43a24c3687d04",
+    "backend/app/imaging.py": "71ee97992869d910ca05a671c6b2f104f8b669565c61d493bc584a8ac2954770",
+    "backend/app/luts.py": "91a72fceecb6dd0b14a06132b3979a135f9e172572b571d70b26fb39730f6847",
+    "backend/app/single_pass.py": "fdf058ec9fd7eab7725b83dc97a7d3e0f35b3571e274916c3df4ba6747463b9e",
+    "lut-library/tools/activate_hald_luts.py": "0e269eda3f7b0ee3974dcc64cdcd42bdcf365e00c48eed0e09e21c4a2d3f95e5",
+    "lut-library/tools/activate_photo_luts.py": "daf193166cfe223a0cbb37ce5a08e0819a35accbc73cf246afebf83e7893ee72",
+    "lut-library/tools/convert_photo_luts.py": "d17c2aaac86c0ba7effc623fb4c9d68aa1a01e34502d08621da45a8078ab8682",
+    "lut-library/tools/intake_archived_luts.py": "3be5496689fe09aa62b0f1e5099bea24ebfb2f80db966b442820a5bc3bc01ee6",
+    "lut-library/tools/library.py": "10e0005405d889cdfef62c33d06b74e90a89b40744fb3322db9b1754e2dac36e",
+    "lut-library/tools/organize_existing.py": "9038b53530d029a2956d552d27d324003f8cf0f4045cf44813e08bd9814c71df",
+    "lut-library/tools/photo_conversion_math.py": "40fc94c3615c4ac5cdfc0c572cbdf1911fd3425a86b2ea5d54114ae4ae2419d1"
+  },
+  "photo_effect_tests": 0
+}

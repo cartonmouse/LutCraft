@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "purchased-pocket-photo-nc-b94ba102ef",
+  "name": "Pocket Action 富士 NC · 照片版",
+  "publisher": "Pocket Action",
+  "filename": "purchased-pocket-photo-nc-b94ba102ef.clf",
+  "category": "photo-converted",
+  "style_zh": "富士 NC（作者命名；照片效果待验证）",
+  "tags": [
+    "照片转换版"
+  ],
+  "aliases": [
+    "富士 NC"
+  ],
+  "source_page": "PURCHASED.md",
+  "source_origin": {
+    "source_id": "purchased-pocket",
+    "source_page": null,
+    "license_note": "购买事实来自用户；原作者和服务授权待补充。",
+    "path": "Pocket Action LUT预设/滤镜文件/限定系列/富士 NC .cube",
+    "sha256": "da223c870bcb407a4e79951cc380c3c03e877016137421c37e91473cfb688b92",
+    "input_profile": "文件注释标注 Rec.709 gamma 2.4；不能据此确认与 sRGB 编码域等同。",
+    "original_group": "device-review"
+  },
+  "license": {
+    "id": "LicenseRef-purchased-pocket",
+    "status": "购买事实来自用户；原作者和服务授权待补充。",
+    "documents": [],
+    "redistribution_verified": false
+  },
+  "input_profile": "sRGB 照片输入；颜色空间适配已通过数值校验，照片效果未测试",
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "enabled": true,
+  "derived": true,
+  "file_modified": true,
+  "original_sha256": "fedaf5e678c23b2a63260807d86f0a52360db86abd0b217dbad0a17d47052988",
+  "artifact_sha256": "fedaf5e678c23b2a63260807d86f0a52360db86abd0b217dbad0a17d47052988",
+  "checksum_field_semantics": "original_sha256 is the legacy runtime artifact-integrity field; upstream unmodified source is parent.sha256",
+  "parent": {
+    "mapping_id": "cube-b94ba102ef76f41cf0f7",
+    "path": "purchased/2026-10-29/device-review/pocket-action/pocket-action-富士-nc-b94ba102/pocket-action-富士-nc-b94ba102.cube",
+    "sha256": "da223c870bcb407a4e79951cc380c3c03e877016137421c37e91473cfb688b92",
+    "mapping_sha256": "b94ba102ef76f41cf0f74c25ce71502907e802d0a846e6725a1cbcb065998137",
+    "grid_size": 32
+  },
+  "conversion": {
+    "version": "srgb-photo-wrapper-v1",
+    "route_id": "gamma24",
+    "format": "CLF 3",
+    "derived_archive_path": "derived/2026-10-30-srgb-v1/cube-b94ba102ef76f41cf0f7/srgb.clf",
+    "recipe_path": "derived/2026-10-30-srgb-v1/recipe.json",
+    "recipe_sha256": "13d3a42a6e0dd2975ecb776932af223c1f795bdbaa3785a223def792d72d5ba7",
+    "report_path": "derived/2026-10-30-srgb-v1/conversion.json",
+    "numerical_status": "passed",
+    "sample_count": 1812075,
+    "max_error": 7.02223754017739e-05,
+    "limits": {
+      "max_error": 0.00392156862745098,
+      "rms_error": 0.000980392156862745
+    }
+  },
+  "photo_suitability": {
+    "category": "converted",
+    "parent_mapping_id": "cube-b94ba102ef76f41cf0f7",
+    "basis": "documented source interpretation plus independent numerical validation"
+  },
+  "effect_test_status": "not_tested",
+  "historical_preview_refs": [],
+  "compatibility_basis": "文件头指向 Export LUT 自带 Rec709gamma2.4.icc，曲线比泛称 Rec.709 明确；同配置输出是根据工具工作流的推断。 CLF 保存原表与完整转换链；已通过数值检查，照片效果未测试。",
+  "cautions": "本项目内使用 CLF 转换链；不是可直接导入仅支持 CUBE 软件的单张 sRGB CUBE。转换精度不等于照片效果验收。",
+  "added_date": "2026-10-30",
+  "batch": "81 种照片转换版；数值通过，照片效果未测试"
+}

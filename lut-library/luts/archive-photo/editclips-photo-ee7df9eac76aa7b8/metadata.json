@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "editclips-photo-ee7df9eac76aa7b8",
+  "name": "EditClips editclips-cool-negative",
+  "publisher": "EditClips",
+  "filename": "editclips-photo-ee7df9eac76aa7b8.clf",
+  "category": "archive-photo",
+  "style_zh": "editclips-cool-negative（来源命名；照片效果待查看）",
+  "tags": [
+    "彩色"
+  ],
+  "aliases": [
+    "editclips-cool-negative"
+  ],
+  "source_page": "https://editclips.online/tools/free-luts-for-video",
+  "source_origin": {
+    "source_id": "editclips",
+    "download_id": "editclips-cool-negative",
+    "member": "editclips-cool-negative.cube",
+    "sha256": "2359ec36441b5c9b7badb3ed917928dcca24b006e85c04b6c15e9c2bc41c8d0c",
+    "bytes": 970494,
+    "source_page": "https://editclips.online/tools/free-luts-for-video",
+    "license_note": "作者声明自行按颜色数学生成，可免费用于商业作品且无需署名；未找到独立的文件再分发/服务内置条款。",
+    "input_note": "本次选择创意款，略过明确标注Log转Rec.709的技术转换。",
+    "declared_license": "not_confirmed"
+  },
+  "license": {
+    "id": "LicenseRef-editclips",
+    "status": "作者声明自行按颜色数学生成，可免费用于商业作品且无需署名；未找到独立的文件再分发/服务内置条款。",
+    "documents": [],
+    "redistribution_verified": false
+  },
+  "input_profile": "sRGB 照片；BT.1886 黑电平为零约定的转换版",
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "enabled": true,
+  "derived": true,
+  "file_modified": true,
+  "original_sha256": "23175313db08ea5b6fc315a3903587b23e87af79db00d2b6b26a0d8a0c26fb3a",
+  "parent": {
+    "mapping_id": "cube-ee7df9eac76aa7b8112e",
+    "path": "collected/2026-10-30/assets/cube/editclips/editclips-cool-negative-ee7df9eac76aa7b8.cube",
+    "sha256": "2359ec36441b5c9b7badb3ed917928dcca24b006e85c04b6c15e9c2bc41c8d0c",
+    "mapping_sha256": "ee7df9eac76aa7b8112e135e74e544d1171694072c682ed9f63bf5eb83912e5c"
+  },
+  "photo_suitability": {
+    "category": "bt1886_black0",
+    "basis": "源文件声明 Rec.709/BT.1886；本项目显式采用 LB=0、归一化 LW=1、0–1 全范围的工程约定，sRGB ↔ Gamma 2.4 包裹原表。不是作者黑白电平的认证。",
+    "parent_mapping_id": "cube-ee7df9eac76aa7b8112e"
+  },
+  "compatibility_basis": "源文件声明 Rec.709/BT.1886；本项目显式采用 LB=0、归一化 LW=1、0–1 全范围的工程约定，sRGB ↔ Gamma 2.4 包裹原表。不是作者黑白电平的认证。",
+  "effect_test_status": "not_tested",
+  "historical_preview_refs": [],
+  "intake": {
+    "version": "archive-photo-intake-v1",
+    "report_path": "inventory/2026-10-30/archive-intake/validation.json",
+    "numerical_status": "passed",
+    "route": "bt1886_black0"
+  },
+  "added_date": "2026-10-30",
+  "batch": "归档 LUT 照片接入；样片待配置"
+}

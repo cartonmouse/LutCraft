@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#161616">
+  <meta name="description" content="LutCraft · 查看照片的 LUT 调色预览。">
+  <title>LutCraft — 调色预览</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23161616'/%3E%3Cpath d='M18 17v30h27v-8H27V17z' fill='%23f5f4ef'/%3E%3Ccircle cx='43' cy='23' r='7' fill='%23e1ff67'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="/assets/navigation.css">
+  <script src="./assets/lucide.min.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="app">
+    <header class="site-header"><a class="site-brand" href="/" aria-label="LutCraft 风格图库"><span class="site-brand-mark">L<b></b></span><span>Lut<span class="site-wordmark-light">Craft</span></span></a><nav class="site-nav" aria-label="主导航"><a href="/">风格图库</a><a href="/results" aria-current="page">我的结果</a></nav></header>
+    <main class="preview-main">
+      <div id="history-context" class="history-context" hidden><span id="history-context-label"></span><a href="/results"><i data-lucide="arrow-up-right"></i>回到最新结果</a></div>
+      <div class="gallery-heading"><div><span class="eyebrow">A NEW FEELING, IN EVERY FRAME</span><h1>调色预览<span class="heading-dot">.</span></h1><p id="gallery-summary">正在载入调色结果…</p></div><div class="result-actions"><button id="history-button" class="history-button" aria-haspopup="dialog" aria-controls="history-dialog"><i data-lucide="history"></i>历史记录</button><div class="view-switch" id="view-switch" role="group" aria-label="全部照片的预览模式" hidden><button id="original-toggle" aria-pressed="false">全部原图</button><button id="result-toggle" class="active" aria-pressed="true"><i data-lucide="sparkles"></i>全部效果</button></div></div></div>
+      <section id="manual-panel" class="manual-panel" aria-labelledby="manual-title" hidden>
+        <div class="manual-heading"><div><span class="eyebrow">TEMPORARY / LOCAL TEST</span><h2 id="manual-title">手动试用 LUT <span>临时功能</span></h2><p>选一张原图，每次试一款。点击应用才生成，不调用模型。</p></div><span id="manual-progress" class="manual-progress"></span></div>
+        <form id="manual-form">
+          <fieldset id="manual-fields"><div class="manual-controls">
+            <label>测试照片<select id="manual-photo" aria-label="测试照片"></select></label>
+            <label class="manual-search">查找 LUT<input id="manual-search" type="search" placeholder="输入名称，例如 ON1、富士" autocomplete="off"></label>
+            <label class="manual-lut">选择 LUT<select id="manual-lut" aria-label="选择 LUT"></select></label>
+            <div class="manual-step"><button id="manual-prev" type="button" aria-label="上一个 LUT">←</button><button id="manual-next" type="button" aria-label="下一个 LUT">→</button></div>
+          </div><div class="manual-bottom"><label class="manual-strength">应用强度 <output id="manual-strength-value" for="manual-strength">50%</output><input id="manual-strength" type="range" min="1" max="100" step="1" value="50" aria-label="应用强度"></label><span id="manual-selected-note" class="manual-selected-note"></span><button id="manual-apply" type="submit" class="manual-apply">应用到这张照片</button></div></fieldset>
+        </form>
+        <p id="manual-status" class="manual-status" role="status" aria-live="polite">正在读取可用 LUT…</p><button id="manual-retry" type="button" class="manual-retry" hidden>重试读取 LUT</button>
+        <div id="manual-result" class="manual-result" hidden><div class="manual-result-heading"><strong id="manual-result-title"></strong><a id="manual-history-link">查看保存的结果 ↗</a></div><div class="manual-comparison"><a id="manual-before-link" target="_blank" rel="noopener"><span>原图</span><img id="manual-before" alt="手动试用的原图"></a><a id="manual-after-link" target="_blank" rel="noopener"><span>本次 LUT 效果</span><img id="manual-after" alt="手动试用的 LUT 效果"></a></div><p>点击图片可打开大图。“已生成”只表示处理成功，效果由你判断。</p></div>
+      </section>
+      <section class="preview-grid" id="preview-grid" aria-label="照片调色效果" hidden></section>
+      <div class="empty-state" id="empty-state" role="status"><div class="empty-art"><i data-lucide="images"></i></div><h2 id="empty-title">正在载入预览</h2><p id="empty-description">完成的调色结果会显示在这里。</p></div>
+      <p class="connection-note" id="connection-note" role="status" hidden></p>
+      <footer class="gallery-footer"><span><span class="status-dot"></span><span id="gallery-status">等待调色结果</span></span><span>原图保留 · 仅预览</span></footer>
+    </main>
+  </div>
+  <dialog id="history-dialog" aria-labelledby="history-title"><header class="history-header"><div><span class="eyebrow">YOUR COLOR JOURNEY</span><h2 id="history-title">历史处理记录</h2><p id="history-summary">已完成的调色批次会保存在这里。</p></div><button id="close-history" class="icon-button" aria-label="关闭历史记录"><i data-lucide="x"></i></button></header><div class="history-body"><div id="history-list" class="history-list" aria-label="已完成的调色批次"></div><p id="history-message" class="history-message" role="status"></p><button id="history-retry" class="history-more" hidden>重试加载</button><button id="history-more" class="history-more" hidden>显示更多记录<i data-lucide="chevron-down"></i></button></div><footer class="history-footer">本机保存 · 时间为北京时间 · 点击记录查看该批次</footer></dialog>
+  <dialog id="photo-dialog" aria-label="照片大图预览"><div class="lightbox-header"><div><strong id="lightbox-title"></strong><span id="lightbox-lut"></span></div><div class="lightbox-actions"><div class="view-switch compact-switch" role="group" aria-label="大图预览模式"><button id="lightbox-original" aria-pressed="false">原图</button><button id="lightbox-result" class="active" aria-pressed="true">效果图</button></div><button id="close-lightbox" class="icon-button" aria-label="关闭大图"><i data-lucide="x"></i></button></div></div><div class="lightbox-stage"><button id="previous-photo" class="icon-button previous" aria-label="上一张照片"><i data-lucide="chevron-left"></i></button><img id="lightbox-image" alt="照片预览"><button id="next-photo" class="icon-button next" aria-label="下一张照片"><i data-lucide="chevron-right"></i></button></div><div class="lightbox-footer"><span id="lightbox-badge">LUT 效果</span><span id="lightbox-count"></span></div></dialog>
+</body>
+</html>

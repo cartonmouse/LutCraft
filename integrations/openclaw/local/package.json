@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "openclaw": "2026.6.11"
+  },
+  "name": "lut-openclaw-local",
+  "private": true
+}

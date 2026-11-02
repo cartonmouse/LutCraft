@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "id": "iwltbap-blade-runner-2049",
+  "name": "IWLTBAP Blade Runner 2049",
+  "publisher": "IWLTBAP",
+  "filename": "iwltbap-blade-runner-2049.cube",
+  "category": "cinematic",
+  "style_zh": "暗绿科幻",
+  "tags": [
+    "科幻",
+    "绿色",
+    "暗调"
+  ],
+  "input_profile": "sRGB / display-referred（来源声明；未做新增效果验证）",
+  "source_page": "https://blog.iwltbap.com/the-10-free-cinematic-luts-by-iwltbap/",
+  "preview_page": "https://blog.iwltbap.com/the-10-free-cinematic-luts-by-iwltbap/",
+  "download_url": "https://luts.iwltbap.com/free/IWLTBAP_-_Blade_Runner_2049_%28Free_LUT%29.zip",
+  "source_archive": "_sources/iwltbap-blade-runner-2049.zip",
+  "archive_member": "IWLTBAP - Blade Runner 2049 (Free LUT)/LUTs by IWLTBAP (CUBE)/IWLTBAP Blade Runner 2049 - Standard.cube",
+  "original_filename": "IWLTBAP Blade Runner 2049 - Standard.cube",
+  "source_sha256": "ab86c82a5516ea2c1bb950b6098a085ecd46234d7b3f7b28c8151cb13c79be9a",
+  "original_sha256": "8a01c3901c1e91e65523b26c7f3e06648e0a256eae7074e6adde53288948ddfe",
+  "added_date": "2026-10-28",
+  "batch": "2026-10-28 新增",
+  "license": {
+    "id": "LicenseRef-IWLTBAP-Free",
+    "status": "官方免费发布，具体条款见随包原作者说明",
+    "documents": [
+      "licenses/iwltbap-blade-runner-2049/Readme - LUTs Color Grading Pack by IWLTBAP (Free).pdf"
+    ],
+    "redistribution_verified": false
+  },
+  "file_modified": false,
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "compatibility_basis": "随包手册明确指定 Standard/STD 版本用于 sRGB 与 Rec.709 普通图像；按同域创意输出理解。 本次仅按资料确认，未做新的照片效果测试。",
+  "aliases": [
+    "IWLTBAP Blade Runner 2049",
+    "IWLTBAP Blade Runner 2049 - Standard"
+  ],
+  "enabled": true,
+  "effect_test_status": "historical_previews_available",
+  "historical_preview_refs": [
+    "previews/pink-grass-2026-10-28/README.md"
+  ],
+  "photo_suitability": {
+    "category": "direct",
+    "mapping_id": "cube-466afedfe82339fe2b74",
+    "classification_path": "inventory/2026-10-30/photo-suitability/catalog.json",
+    "classification_sha256": "21d7e6fb17e6a7a1cb123386e30a53dd1af5594cfb9b4f09f8b6d0fbd293c106",
+    "evidence_ids": [
+      "iwltbap-standard",
+      "iwltbap-standard-older"
+    ],
+    "basis": "static_metadata_only",
+    "activated_date": "2026-10-30"
+  },
+  "cautions": "照片效果尚未完成本轮验证；名称／标签不表示实测结果。"
+}

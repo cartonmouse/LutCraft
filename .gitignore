@@ -1,0 +1,52 @@
+# Local environments, dependencies and build output
+.venv/
+venv/
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Secrets and local authentication (only the empty template is publishable)
+.env
+.env.*
+!.env.example
+.envrc
+.openclaw/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# User photos, previews, sessions, databases, exports and local audit backups
+/data/
+/output/
+/tmp/
+/temp/
+downloads/
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+*.log
+*.pid
+
+# Old photo fixtures are local assets, not repository source
+/prototypes/lut-studio/assets/*.jpg
+/prototypes/lut-studio/assets/*.jpeg
+/prototypes/lut-studio/assets/*.webp
+
+# Python / test / editor caches
+__pycache__/
+.pytest_cache/
+*.pyc
+.coverage
+htmlcov/
+.ruff_cache/
+.DS_Store
+.idea/
+.vscode/
+*.swp
+/sites/
+test-results/

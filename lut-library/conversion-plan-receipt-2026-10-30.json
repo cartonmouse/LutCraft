@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-30",
+  "scope": "conversion planning only; no baking, rendering or runtime changes",
+  "summary": {
+    "reviewed_cube_mappings": 372,
+    "decisions": {
+      "defined_route": 81,
+      "prefer_standard": 178,
+      "utility_archive": 76,
+      "conditional": 23,
+      "insufficient": 14
+    },
+    "routes": {
+      "adobe_rgb": 79,
+      "iw_standard": 53,
+      "utility": 76,
+      "bt1886": 8,
+      "working_space": 15,
+      "lutify_standard": 125,
+      "purchased_log": 14,
+      "gamma24": 2
+    },
+    "active_runtime_count_unchanged": 50,
+    "source_occurrences_preserved": 708,
+    "source_asset_hashes_verified": 372,
+    "existing_out_of_range_mappings": 8,
+    "new_lut_downloads": 0,
+    "new_converted_luts": 0,
+    "lut_evaluations": 0,
+    "new_effect_tests": 0,
+    "activation_changes": 0
+  },
+  "catalog_path": "inventory/2026-10-30/conversion-plan/catalog.json",
+  "catalog_sha256": "70a7ba68950af3af8a3f5dae0cf1c8dd7f88b534ef666a12e40656cbd22d659e",
+  "source_hash_manifest_sha256": "cd71694da32c9695f34fe68fc651e2f9f1fe8b48a9e5abefb537e73a4edf62ff",
+  "input_sha256": {
+    "lut-library/inventory/2026-10-30/photo-suitability/catalog.json": "21d7e6fb17e6a7a1cb123386e30a53dd1af5594cfb9b4f09f8b6d0fbd293c106",
+    "lut-library/catalog.json": "a1870e57ba9deaaf6802a308cfb3b12198086031b90bab17dcb2db241a755cad",
+    "lut-library/photo-activation-receipt-2026-10-30.json": "e2be352fb67cdbcc59431b32d4555577a2332b01e4da938e65edd0196fce737d",
+    "lut-library/inventory/2026-10-30/catalog.json": "cbdd9147d5a5d326c59535e740110482ac460147cb809f74d4faf440c42c9ed3",
+    "lut-library/inventory/2026-10-30/auxiliary.json": "c8ba13fdf0b384a954236ad3ab5bcd65c7b60eb997ca7cdb0b0a009381c9f1a3",
+    "backend/app/imaging.py": "71ee97992869d910ca05a671c6b2f104f8b669565c61d493bc584a8ac2954770",
+    "backend/app/luts.py": "51f62d4a507ee363982eed68b3bc46c0079ae2b00add2a4ded1687b432d292cd"
+  },
+  "script_sha256": "0c5e6ba2a03e36707984638524e19ae8e3ff3079d3db293999493f6fee996bcd",
+  "evidence_path": "conversion-plan-evidence.json",
+  "evidence_sha256": "ef0be7a29ad4b2af65bc93d3bfa70e26483419bb9de118ac11f8e75de81b8ddc"
+}

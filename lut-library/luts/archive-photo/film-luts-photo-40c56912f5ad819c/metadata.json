@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "film-luts-photo-40c56912f5ad819c",
+  "name": "G’MIC Film-Luts kodak_tmax_3200_+",
+  "publisher": "G’MIC Film-Luts",
+  "filename": "film-luts-photo-40c56912f5ad819c.cube",
+  "category": "archive-photo",
+  "style_zh": "kodak_tmax_3200_+（来源命名；照片效果待查看）",
+  "tags": [
+    "黑白"
+  ],
+  "aliases": [
+    "kodak_tmax_3200_+"
+  ],
+  "source_page": "https://github.com/YahiaAngelo/Film-Luts",
+  "source_origin": {
+    "source_id": "film-luts",
+    "download_id": "film-luts-af957b631a30",
+    "member": "Film-Luts-af957b631a304e6be94778b96cb3395de3438e9f/luts/negative_new/kodak_tmax_3200_+.cube",
+    "sha256": "844603b14851731722658841ef43f26bb2ce7d083f46314bd8551bc4bf8676c6",
+    "bytes": 131259,
+    "source_page": "https://github.com/YahiaAngelo/Film-Luts",
+    "license_note": "仓库声明MIT（另有说明除外），维护者同时声明不拥有所有LUT；上游授权待核实。",
+    "input_note": "社区汇总，输入空间依文件说明，未验证。",
+    "declared_license": "MIT (upstream rights unverified)"
+  },
+  "license": {
+    "id": "LicenseRef-film-luts",
+    "status": "仓库声明MIT（另有说明除外），维护者同时声明不拥有所有LUT；上游授权待核实。",
+    "documents": [],
+    "redistribution_verified": false
+  },
+  "input_profile": "sRGB 照片；按作者应用的 sRGB 实现接入",
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "enabled": true,
+  "derived": false,
+  "file_modified": false,
+  "original_sha256": "844603b14851731722658841ef43f26bb2ce7d083f46314bd8551bc4bf8676c6",
+  "parent": {
+    "mapping_id": "cube-40c56912f5ad819c968d",
+    "path": "collected/2026-10-30/assets/cube/film-luts/kodak-tmax-3200-40c56912f5ad819c.cube",
+    "sha256": "844603b14851731722658841ef43f26bb2ce7d083f46314bd8551bc4bf8676c6",
+    "mapping_sha256": "40c56912f5ad819c968d42fe6808650439d9124f608a0fc4b277454d1dc06995"
+  },
+  "photo_suitability": {
+    "category": "film_srgb",
+    "basis": "依据同一作者 Film-Simulator 的下载入口及着色器实现，LUT 在 sRGB 编码值上应用；这是基于作者实现的兼容性推断。本项目沿用四面体插值，不宣称复现其完整应用。",
+    "parent_mapping_id": "cube-40c56912f5ad819c968d"
+  },
+  "compatibility_basis": "依据同一作者 Film-Simulator 的下载入口及着色器实现，LUT 在 sRGB 编码值上应用；这是基于作者实现的兼容性推断。本项目沿用四面体插值，不宣称复现其完整应用。",
+  "effect_test_status": "not_tested",
+  "historical_preview_refs": [],
+  "intake": {
+    "version": "archive-photo-intake-v1",
+    "report_path": "inventory/2026-10-30/archive-intake/validation.json",
+    "numerical_status": "passed",
+    "route": "film_srgb"
+  },
+  "added_date": "2026-10-30",
+  "batch": "归档 LUT 照片接入；样片待配置"
+}

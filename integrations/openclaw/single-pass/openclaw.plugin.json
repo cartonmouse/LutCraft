@@ -1,0 +1,8 @@
+{
+  "id": "lut-single-pass",
+  "name": "LUT 单次调色",
+  "description": "读取本次照片与风格，从真实 LUT 库选择并输出调色文件。",
+  "contracts": {"tools": ["lut_inspect_request", "lut_apply"]},
+  "activation": {"onStartup": true},
+  "configSchema": {"type": "object", "additionalProperties": false, "properties": {}}
+}

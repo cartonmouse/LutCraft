@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "on1-free-photo-blues-11157bb80d",
+  "name": "ON1 Blues · 照片版",
+  "publisher": "ON1",
+  "filename": "on1-free-photo-blues-11157bb80d.clf",
+  "category": "photo-converted",
+  "style_zh": "Blues（作者命名；照片效果待验证）",
+  "tags": [
+    "照片转换版"
+  ],
+  "aliases": [
+    "Blues"
+  ],
+  "source_page": "https://www.on1.com/free/luts/",
+  "source_origin": {
+    "source_id": "on1-free",
+    "source_page": "https://www.on1.com/free/luts/",
+    "license_note": "项目服务内置/再分发授权待确认。",
+    "archive": "collected/2026-10-30-assisted/ON1_All_LUTs.zip",
+    "member": "ON1_All_LUTs/ON1 Color Boost LUTs/For Other Programs/Cube Files/Blues.cube",
+    "sha256": "9ad9870fe81d8f1298ea79453f1f0a864daea8ea20f23a7a3aad03573e377179",
+    "bytes": 884964
+  },
+  "license": {
+    "id": "LicenseRef-on1-free",
+    "status": "项目服务内置/再分发授权待确认。",
+    "documents": [],
+    "redistribution_verified": false
+  },
+  "input_profile": "sRGB 照片输入；颜色空间适配已通过数值校验，照片效果未测试",
+  "input_space": "srgb",
+  "output_space": "srgb",
+  "enabled": true,
+  "derived": true,
+  "file_modified": true,
+  "original_sha256": "d1d6bd03ad72de517cc3e2618bed8f863bfedf41f6f2eda9d38ca4c0e550c6de",
+  "artifact_sha256": "d1d6bd03ad72de517cc3e2618bed8f863bfedf41f6f2eda9d38ca4c0e550c6de",
+  "checksum_field_semantics": "original_sha256 is the legacy runtime artifact-integrity field; upstream unmodified source is parent.sha256",
+  "parent": {
+    "mapping_id": "cube-11157bb80d04c139e7e3",
+    "path": "collected/2026-10-30-assisted/assets/cube/on1-free/blues-11157bb80d04c139.cube",
+    "sha256": "9ad9870fe81d8f1298ea79453f1f0a864daea8ea20f23a7a3aad03573e377179",
+    "mapping_sha256": "11157bb80d04c139e7e3b3c62d3e135bfa510b7dcc5e6bf10644361012e9a348",
+    "grid_size": 32
+  },
+  "conversion": {
+    "version": "srgb-photo-wrapper-v1",
+    "route_id": "adobe_rgb",
+    "format": "CLF 3",
+    "derived_archive_path": "derived/2026-10-30-srgb-v1/cube-11157bb80d04c139e7e3/srgb.clf",
+    "recipe_path": "derived/2026-10-30-srgb-v1/recipe.json",
+    "recipe_sha256": "13d3a42a6e0dd2975ecb776932af223c1f795bdbaa3785a223def792d72d5ba7",
+    "report_path": "derived/2026-10-30-srgb-v1/conversion.json",
+    "numerical_status": "passed",
+    "sample_count": 1728530,
+    "max_error": 0.0009001212348510367,
+    "limits": {
+      "max_error": 0.00392156862745098,
+      "rms_error": 0.000980392156862745
+    }
+  },
+  "photo_suitability": {
+    "category": "converted",
+    "parent_mapping_id": "cube-11157bb80d04c139e7e3",
+    "basis": "documented source interpretation plus independent numerical validation"
+  },
+  "effect_test_status": "not_tested",
+  "historical_preview_refs": [],
+  "compatibility_basis": "文件头指定 AdobeRGB1998.icc；Export LUT 作者说明该配置对应应用图像的空间。按该工具同配置工作流推断输出亦为 Adobe RGB。 CLF 保存原表与完整转换链；已通过数值检查，照片效果未测试。",
+  "cautions": "本项目内使用 CLF 转换链；不是可直接导入仅支持 CUBE 软件的单张 sRGB CUBE。转换精度不等于照片效果验收。",
+  "added_date": "2026-10-30",
+  "batch": "81 种照片转换版；数值通过，照片效果未测试"
+}
